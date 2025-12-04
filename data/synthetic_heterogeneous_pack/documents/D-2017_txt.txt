@@ -1,0 +1,14 @@
+Document ID: D-2017
+Title: Employment Offer Letter
+Client: CL-1002
+MatterRef: MAT-1052
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Vendor assumes responsibility for all costs resulting from operational failures, including damages and third-party claims.
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.

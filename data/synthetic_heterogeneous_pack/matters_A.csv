@@ -1,0 +1,16 @@
+matter_id,client_ref,title,practice_area,opened_on,lead_attorney,estimated_value
+MAT-1011,CL-1001,Stonebridge Motors Inc - Master Services Agreement Negotiation,IP,03-Apr-2021,Daniel Park,12000
+MAT-1012,CL-1001,Stonebridge Motors Inc - Regulatory Inquiry,IP,2024-01-24,Mark Thompson,"$12,000"
+MAT-1013,CL-1001,Stonebridge Motors Inc v. ACME Corp - Employment Dispute,Regulatory,28/03/19,Lina Gomez,"$12,000"
+MAT-1021,CL-1002,Aquila Pharmaceuticals v. ACME Corp - Employment Dispute,Employment,30/08/19,Hannah Lee,12K
+MAT-1022,CL-1002,Aquila Pharmaceuticals - Contract Breach,Employment,06/10/24,Ayesha Khan,"€10,800"
+MAT-1023,CL-1002,Aquila Pharmaceuticals - Master Services Agreement Negotiation,IP,1593043200,Mark Thompson,"€10,800"
+MAT-1031,CL-1003,Harbor Financial Group - Regulatory Inquiry,Contracts,2020-01-22,Daniel Park,12000
+MAT-1032,CL-1003,Harbor Financial Group - Regulatory Inquiry,M&A,2024-03-27,Hannah Lee,12K
+MAT-1033,CL-1003,Harbor Financial Group - Regulatory Inquiry,Regulatory,23/03/20,Mark Thompson,"$12,000"
+MAT-1041,CL-1004,GreenLeaf Retailers LLC - Regulatory Inquiry,Contracts,25/09/23,Ayesha Khan,"€10,800"
+MAT-1042,CL-1004,GreenLeaf Retailers LLC - Master Services Agreement Negotiation,Employment,2023-12-21,Hannah Lee,12K
+MAT-1043,CL-1004,GreenLeaf Retailers LLC v. ACME Corp - Employment Dispute,Contracts,1605139200,Daniel Park,"€10,800"
+MAT-1051,CL-1005,Nimbus Software Solutions - Master Services Agreement Negotiation,M&A,29/08/19,Daniel Park,12K
+MAT-1052,CL-1005,Nimbus Software Solutions - Regulatory Inquiry,Regulatory,07-Feb-2024,Daniel Park,"€10,800"
+MAT-1053,CL-1005,Nimbus Software Solutions - Master Services Agreement Negotiation,Contracts,30/04/22,Hannah Lee,12K

@@ -1,0 +1,35 @@
+Billing Summary for Matter MAT-1043
+Simulated_Format: TXT
+
+Matter ID: MAT-1043
+Client ID: CL-1004
+
+[Client Information]
+Client Name: GreenLeaf Retailers LLC
+Industry: Retail
+Annual Revenue: $3,200,000
+Client Created At: 09-Nov-2021
+
+[Matter Information]
+Matter Title: GreenLeaf Retailers LLC v. ACME Corp - Employment Dispute
+Practice Area: Contracts
+Lead Attorney: Daniel Park
+Opened On: 1605139200
+Estimated Value: €10,800
+
+[Billing Entries]
+- Entry ID: BL-154294
+  Attorney ID: AT-004
+  Hours Billed: 6.2
+  Hourly Rate: 250
+  Amount: 1550.0
+  Work Description: Prepared discovery
+  Entry Date (raw): 1669420800
+
+[Totals]
+Total Hours (reported): 6.2
+Total Amount (reported): 1550.0
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1043 ('GreenLeaf Retailers LLC v. ACME Corp - Employment Dispute') on behalf of client GreenLeaf Retailers LLC. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

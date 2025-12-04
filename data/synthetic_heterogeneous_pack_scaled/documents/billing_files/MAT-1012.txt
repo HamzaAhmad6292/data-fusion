@@ -1,0 +1,51 @@
+Billing Summary for Matter MAT-1012
+Simulated_Format: PDF
+
+Matter ID: MAT-1012
+Client ID: CL-1001
+
+[Client Information]
+Client Name: Stonebridge Motors Inc
+Industry: Automotive
+Annual Revenue: $12,000,000
+Client Created At: 2022-09-25
+
+[Matter Information]
+Matter Title: Stonebridge Motors Inc - Regulatory Inquiry
+Practice Area: IP
+Lead Attorney: Mark Thompson
+Opened On: 2024-01-24
+Estimated Value: $12,000
+
+[Billing Entries]
+- Entry ID: BL-113878
+  Attorney ID: AT-003
+  Hours Billed: 4.9
+  Hourly Rate: 300
+  Amount: (not provided in source)
+  Work Description: Client call
+  Entry Date (raw): 26-Feb-2020
+
+- Entry ID: BL-792171
+  Attorney ID: AT-004
+  Hours Billed: 7.8
+  Hourly Rate: 250
+  Amount: 1950
+  Work Description: Client call
+  Entry Date (raw): 1663804800
+
+- Entry ID: BL-718828
+  Attorney ID: AT-004
+  Hours Billed: 2.5
+  Hourly Rate: 375
+  Amount: $937.50
+  Work Description: Reviewed contract
+  Entry Date (raw): 21/07/21
+
+[Totals]
+Total Hours (reported): 15.2
+Total Amount (reported): 2887.5
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1012 ('Stonebridge Motors Inc - Regulatory Inquiry') on behalf of client Stonebridge Motors Inc. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

@@ -1,0 +1,14 @@
+Document ID: D-2038
+Title: Statement of Work
+Client: CL-1004
+MatterRef: MAT-1032
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.

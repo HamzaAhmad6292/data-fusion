@@ -1,0 +1,34 @@
+Document ID: D-2026
+Matter ID: MAT-1026
+Client: CL-1026
+Document Type: Contract
+Created: 30/12/20
+Uploaded By: James Wilson
+
+---
+
+Okay, here’s a draft of a short legal contract document for Pharmaceuticals Systems, addressing a Regulatory Inquiry. This is a starting point and should be reviewed and modified by legal counsel to fit the specific circumstances of the case.
+
+---
+
+**CONTRACT AGREEMENT – REGULATORY INQUIRY – Pharmaceuticals Systems**
+
+**Date:** October 26, 2023
+
+This Contract Agreement ("Agreement") is made and entered into as of this day between Pharmaceuticals Systems (“Client”) and [Name of Regulatory Agency – e.g., FDA, EMA], hereinafter referred to as “The Agency.”  This Agreement governs the Client’s engagement with The Agency to undertake a Regulatory Inquiry regarding Pharmaceuticals Systems’ current compliance with applicable regulations, specifically [Specify the relevant regulations – e.g., FDA's Current Good Manufacturing Practices (cGMP) regulations].  The purpose of this inquiry is to assess whether Pharmaceuticals Systems is currently in compliance with these regulations and to identify any potential areas of concern requiring clarification or remediation.  The Agency recognizes the importance of maintaining a high level of quality and traceability within the pharmaceutical supply chain and is committed to a thorough and objective review of Pharmaceuticals Systems' operations.
+
+Under the terms of this Agreement, Pharmaceuticals Systems will cooperate fully with The Agency in the completion of its inquiry. The Client acknowledges and agrees that the Agency reserves the right to request access to Client's records, data, and personnel, subject to appropriate legal oversight and confidentiality agreements.  Pharmaceuticals Systems will diligently provide all information requested by The Agency, while maintaining the confidentiality of Client’s sensitive business information as stipulated in the attached Confidentiality Agreement, dated [Date of Confidentiality Agreement]. The Client understands that the Agency's investigation may involve requests for interviews, site visits, and data analysis, and will cooperate fully within the bounds of ethical and legal considerations.
+
+In consideration for the Agency’s engagement and the provision of necessary resources, Pharmaceuticals Systems agrees to cooperate with the Agency throughout the inquiry.  The Client acknowledges that the Agency’s inquiry may result in potential inquiries or further investigations, and understands that The Client retains the right to challenge any findings or conclusions reached by The Agency. The Agency acknowledges the Client’s commitment to transparency and provides assurance of a fair and impartial process.  This Agreement is governed by the laws of [State/Jurisdiction].  Both parties agree to be bound by the terms of this agreement.
+
+**Attachment:** Confidentiality Agreement - [Date] – [Document Reference]
+
+---
+
+**Important Disclaimer:** *I am an AI Chatbot and not a legal professional. This document is a template and should not be used without consulting with a qualified attorney to ensure it complies with all applicable laws and regulations and adequately reflects the specific circumstances of your situation.*
+
+**To help me refine this further and make it more tailored, could you tell me:**
+
+*   What specific regulatory agency are you referring to?
+*   What kind of questions are the Regulatory Inquiry about? (e.g., specific GMP issues, supply chain integrity, etc.)
+*   Are there any specific confidentiality clauses you want to include?

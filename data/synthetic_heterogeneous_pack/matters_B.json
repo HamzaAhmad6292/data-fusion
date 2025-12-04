@@ -1,0 +1,122 @@
+[
+  {
+    "file_no": "MAT-1011",
+    "client_id": "CL-1001",
+    "matterSummary": "Stonebridge Motors Inc - Master Services Agreement Negotiation",
+    "area": "IP",
+    "startDate": "2017-08-23",
+    "owner": "Daniel Park"
+  },
+  {
+    "file_no": "MAT-1012",
+    "client_id": "CL-1001",
+    "matterSummary": "Stonebridge Motors Inc - Regulatory Inquiry",
+    "area": "IP",
+    "startDate": "22/08/22",
+    "owner": "Mark Thompson"
+  },
+  {
+    "file_no": "MAT-1013",
+    "client_id": "CL-1001",
+    "matterSummary": "Stonebridge Motors Inc v. ACME Corp - Employment Dispute",
+    "area": "Regulatory",
+    "startDate": null,
+    "owner": "Lina Gomez"
+  },
+  {
+    "file_no": "MAT-1021",
+    "client_id": "CL-1002",
+    "matterSummary": "Aquila Pharmaceuticals v. ACME Corp - Employment Dispute",
+    "area": "Employment",
+    "startDate": "2019-02-01",
+    "owner": "Hannah Lee"
+  },
+  {
+    "file_no": "MAT-1022",
+    "client_id": "CL-1002",
+    "matterSummary": "Aquila Pharmaceuticals - Contract Breach",
+    "area": "Employment",
+    "startDate": "1566432000",
+    "owner": "Ayesha Khan"
+  },
+  {
+    "file_no": "MAT-1023",
+    "client_id": "CL-1002",
+    "matterSummary": "Aquila Pharmaceuticals - Master Services Agreement Negotiation",
+    "area": "IP",
+    "startDate": null,
+    "owner": "Mark Thompson"
+  },
+  {
+    "file_no": "MAT-1031",
+    "client_id": "CL-1003",
+    "matterSummary": "Harbor Financial Group - Regulatory Inquiry",
+    "area": "Contracts",
+    "startDate": "2019-10-06",
+    "owner": "Daniel Park"
+  },
+  {
+    "file_no": "MAT-1032",
+    "client_id": "CL-1003",
+    "matterSummary": "Harbor Financial Group - Regulatory Inquiry",
+    "area": "M&A",
+    "startDate": "14-Sep-2021",
+    "owner": "Hannah Lee"
+  },
+  {
+    "file_no": "MAT-1033",
+    "client_id": "CL-1003",
+    "matterSummary": "Harbor Financial Group - Regulatory Inquiry",
+    "area": "Regulatory",
+    "startDate": "17-Apr-2019",
+    "owner": "Mark Thompson"
+  },
+  {
+    "file_no": "MAT-1041",
+    "client_id": "CL-1004",
+    "matterSummary": "GreenLeaf Retailers LLC - Regulatory Inquiry",
+    "area": "Contracts",
+    "startDate": "10/06/21",
+    "owner": "Ayesha Khan"
+  },
+  {
+    "file_no": "MAT-1042",
+    "client_id": "CL-1004",
+    "matterSummary": "GreenLeaf Retailers LLC - Master Services Agreement Negotiation",
+    "area": "Employment",
+    "startDate": "1589328000",
+    "owner": "Hannah Lee"
+  },
+  {
+    "file_no": "MAT-1043",
+    "client_id": "CL-1004",
+    "matterSummary": "GreenLeaf Retailers LLC v. ACME Corp - Employment Dispute",
+    "area": "Contracts",
+    "startDate": "2017-10-25",
+    "owner": "Daniel Park"
+  },
+  {
+    "file_no": "MAT-1051",
+    "client_id": "CL-1005",
+    "matterSummary": "Nimbus Software Solutions - Master Services Agreement Negotiation",
+    "area": "M&A",
+    "startDate": "2023-04-26",
+    "owner": "Daniel Park"
+  },
+  {
+    "file_no": "MAT-1052",
+    "client_id": "CL-1005",
+    "matterSummary": "Nimbus Software Solutions - Regulatory Inquiry",
+    "area": "Regulatory",
+    "startDate": null,
+    "owner": "Daniel Park"
+  },
+  {
+    "file_no": "MAT-1053",
+    "client_id": "CL-1005",
+    "matterSummary": "Nimbus Software Solutions - Master Services Agreement Negotiation",
+    "area": "Contracts",
+    "startDate": "23/12/19",
+    "owner": "Hannah Lee"
+  }
+]

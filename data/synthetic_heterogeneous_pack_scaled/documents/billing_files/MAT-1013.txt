@@ -1,0 +1,51 @@
+Billing Summary for Matter MAT-1013
+Simulated_Format: PDF
+
+file_no: MTR-1014
+Customer-ID: CL-1002
+
+[Client Information]
+name_short: Stonebridge Motors Company
+Canonical client_id: CL-1001
+Canonical Client Name: Stonebridge Motors Inc
+industry: Automotive
+turnover: $12,000,000
+Client Created At: 2022-09-25
+
+[Matter Information]
+Case Title (narrative): Stonebridge Motors Inc v. ACME Corp - staff relations dispute
+Formal Matter Title: Stonebridge Motors Inc v. ACME Corp - Employment Dispute
+Practice Area: Regulatory
+Lead Counsel: Lina Gomez
+opened_on: 28/03/19
+Estimated Value: $12,000
+
+[Additional Context (Noisy / Partially Redundant)]
+Phase 2 negotiations mentioned in board briefing memo.
+
+[Billing Entries]
+- Entry ID: BL-207356
+  Attorney ID: AT-005
+  Hours Billed: 3.5
+  Hourly Rate: 375
+  Amount: 1312
+  Work Description: crafted pleading for judicial filing
+  Original Description: Drafted motion
+  Entry Date (raw): 17-Apr-2020
+
+- Entry ID: BL-905374
+  Attorney ID: AT-005
+  Hours Billed: 4.9
+  Hourly Rate: 250
+  Amount: $1,225.00
+  Work Description: assembled disclosure set
+  Original Description: Prepared discovery
+  Entry Date (raw): 17-Feb-2021
+
+[Totals]
+Total Hours (reported): 7.98
+Total Amount (reported): 2790.7
+Note: reported totals may not align exactly with line items due to rounding, internal write‑offs, or legacy system sync issues.
+
+[Narrative Summary]
+This dossier summarizes time entries for what is sometimes described as 'Stonebridge Motors Inc v. ACME Corp - staff relations dispute' involving Stonebridge Motors Company, a corporate entity in the Automotive space. Terminology and identifiers may vary across systems (e.g., MTR-1014 vs MAT-1013; CL-1002 vs CL-1001), and internal notes may reference phases or initiatives not present in the primary matter management schema.

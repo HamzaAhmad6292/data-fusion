@@ -1,0 +1,14 @@
+Document ID: D-2039
+Title: Statement of Work
+Client: CL-1003
+MatterRef: MAT-1052
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The supplier agrees to hold client harmless for claims arising out of the supplier's gross negligence.
+
+Parties agree to maintain secrecy of trade secrets and shall not use such information except to perform obligations under this Agreement.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.

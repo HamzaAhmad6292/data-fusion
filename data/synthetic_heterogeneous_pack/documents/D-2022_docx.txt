@@ -1,0 +1,14 @@
+Document ID: D-2022
+Title: Master Services Agreement
+Client: CL-1005
+MatterRef: MAT-1011
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+The supplier agrees to hold client harmless for claims arising out of the supplier's gross negligence.

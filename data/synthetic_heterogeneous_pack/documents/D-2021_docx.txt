@@ -1,0 +1,16 @@
+Document ID: D-2021
+Title: Non-Disclosure Agreement
+Client: CL-1002
+MatterRef: MAT-1032
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+This Agreement may be ended immediately for cause if a material breach is not cured within 10 days after notice.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Spanish variant: La parte proveedora indemnizará al cliente por daños resultantes de negligencia.

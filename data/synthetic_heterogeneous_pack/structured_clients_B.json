@@ -1,0 +1,67 @@
+[
+  {
+    "id": "CL-1001",
+    "custFullNm": "STONEBRIDGE MOTORS INC",
+    "sector": "automotive",
+    "financials": {
+      "turnover": 12000000,
+      "currency": "USD"
+    },
+    "phone": null,
+    "meta": {
+      "registered_on": "22-Jul-2017"
+    }
+  },
+  {
+    "id": "CL-1002",
+    "custFullNm": "AQUILA PHARMACEUTICALS",
+    "sector": "healthcare",
+    "financials": {
+      "turnover": 5800000,
+      "currency": "USD"
+    },
+    "phone": "+1-555-489-5554",
+    "meta": {
+      "registered_on": "25-Feb-2019"
+    }
+  },
+  {
+    "id": "CL-1003",
+    "custFullNm": "Harbor Financial Group",
+    "sector": "finance",
+    "financials": {
+      "turnover": 45000000,
+      "currency": "USD"
+    },
+    "phone": "+1-555-723-3803",
+    "meta": {
+      "registered_on": "1583625600"
+    }
+  },
+  {
+    "id": "CL-1004",
+    "custFullNm": "GreenLeaf Retailers LLC",
+    "sector": "retail",
+    "financials": {
+      "turnover": 3200000,
+      "currency": "USD"
+    },
+    "phone": "+1-555-801-6313",
+    "meta": {
+      "registered_on": "12-May-2015"
+    }
+  },
+  {
+    "id": "CL-1005",
+    "custFullNm": "Nimbus Soft",
+    "sector": "technology",
+    "financials": {
+      "turnover": 8700000,
+      "currency": "USD"
+    },
+    "phone": "+1-555-317-9179",
+    "meta": {
+      "registered_on": "20/12/17"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+Document ID: D-2026
+Title: Vendor Agreement
+Client: CL-1004
+MatterRef: MAT-1041
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.

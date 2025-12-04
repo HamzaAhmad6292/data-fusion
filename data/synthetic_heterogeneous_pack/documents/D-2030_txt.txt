@@ -1,0 +1,14 @@
+Document ID: D-2030
+Title: Statement of Work
+Client: CL-1002
+MatterRef: MAT-1021
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Parties agree to maintain secrecy of trade secrets and shall not use such information except to perform obligations under this Agreement.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.

@@ -1,0 +1,52 @@
+Document ID: D-2112
+Matter ID: MAT-1112
+Client: CL-1112
+Document Type: Contract
+Created: 30/11/23
+Uploaded By: Mark Thompson
+
+---
+
+Okay, here’s a draft of a short Legal Contract – Banking Partners – Master Services Agreement Negotiation, aiming for a balance of clarity and protection for both parties. **Please note:** This is a template and should be reviewed and modified by legal counsel to fit the specific details of your situation and jurisdiction.**
+
+---
+
+**Legal Contract – Master Services Agreement Negotiation**
+
+**Between:**
+
+Banking Partners, a [State] corporation with its principal place of business at [Address] (hereinafter referred to as “Banking Partners”), and [Client Name], hereinafter referred to as “Client,”
+
+**And:**
+
+[Designated Representative Name], hereinafter referred to as “Representative,”
+
+**Date:** October 26, 2023
+
+This agreement, hereinafter referred to as the “Agreement,” is entered into as a negotiation for the establishment of a Master Services Agreement (MSA) between Banking Partners and [Client Name].  This Agreement outlines the terms and conditions under which Banking Partners will provide specific services to Client, pertaining to [Specifically state the services - e.g., data migration, system maintenance, customer support, etc.].  The purpose of this negotiation is to establish a mutually beneficial framework for ongoing collaboration and ensures a clear understanding of responsibilities and expectations.
+
+Under the terms of this Agreement, Banking Partners agrees to provide [Specifically list the services being offered - e.g., monthly data migration support, quarterly system maintenance, and dedicated customer support via email and phone].  In return for these services, Client will provide Banking Partners with [Clearly state the Client's obligations - e.g., timely payment of invoices, access to necessary data, compliance with agreed-upon protocols].  Specifically, this agreement includes provisions for regular reviews of service levels, agreed upon timelines for resolution of issues, and a mechanism for dispute resolution – typically involving amicable discussion followed by mediation.  We acknowledge and agree to maintain the confidentiality of all information shared during this negotiation.
+
+This Agreement is subject to the execution of a fully executed Master Services Agreement, which will incorporate and supersede the terms outlined herein.  Both parties agree to complete the full agreement within [Specify Timeframe - e.g., 30 days] of the date of this Agreement.  Both parties acknowledge that this Agreement is subject to adherence to applicable state and federal laws and regulations.  Any changes to the Agreement require written consent from both Banking Partners and [Client Name].  Both parties retain the right to terminate this Agreement upon written notice to the other party, provided the termination is for a legitimate reason.
+
+**Signed:**
+
+_________________________
+[Name of Banking Partners Representative]
+[Title]
+
+_________________________
+[Name of Client Representative]
+[Title]
+
+---
+
+**Disclaimer:** *This document is for informational purposes only and does not constitute legal advice. You should consult with an attorney to discuss the specific details of your situation and ensure that this agreement meets your needs.*
+
+---
+
+**To help me refine this document further and make it more tailored to your situation, could you tell me:**
+
+*   **What specific services are being negotiated?** (Be as detailed as possible)
+*   **What is the timeframe for completing the agreement?**
+*   **Are there any specific clauses or provisions you already have in mind?** (e.g., liability clauses, termination rights, data security, etc.)

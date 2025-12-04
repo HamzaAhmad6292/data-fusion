@@ -1,0 +1,16 @@
+Document ID: D-2004
+Title: Statement of Work
+Client: CL-1004
+MatterRef: MAT-1032
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Spanish variant: La parte proveedora indemnizará al cliente por daños resultantes de negligencia.

@@ -1,0 +1,14 @@
+Document ID: D-2007
+Title: Master Services Agreement
+Client: CL-1004
+MatterRef: MAT-1023
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+This Agreement may be ended immediately for cause if a material breach is not cured within 10 days after notice.

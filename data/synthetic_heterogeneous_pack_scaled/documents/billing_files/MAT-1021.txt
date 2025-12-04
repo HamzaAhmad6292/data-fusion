@@ -1,0 +1,59 @@
+Billing Summary for Matter MAT-1021
+Simulated_Format: PDF
+
+Matter ID: MAT-1021
+Client ID: CL-1002
+
+[Client Information]
+Client Name: Aquila Pharmaceuticals
+Industry: Healthcare
+Annual Revenue: $5,800,000
+Client Created At: 15/09/22
+
+[Matter Information]
+Matter Title: Aquila Pharmaceuticals v. ACME Corp - Employment Dispute
+Practice Area: Employment
+Lead Attorney: Hannah Lee
+Opened On: 30/08/19
+Estimated Value: 12K
+
+[Billing Entries]
+- Entry ID: BL-957763
+  Attorney ID: AT-001
+  Hours Billed: 0.5
+  Hourly Rate: 375
+  Amount: 187.5
+  Work Description: Reviewed contract
+  Entry Date (raw): 25-May-2020
+
+- Entry ID: BL-365163
+  Attorney ID: AT-002
+  Hours Billed: 5.5
+  Hourly Rate: 375
+  Amount: 2062.5
+  Work Description: Prepared discovery
+  Entry Date (raw): 02-Jan-2019
+
+- Entry ID: BL-763465
+  Attorney ID: AT-002
+  Hours Billed: 2.1
+  Hourly Rate: 250
+  Amount: $525.00
+  Work Description: Reviewed contract
+  Entry Date (raw): 12-Oct-2024
+
+- Entry ID: BL-762102
+  Attorney ID: AT-004
+  Hours Billed: 6.6
+  Hourly Rate: 250
+  Amount: (not provided in source)
+  Work Description: Prepared discovery
+  Entry Date (raw): 25/08/23
+
+[Totals]
+Total Hours (reported): 14.7
+Total Amount (reported): 2775.0
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1021 ('Aquila Pharmaceuticals v. ACME Corp - Employment Dispute') on behalf of client Aquila Pharmaceuticals. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

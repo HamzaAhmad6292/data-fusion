@@ -1,0 +1,14 @@
+Document ID: D-2000
+Title: Master Services Agreement
+Client: CL-1005
+MatterRef: MAT-1042
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Vendor assumes responsibility for all costs resulting from operational failures, including damages and third-party claims.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+This Agreement may be ended immediately for cause if a material breach is not cured within 10 days after notice.

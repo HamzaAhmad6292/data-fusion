@@ -1,0 +1,14 @@
+Document ID: D-2025
+Title: Non-Disclosure Agreement
+Client: CL-1003
+MatterRef: MAT-1011
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The supplier agrees to hold client harmless for claims arising out of the supplier's gross negligence.

@@ -1,0 +1,59 @@
+Billing Summary for Matter MAT-1052
+Simulated_Format: TXT
+
+Matter ID: MAT-1052
+Client ID: CL-1005
+
+[Client Information]
+Client Name: Nimbus Software Solutions
+Industry: Technology
+Annual Revenue: $8,700,000
+Client Created At: 21/01/22
+
+[Matter Information]
+Matter Title: Nimbus Software Solutions - Regulatory Inquiry
+Practice Area: Regulatory
+Lead Attorney: Daniel Park
+Opened On: 07-Feb-2024
+Estimated Value: €10,800
+
+[Billing Entries]
+- Entry ID: BL-994184
+  Attorney ID: AT-003
+  Hours Billed: 1.2
+  Hourly Rate: 375
+  Amount: 450
+  Work Description: Prepared discovery
+  Entry Date (raw): 1717027200
+
+- Entry ID: BL-115710
+  Attorney ID: AT-004
+  Hours Billed: 3.9
+  Hourly Rate: 375
+  Amount: 1462.5
+  Work Description: Reviewed contract
+  Entry Date (raw): 11-Jan-2019
+
+- Entry ID: BL-568443
+  Attorney ID: AT-005
+  Hours Billed: 6.8
+  Hourly Rate: 375.00
+  Amount: 2550
+  Work Description: Prepared discovery
+  Entry Date (raw): 11/08/22
+
+- Entry ID: BL-270778
+  Attorney ID: AT-004
+  Hours Billed: 4.8
+  Hourly Rate: 300
+  Amount: 1440.0
+  Work Description: Prepared discovery
+  Entry Date (raw): 01/06/19
+
+[Totals]
+Total Hours (reported): 16.7
+Total Amount (reported): 5902.5
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1052 ('Nimbus Software Solutions - Regulatory Inquiry') on behalf of client Nimbus Software Solutions. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

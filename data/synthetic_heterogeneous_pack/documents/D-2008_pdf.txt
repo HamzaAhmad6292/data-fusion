@@ -1,0 +1,14 @@
+Document ID: D-2008
+Title: Master Services Agreement
+Client: CL-1001
+MatterRef: MAT-1022
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Vendor assumes responsibility for all costs resulting from operational failures, including damages and third-party claims.
+
+Parties agree to maintain secrecy of trade secrets and shall not use such information except to perform obligations under this Agreement.

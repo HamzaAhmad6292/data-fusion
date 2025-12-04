@@ -1,0 +1,47 @@
+Document ID: D-2080
+Matter ID: MAT-1080
+Client: CL-1080
+Document Type: Contract
+Created: 02-Dec-2023
+Uploaded By: Ayesha Khan
+
+---
+
+Okay, here's a draft legal contract document for Automotive Solutions Inc. – Regulatory Inquiry, aiming for a balance of clarity and professionalism. **Please note: This is a template and should be reviewed and adjusted by legal counsel before use.**
+
+---
+
+**Contract for Regulatory Inquiry Regarding Automotive Solutions Inc.**
+
+**Date:** October 26, 2023
+
+**Between:** Automotive Solutions Inc. (hereinafter “Company”), and [Client Name/Entity – e.g., “The Regulatory Affairs Department”] (hereinafter “Client”),
+
+**Subject:** Establishment of a Regulatory Inquiry Regarding [Specific Regulatory Area - e.g., Vehicle Safety Standards]
+
+This contract, made and entered into as of the date above, constitutes a formal agreement between Automotive Solutions Inc. and the Client regarding the initiation and conduct of a regulatory inquiry concerning [Specific Regulatory Area].  The Client’s primary objective is to ascertain whether Company’s operations and products currently comply with all applicable federal, state, and local regulatory requirements pertaining to [Specific Regulatory Area].  Specifically, this inquiry aims to identify any potential non-compliance, unresolved issues, or areas requiring further investigation to ensure the Company operates lawfully and responsibly within the designated regulatory framework.  The Client acknowledges and agrees to cooperate fully with Company's inquiry, providing timely access to relevant data, documents, and personnel as required.
+
+As part of this inquiry, Company acknowledges its obligation to maintain full transparency with the Client regarding the nature, scope, and timeline of the regulatory assessment.  This includes providing a detailed report outlining the identified areas of concern, the steps Company will take to address them, and anticipated timelines for completion.  The Client will be afforded a reasonable opportunity to review and respond to this report within a timeframe of [Number] weeks, subject to mutual agreement.  The Client acknowledges that Company’s investigation may involve the examination of internal records, third-party data, and potential audits, and will cooperate fully with such activities.  The Company agrees to promptly address any identified deficiencies or concerns raised by the Client.
+
+In exchange for this engagement, the Client understands that Company will compensate the Client for reasonable expenses incurred directly attributable to this regulatory inquiry, including, but not limited to, legal counsel, expert fees, and administrative costs. This fee shall be agreed upon in writing, outlining the specific scope of the compensation and payment schedule. This contract does not create any contractual relationship between the Parties except for the obligation to cooperate and provide information as required.  This contract is governed by the laws of [State/Jurisdiction].  Both parties agree to hold each other harmless and defend each other against any claims arising out of or relating to this agreement.  
+
+**Governing Law:** [State/Jurisdiction] Law
+
+**Signatures:**
+
+____________________________
+[Name of Authorized Representative of Company]
+[Title]
+
+____________________________
+[Name of Authorized Representative of Client]
+[Title]
+
+---
+
+**Important Disclaimer:** *This is a sample contract and should be reviewed and modified by legal counsel before use.  It’s crucial to tailor the specific details to the precise context of your agreement, regulatory area, and legal jurisdiction.*
+
+To help me refine this further and make it even more suitable, could you tell me:
+
+*   **What specific regulatory area are you focusing on?** (e.g., emissions standards, consumer product safety, data privacy, etc.)
+*   **What is the Client’s role?** (e.g., a regulatory affairs department, a legal counsel, an independent third party?)

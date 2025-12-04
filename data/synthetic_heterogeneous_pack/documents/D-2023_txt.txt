@@ -1,0 +1,14 @@
+Document ID: D-2023
+Title: Vendor Agreement
+Client: CL-1004
+MatterRef: MAT-1033
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.

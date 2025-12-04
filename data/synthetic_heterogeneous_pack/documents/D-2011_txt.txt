@@ -1,0 +1,14 @@
+Document ID: D-2011
+Title: Vendor Agreement
+Client: CL-1002
+MatterRef: MAT-1013
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Parties agree to maintain secrecy of trade secrets and shall not use such information except to perform obligations under this Agreement.

@@ -1,0 +1,14 @@
+Document ID: D-2032
+Title: Statement of Work
+Client: CL-1001
+MatterRef: MAT-1041
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.

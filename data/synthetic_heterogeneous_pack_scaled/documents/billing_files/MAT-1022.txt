@@ -1,0 +1,69 @@
+Billing Summary for Matter MAT-1022
+Simulated_Format: PDF
+
+matter_id: MTR-1022
+cust_code: CL-1004
+
+[Client Information]
+Corporate Counterparty: Aquila Pharmaceuticals International
+Canonical client_id: CL-1002
+Canonical Client Name: Aquila Pharmaceuticals
+industry: Healthcare
+turnover: $5,800,000
+Client Created At: 15/09/22
+
+[Matter Information]
+Case Title (narrative): Aquila Pharmaceuticals - failure to honor obligations
+Formal Matter Title: Aquila Pharmaceuticals - Contract Breach
+Practice Area: Employment
+Lead Counsel: Ayesha Khan
+opened_on: 06/10/24
+Estimated Value: €10,800
+
+[Additional Context (Noisy / Partially Redundant)]
+Legacy client code in archival system: LEG-1002
+
+[Billing Entries]
+- Entry ID: BL-168887
+  Attorney ID: AT-002
+  Hours Billed: 3.5
+  Hourly Rate: 300
+  Amount: $1,050.00
+  Work Description: curated discovery production
+  Original Description: Prepared discovery
+  Entry Date (raw): 25/07/19
+
+- Entry ID: BL-869598
+  Attorney ID: AT-005
+  Hours Billed: 3.9
+  Hourly Rate: 375.00
+  Amount: (not provided in source)
+  Work Description: organized evidentiary materials
+  Original Description: Prepared discovery
+  Entry Date (raw): 1602547200
+
+- Entry ID: BL-267562
+  Attorney ID: AT-001
+  Hours Billed: 2.4
+  Hourly Rate: 375
+  Amount: 900.0
+  Work Description: advisory conference with corporate representative
+  Original Description: Client call
+  Entry Date (raw): 17-Jan-2022
+
+- Entry ID: BL-013124
+  Attorney ID: AT-003
+  Hours Billed: 7.2
+  Hourly Rate: 375.00
+  Amount: (not provided in source)
+  Work Description: organized evidentiary materials
+  Original Description: Prepared discovery
+  Entry Date (raw): 13/09/19
+
+[Totals]
+Total Hours (reported): 16.15
+Total Amount (reported): 1755.0
+Note: reported totals may not align exactly with line items due to rounding, internal write‑offs, or legacy system sync issues.
+
+[Narrative Summary]
+This dossier summarizes time entries for what is sometimes described as 'Aquila Pharmaceuticals - failure to honor obligations' involving Aquila Pharmaceuticals International, a corporate entity in the Healthcare space. Terminology and identifiers may vary across systems (e.g., MTR-1022 vs MAT-1022; CL-1004 vs CL-1002), and internal notes may reference phases or initiatives not present in the primary matter management schema.

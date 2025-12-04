@@ -1,0 +1,59 @@
+Billing Summary for Matter MAT-1023
+Simulated_Format: DOCX
+
+Matter ID: MAT-1023
+Client ID: CL-1002
+
+[Client Information]
+Client Name: Aquila Pharmaceuticals
+Industry: Healthcare
+Annual Revenue: $5,800,000
+Client Created At: 15/09/22
+
+[Matter Information]
+Matter Title: Aquila Pharmaceuticals - Master Services Agreement Negotiation
+Practice Area: IP
+Lead Attorney: Mark Thompson
+Opened On: 1593043200
+Estimated Value: €10,800
+
+[Billing Entries]
+- Entry ID: BL-568730
+  Attorney ID: AT-003
+  Hours Billed: 7.3
+  Hourly Rate: 375
+  Amount: (not provided in source)
+  Work Description: Prepared discovery
+  Entry Date (raw): 13/09/23
+
+- Entry ID: BL-403641
+  Attorney ID: AT-004
+  Hours Billed: 2.1
+  Hourly Rate: 300
+  Amount: $630.00
+  Work Description: Drafted motion
+  Entry Date (raw): 2023-06-02
+
+- Entry ID: BL-140323
+  Attorney ID: AT-004
+  Hours Billed: 5.3
+  Hourly Rate: 375
+  Amount: (not provided in source)
+  Work Description: Prepared discovery
+  Entry Date (raw): 2021-10-30
+
+- Entry ID: BL-593676
+  Attorney ID: AT-001
+  Hours Billed: 0.6
+  Hourly Rate: 300
+  Amount: 180
+  Work Description: Client call
+  Entry Date (raw): 25/03/19
+
+[Totals]
+Total Hours (reported): 15.3
+Total Amount (reported): 810.0
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1023 ('Aquila Pharmaceuticals - Master Services Agreement Negotiation') on behalf of client Aquila Pharmaceuticals. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

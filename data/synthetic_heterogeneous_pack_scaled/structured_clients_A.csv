@@ -1,0 +1,2001 @@
+client_id,company_name,industry,annual_revenue,contact_phone,created_at
+CL-1001,Healthcare Solutions Inc,Pharmaceuticals,"$33,868,828",(954) 304-9935,2023-05-03
+CL-1002,Aerospace Solutions Inc,Telecommunications,"€27,687,537",+1-918-758-7873,23/10/17
+CL-1003,Finance Group LLC,Technology,14718431,299.567.6635,1729326878
+CL-1004,Construction Systems,Technology,"$49,537,831",+1-921-271-1750,2019-05-14
+CL-1005,Pharmaceuticals Holdings Corp,Real Estate,"$50,684,848",+1-886-473-2169,1636360478
+CL-1006,Pharmaceuticals Systems,Transportation,"""30,476,249.00""",+1-986-994-1916,2018-02-28
+CL-1007,Banking Holdings Corp,Transportation,88971488,858.669.3340,29/03/2020
+CL-1008,Manufacturing Group LLC,Energy,"$69,387,461.00",+1-973-248-2796,1587458078
+CL-1009,Telecommunications Holdings Corp,Real Estate,"€2,540,956",317.898.9797,18-Mar-2018
+CL-1010,Automotive Systems,Real Estate,"$68,187,530",+1-719-308-5889,18/04/2017
+CL-1011,Healthcare Holdings Corp,Automotive,"$33,138,745",780-280-2403,10/03/25
+CL-1012,Technology International,Finance,"57,792,612",973.947.4295,19/06/2023
+CL-1013,Retail Solutions Inc,Retail,"3,823,170",(435) 802-4608,2019-03-30
+CL-1014,Telecommunications Group LLC,Healthcare,"$90,788,677",+1-752-335-8744,2020-05-24
+CL-1015,Energy Partners,Energy,"€91,377,459",300.262.7596,06/07/2018
+CL-1016,Finance Holdings Corp,Energy,"$34,528,453.00",(653) 763-2604,13/01/16
+CL-1017,Real Estate Group LLC,Real Estate,8869910,202-599-5345,29/12/23
+CL-1018,Aerospace Systems,Automotive,"""9,181,586.00""",+1-258-251-8811,2017-06-14
+CL-1019,Construction Group LLC,Pharmaceuticals,"$17,090,908",(792) 808-1651,14-Jun-2019
+CL-1020,Technology Partners,Retail,"""91,152,735.00""",(668) 523-2188,08/08/2018
+CL-1021,Finance Holdings Corp,Technology,"""33,787,299.00""",361.648.9900,11/09/2021
+CL-1022,Finance Holdings Corp,Transportation,"15,366,125",+1-359-478-5616,07/07/2017
+CL-1023,Transportation Solutions Inc,Transportation,"""86,132,217.00""",+1-245-203-6464,02/02/2021
+CL-1024,Healthcare Solutions Inc,Automotive,"""74,227,889.00""",796-765-3426,2025-06-08
+CL-1025,Retail Systems,Pharmaceuticals,"48,469,942",+1-616-835-3532,02/02/17
+CL-1026,Pharmaceuticals Systems,Insurance,"€36,810,056",310-591-1634,20-Jan-2024
+CL-1027,Pharmaceuticals Group LLC,Automotive,"$45,058,573.00",991-485-6753,2022-09-18
+CL-1028,Technology Solutions Inc,Aerospace,"""81,070,438.00""",(946) 521-8149,2020-12-19
+CL-1029,Transportation International,Telecommunications,"$49,884,978.00",(880) 538-6143,1609490079
+CL-1030,Technology International,Banking,"€26,748,341",588.893.3851,14-Feb-2021
+CL-1031,Aerospace International,Insurance,63409658,891-418-9375,19/11/2020
+CL-1032,Construction Group LLC,Healthcare,"$31,150,759",+1-350-225-1757,1476693279
+CL-1033,Banking Partners,Banking,"$54,640,499",(871) 904-1090,07/02/2023
+CL-1034,Retail Solutions Inc,Telecommunications,18896471,883-743-6198,07/11/2016
+CL-1035,Construction Partners,Banking,"$35,788,100",852-483-9540,2017-05-29
+CL-1036,Manufacturing Holdings Corp,Technology,"$11,814,950",+1-436-592-3503,15/04/2024
+CL-1037,Retail Partners,Automotive,"$79,393,811.00",983-789-7232,1516005279
+CL-1038,Aerospace Group LLC,Insurance,30450273,697.229.7371,1665563679
+CL-1039,Automotive Partners,Telecommunications,"$76,751,409.00",+1-285-858-8022,1527496479
+CL-1040,Manufacturing Holdings Corp,Real Estate,38346970,(458) 283-8705,28/05/17
+CL-1041,Automotive Group LLC,Insurance,"$3,735,359",(444) 329-8758,15-Nov-2018
+CL-1042,Banking Systems,Aerospace,"$22,980,274.00",792-226-6111,08/05/2022
+CL-1043,Insurance Holdings Corp,Banking,"17,247,735",242-555-9728,2016-11-28
+CL-1044,Energy Holdings Corp,Healthcare,95933359,380.951.9548,1707986079
+CL-1045,Construction Group LLC,Manufacturing,38437115,449-968-8613,14/12/15
+CL-1046,Insurance Holdings Corp,Manufacturing,"38,535,126",+1-918-482-1166,20/12/2015
+CL-1047,Banking Partners,Pharmaceuticals,"""3,314,351.00""",426.614.4986,17/10/2024
+CL-1048,Banking International,Energy,48219209,+1-477-513-5118,2017-12-16
+CL-1049,Retail Systems,Retail,"38,111,151",(978) 737-5636,18/09/17
+CL-1050,Telecommunications Group LLC,Banking,"7,109,013",499-914-3068,1742805279
+CL-1051,Automotive Holdings Corp,Finance,"$16,312,516.00",(610) 703-2213,14/08/16
+CL-1052,Energy International,Insurance,"84,002,706",589.661.8253,23/04/2023
+CL-1053,Retail Holdings Corp,Pharmaceuticals,"$22,079,846",(765) 276-3564,2023-02-24
+CL-1054,Technology Systems,Banking,"$10,553,585",470-840-4241,17-Feb-2018
+CL-1055,Finance Holdings Corp,Automotive,77397676,327-679-5982,1659947679
+CL-1056,Transportation Partners,Automotive,"$82,029,073.00",293.434.1339,12/01/2023
+CL-1057,Aerospace Partners,Finance,"""13,246,348.00""",(618) 541-6260,26-Jul-2020
+CL-1058,Real Estate Solutions Inc,Automotive,"$34,876,400.00",(991) 613-9431,2022-03-19
+CL-1059,Aerospace Partners,Manufacturing,"""7,927,215.00""",762-334-5719,23/07/2023
+CL-1060,Telecommunications Solutions Inc,Technology,"$55,759,583",+1-316-672-2924,1729154079
+CL-1061,Real Estate International,Retail,"52,484,043",(720) 964-3236,14/09/2023
+CL-1062,Banking Holdings Corp,Technology,78835998,352-657-9824,1528533279
+CL-1063,Retail International,Banking,32348220,244-525-8749,2016-03-28
+CL-1064,Manufacturing Solutions Inc,Aerospace,14383077,215-939-3361,10-Dec-2019
+CL-1065,Energy Systems,Banking,"€45,099,326",746-589-6188,12-Apr-2016
+CL-1066,Healthcare Systems,Energy,"€60,549,527",506.229.1753,1703234079
+CL-1067,Energy International,Telecommunications,"$23,814,819.00",824-591-4945,16-Nov-2023
+CL-1068,Automotive Partners,Pharmaceuticals,"$91,947,393",275.652.6661,17-Sep-2019
+CL-1069,Real Estate Solutions Inc,Construction,"""52,185,849.00""",(788) 502-5837,05/06/2019
+CL-1070,Real Estate Holdings Corp,Banking,"""82,478,884.00""",424.851.4115,2016-11-05
+CL-1071,Aerospace Holdings Corp,Automotive,"""13,097,496.00""",+1-965-625-3877,13/07/22
+CL-1072,Technology Systems,Insurance,"$16,457,816.00",344-972-4696,2020-08-02
+CL-1073,Real Estate Holdings Corp,Healthcare,"€79,458,327",580-310-4830,2021-07-26
+CL-1074,Energy Solutions Inc,Pharmaceuticals,"""7,086,345.00""",+1-704-318-2592,03-Jun-2025
+CL-1075,Banking Systems,Aerospace,"$56,684,858.00",701.830.7686,1530347679
+CL-1076,Manufacturing Solutions Inc,Construction,"""74,076,970.00""",+1-262-607-5520,10/08/2018
+CL-1077,Manufacturing Group LLC,Insurance,"$76,776,373.00",+1-983-767-4394,16-Jul-2023
+CL-1078,Technology Group LLC,Telecommunications,"$89,725,654.00",+1-334-215-6869,15-Feb-2016
+CL-1079,Energy International,Banking,9530615,(996) 570-9408,01/07/2020
+CL-1080,Automotive Solutions Inc,Pharmaceuticals,"€54,904,155",(310) 702-8267,21/01/21
+CL-1081,Aerospace International,Pharmaceuticals,"52,124,122",501-664-9282,1550738079
+CL-1082,Manufacturing Partners,Energy,"$56,833,185.00",520.637.6120,2017-08-28
+CL-1083,Healthcare Systems,Energy,"$18,463,800.00",(800) 775-6400,08-Aug-2019
+CL-1084,Healthcare International,Manufacturing,"€29,553,319",693.429.2773,08/02/2024
+CL-1085,Telecommunications International,Construction,"91,593,840",(226) 823-5381,19-Aug-2018
+CL-1086,Finance International,Construction,"€10,339,597",+1-848-231-2503,31/03/24
+CL-1087,Manufacturing International,Banking,"$12,402,740.00",(359) 361-1815,07/12/2015
+CL-1088,Retail International,Technology,"$47,328,316.00",490.894.8972,2021-01-07
+CL-1089,Insurance Group LLC,Retail,"$39,848,936.00",+1-207-709-8055,28/02/2022
+CL-1090,Energy Systems,Healthcare,59548403,279-520-8033,2025-08-18
+CL-1091,Finance International,Manufacturing,"$93,557,892.00",647-308-4986,1634027679
+CL-1092,Manufacturing Group LLC,Retail,"$69,515,906.00",743.722.4176,2018-09-27
+CL-1093,Finance International,Retail,"$88,980,930",991-843-9095,29-Dec-2024
+CL-1094,Real Estate Partners,Healthcare,"$37,866,075.00",560.719.2215,17-Mar-2019
+CL-1095,Construction Solutions Inc,Pharmaceuticals,80736043,673-794-1672,26/02/2020
+CL-1096,Automotive Partners,Finance,"$47,095,437.00",(716) 861-3827,30/10/2017
+CL-1097,Manufacturing Holdings Corp,Finance,"""52,998,170.00""",895.812.1857,03-Apr-2021
+CL-1098,Finance Holdings Corp,Construction,"$79,213,973",+1-558-517-7421,25/05/2018
+CL-1099,Finance Systems,Construction,"€13,543,044",(633) 720-6928,05-Aug-2018
+CL-1100,Finance Group LLC,Retail,"$40,700,543.00",(719) 989-9843,15/05/16
+CL-1101,Banking International,Construction,"$97,795,543.00",620-573-4891,06/12/2020
+CL-1102,Insurance Partners,Insurance,"50,370,777",651-672-5616,26/03/18
+CL-1103,Technology Solutions Inc,Construction,"$50,823,245.00",928.728.3042,1565858079
+CL-1104,Energy Solutions Inc,Construction,"$61,549,373.00",624.254.7495,02/12/21
+CL-1105,Healthcare Systems,Transportation,"$20,602,406.00",493-683-3273,2024-04-18
+CL-1106,Finance International,Construction,"$71,836,292.00",994.495.4893,03/02/2021
+CL-1107,Construction Partners,Healthcare,"€72,947,921",+1-727-788-4963,27/08/25
+CL-1108,Pharmaceuticals Systems,Finance,"$71,260,907.00",(738) 757-9312,17-Oct-2021
+CL-1109,Insurance Solutions Inc,Manufacturing,"€33,363,373",+1-843-306-6447,14/08/17
+CL-1110,Finance Group LLC,Pharmaceuticals,97105940,(237) 500-4302,18/02/2017
+CL-1111,Technology Solutions Inc,Real Estate,"$39,401,154.00",(871) 539-5476,1635755679
+CL-1112,Banking Partners,Real Estate,"$70,696,025.00",944-634-2293,06-Nov-2022
+CL-1113,Pharmaceuticals Holdings Corp,Manufacturing,"€60,849,800",636.370.8272,30-Jan-2019
+CL-1114,Pharmaceuticals Partners,Pharmaceuticals,"€69,865,239",+1-895-363-1510,08/11/16
+CL-1115,Pharmaceuticals Holdings Corp,Insurance,"$52,385,847.00",819.357.8371,24/06/2019
+CL-1116,Pharmaceuticals Holdings Corp,Manufacturing,"€16,226,815",390-711-9482,1752914079
+CL-1117,Banking Partners,Technology,"$17,460,116.00",(662) 376-8292,26/04/2024
+CL-1118,Technology Group LLC,Transportation,"$49,518,659",+1-324-405-3275,1582101279
+CL-1119,Transportation Solutions Inc,Aerospace,"€42,512,297",936-690-9612,17-May-2021
+CL-1120,Pharmaceuticals International,Real Estate,"18,224,779",+1-855-801-3981,29/12/2015
+CL-1121,Finance Holdings Corp,Finance,"""47,442,431.00""",280.456.4216,08/01/2020
+CL-1122,Finance Group LLC,Aerospace,"""97,721,692.00""",(777) 242-1464,20/01/2019
+CL-1123,Automotive Partners,Pharmaceuticals,"""39,879,071.00""",694.450.7653,1534926879
+CL-1124,Retail Holdings Corp,Real Estate,"€20,282,885",526-951-6658,02-May-2022
+CL-1125,Technology Partners,Healthcare,"$19,908,276.00",+1-497-593-7850,02/10/24
+CL-1126,Real Estate Holdings Corp,Real Estate,4110670,+1-717-668-4944,30-Oct-2024
+CL-1127,Construction Systems,Transportation,"$39,352,498.00",310.641.3194,2019-10-27
+CL-1128,Telecommunications Group LLC,Aerospace,"$75,252,324.00",595.716.8378,2022-08-08
+CL-1129,Manufacturing International,Insurance,"20,363,237",(721) 611-9193,1691656479
+CL-1130,Aerospace International,Finance,"""45,018,830.00""",366.602.5902,18/12/2018
+CL-1131,Automotive Holdings Corp,Construction,91436763,797-515-1436,11/08/2024
+CL-1132,Pharmaceuticals Systems,Telecommunications,"€52,028,283",+1-448-232-2800,07/03/24
+CL-1133,Telecommunications International,Energy,"$99,762,406.00",+1-922-341-9498,06-Sep-2017
+CL-1134,Telecommunications Holdings Corp,Transportation,"€48,551,594",897-858-5331,05/04/18
+CL-1135,Retail Systems,Banking,"""43,552,488.00""",773.938.5480,1592296479
+CL-1136,Automotive Holdings Corp,Technology,"€47,488,123",+1-462-965-8849,17/11/20
+CL-1137,Aerospace Group LLC,Banking,"7,813,620",(431) 853-4814,2018-04-30
+CL-1138,Transportation Group LLC,Telecommunications,88629787,688.866.4267,18/12/2015
+CL-1139,Banking Solutions Inc,Banking,"$57,087,572",+1-237-606-9116,12-Dec-2015
+CL-1140,Transportation Holdings Corp,Healthcare,"61,981,700",736-705-3198,25/08/18
+CL-1141,Finance Solutions Inc,Banking,"€40,597,485",975-397-3875,1561192479
+CL-1142,Real Estate Holdings Corp,Finance,1916723,441.657.5374,30-Nov-2022
+CL-1143,Healthcare Partners,Pharmaceuticals,"€22,436,829",(714) 920-6095,17/04/21
+CL-1144,Real Estate Systems,Finance,"€51,147,077",+1-762-682-9806,05/03/2021
+CL-1145,Aerospace Solutions Inc,Transportation,"$74,504,237",+1-786-749-3455,03/03/20
+CL-1146,Transportation International,Healthcare,"$8,467,311",(725) 625-8484,1601627679
+CL-1147,Retail International,Banking,"""7,078,694.00""",(917) 265-9866,1612168479
+CL-1148,Pharmaceuticals Systems,Insurance,51259293,+1-586-584-2314,20/07/2021
+CL-1149,Banking Group LLC,Finance,4051483,889-936-9920,1656491679
+CL-1150,Retail Systems,Technology,"€5,324,134",+1-629-829-1256,1475656479
+CL-1151,Banking Solutions Inc,Retail,"59,916,591",+1-422-972-1924,19/03/2023
+CL-1152,Technology Group LLC,Retail,"""30,667,854.00""",481-262-3869,1615797279
+CL-1153,Energy Partners,Banking,"$41,250,352",+1-972-750-8758,2021-08-14
+CL-1154,Telecommunications International,Energy,"""53,132,722.00""",408-538-2295,2023-02-12
+CL-1155,Aerospace International,Pharmaceuticals,"10,768,947",941-887-4555,24/09/23
+CL-1156,Insurance Partners,Banking,"€94,365,379",409.606.4921,23/01/2019
+CL-1157,Manufacturing International,Technology,"€63,546,007",+1-680-979-6246,25/09/2024
+CL-1158,Technology International,Automotive,78731247,502.356.4214,06/10/2017
+CL-1159,Construction Partners,Insurance,"€62,851,421",560-373-3293,2023-12-14
+CL-1160,Finance Systems,Energy,"$10,122,502",209-423-9285,2017-11-28
+CL-1161,Energy Solutions Inc,Telecommunications,"""72,057,233.00""",748-493-1280,27/09/17
+CL-1162,Technology Holdings Corp,Telecommunications,"""54,270,536.00""",+1-615-670-4984,2024-12-14
+CL-1163,Telecommunications Partners,Energy,"€86,462,880",375-284-9189,25/09/25
+CL-1164,Technology Solutions Inc,Real Estate,"92,862,470",+1-777-873-1539,1662885279
+CL-1165,Aerospace Group LLC,Finance,"53,231,715",(539) 593-3292,2018-03-31
+CL-1166,Healthcare Holdings Corp,Construction,83391596,992.534.1485,28/02/2019
+CL-1167,Pharmaceuticals International,Finance,"12,501,669",(502) 452-2204,1488875679
+CL-1168,Healthcare Solutions Inc,Healthcare,"""60,691,437.00""",+1-304-335-2430,2021-10-20
+CL-1169,Telecommunications Solutions Inc,Manufacturing,"""81,268,079.00""",594-212-5781,15/01/2017
+CL-1170,Energy Group LLC,Pharmaceuticals,"""37,093,692.00""",+1-704-349-2036,1655541279
+CL-1171,Retail Systems,Technology,"$80,699,345",668.309.3219,04-Dec-2018
+CL-1172,Construction Systems,Energy,"""19,270,317.00""",817-911-4290,21-Jun-2022
+CL-1173,Retail Holdings Corp,Insurance,38621248,+1-573-316-4273,06/09/16
+CL-1174,Banking Solutions Inc,Construction,"$91,325,531",848.510.4965,2020-03-28
+CL-1175,Aerospace Partners,Real Estate,"€68,996,397",628.756.1602,01/02/16
+CL-1176,Aerospace Solutions Inc,Pharmaceuticals,"€87,574,622",609-970-6432,30/03/18
+CL-1177,Aerospace Systems,Telecommunications,"""30,666,377.00""",+1-600-674-9199,03-Nov-2020
+CL-1178,Construction Systems,Healthcare,"""47,751,880.00""",666-411-9537,1651739679
+CL-1179,Automotive Systems,Technology,"""4,031,322.00""",+1-863-311-3692,25/04/2016
+CL-1180,Insurance Partners,Retail,"€26,016,429",+1-642-605-1478,2018-08-28
+CL-1181,Insurance Systems,Technology,"78,490,324",+1-391-574-6340,12/09/2024
+CL-1182,Aerospace Partners,Energy,"""16,331,969.00""",668.832.3826,08-Dec-2021
+CL-1183,Healthcare Group LLC,Technology,"94,071,477",597-628-3258,02/04/2024
+CL-1184,Finance Group LLC,Technology,"$61,532,325.00",+1-567-209-8939,1542875679
+CL-1185,Construction Partners,Banking,"23,448,383",231.979.4613,29/11/24
+CL-1186,Insurance Partners,Banking,"69,559,218",316.474.9898,27/07/2024
+CL-1187,Banking Systems,Healthcare,"$40,957,816.00",(660) 469-6711,11/01/2016
+CL-1188,Energy Group LLC,Pharmaceuticals,"$19,687,800",411.260.6747,14-Jan-2017
+CL-1189,Construction International,Technology,19198434,+1-260-483-3078,1496651679
+CL-1190,Pharmaceuticals Holdings Corp,Aerospace,"$51,354,777.00",848-987-2525,1602146079
+CL-1191,Automotive Systems,Aerospace,"€99,104,023",(880) 914-6869,12/09/20
+CL-1192,Construction Holdings Corp,Manufacturing,"$74,458,776",(779) 696-6631,2019-05-11
+CL-1193,Automotive Partners,Real Estate,"€93,421,237",(509) 362-5489,11-May-2024
+CL-1194,Pharmaceuticals Holdings Corp,Energy,"$58,610,401.00",+1-920-297-1017,28/06/2018
+CL-1195,Banking Holdings Corp,Automotive,"$57,682,016",689-272-4751,21-Jan-2018
+CL-1196,Energy Group LLC,Finance,"10,182,050",208-824-3688,1574411679
+CL-1197,Retail Solutions Inc,Construction,"$19,792,245.00",803.947.7291,26-May-2017
+CL-1198,Aerospace International,Telecommunications,"€39,241,423",+1-227-874-5942,1486456479
+CL-1199,Transportation Group LLC,Insurance,"$52,792,685",(711) 853-2163,29/07/2024
+CL-1200,Pharmaceuticals Group LLC,Telecommunications,"10,796,799",+1-269-214-5295,26/08/2025
+CL-1201,Energy Solutions Inc,Banking,"$73,162,880",(484) 285-6077,1544085279
+CL-1202,Banking Partners,Technology,"$8,772,004.00",(644) 318-8428,2023-02-05
+CL-1203,Real Estate Holdings Corp,Finance,"€70,420,474",+1-465-370-7092,2017-01-21
+CL-1204,Telecommunications Solutions Inc,Technology,"€96,606,407",278.708.8457,17/05/19
+CL-1205,Aerospace Systems,Transportation,"31,655,922",+1-202-245-1201,13/07/17
+CL-1206,Insurance Systems,Telecommunications,"$31,133,935",626.937.6241,25/03/2022
+CL-1207,Insurance International,Retail,54811222,489.992.6090,24-Jan-2025
+CL-1208,Insurance Holdings Corp,Aerospace,"""33,559,072.00""",+1-805-705-4201,20/08/20
+CL-1209,Construction Systems,Pharmaceuticals,"€45,965,270",(585) 955-6038,1761640479
+CL-1210,Technology Solutions Inc,Banking,"32,067,722",622-917-7102,1462869279
+CL-1211,Automotive Partners,Aerospace,"""32,778,964.00""",522.602.6345,27/07/22
+CL-1212,Finance Solutions Inc,Healthcare,"""61,339,827.00""",616.323.9780,1597221279
+CL-1213,Finance Systems,Healthcare,"95,583,877",+1-241-420-6370,1515486879
+CL-1214,Technology Holdings Corp,Pharmaceuticals,5171767,(769) 966-5093,2021-04-21
+CL-1215,Retail Partners,Finance,"€93,111,648",(286) 796-5240,09/10/18
+CL-1216,Automotive Partners,Healthcare,23547129,(941) 604-9128,28-May-2019
+CL-1217,Technology Partners,Technology,"5,650,569",831-451-5835,2018-12-14
+CL-1218,Energy Group LLC,Finance,"34,440,045",219-591-6883,1538901279
+CL-1219,Manufacturing International,Automotive,"""4,933,043.00""",259.683.9674,2016-09-30
+CL-1220,Telecommunications Systems,Technology,30448924,+1-563-377-3885,20-May-2019
+CL-1221,Aerospace Group LLC,Finance,"$73,762,732",(702) 238-2478,17/05/2022
+CL-1222,Transportation International,Manufacturing,"€18,514,010",(381) 531-1975,07/01/2022
+CL-1223,Banking Systems,Manufacturing,"""79,653,825.00""",+1-509-530-3235,15/09/24
+CL-1224,Manufacturing Group LLC,Insurance,"""24,535,297.00""",+1-951-905-5825,06/08/2021
+CL-1225,Manufacturing International,Aerospace,"$86,851,936.00",(708) 344-6425,2019-07-01
+CL-1226,Technology Group LLC,Automotive,"""94,036,518.00""",(462) 310-1020,1738139679
+CL-1227,Telecommunications Partners,Manufacturing,"65,355,957",+1-866-976-4695,2016-12-29
+CL-1228,Healthcare Holdings Corp,Healthcare,"€51,393,104",276.760.2525,1705134879
+CL-1229,Energy Group LLC,Transportation,"$14,590,593",394.619.9849,2022-02-15
+CL-1230,Telecommunications Partners,Aerospace,"$8,315,517.00",637-289-5825,17/10/21
+CL-1231,Construction Solutions Inc,Real Estate,54347164,876-471-2493,23/07/20
+CL-1232,Real Estate Partners,Technology,"""31,365,724.00""",(777) 263-3476,14/06/2016
+CL-1233,Construction Partners,Automotive,"€57,187,845",686-786-4860,01/11/2019
+CL-1234,Aerospace Systems,Insurance,20790089,+1-377-371-4471,1719563679
+CL-1235,Aerospace Holdings Corp,Construction,"$98,590,113.00",289.597.7510,14/10/2016
+CL-1236,Energy Solutions Inc,Insurance,"21,084,652",(802) 796-2641,05/03/2024
+CL-1237,Energy Systems,Technology,77775659,238-376-5512,1546590879
+CL-1238,Banking Partners,Automotive,"""50,988,144.00""",510-518-5593,12/08/25
+CL-1239,Construction Holdings Corp,Insurance,"98,817,801",861-291-4079,2021-03-01
+CL-1240,Technology Systems,Healthcare,"55,141,437",+1-782-229-3846,1714120479
+CL-1241,Retail Holdings Corp,Banking,63306347,+1-850-326-1500,1583397279
+CL-1242,Manufacturing Group LLC,Manufacturing,"""93,455,954.00""",+1-228-595-1813,28/10/24
+CL-1243,Energy International,Pharmaceuticals,92563298,(335) 862-3837,1758962079
+CL-1244,Technology Group LLC,Real Estate,"41,553,227",(838) 606-2676,31-Mar-2018
+CL-1245,Manufacturing Holdings Corp,Healthcare,"€38,162,866",+1-928-867-5895,29/11/2022
+CL-1246,Finance Systems,Pharmaceuticals,"""88,966,375.00""",465-628-7628,05/04/20
+CL-1247,Pharmaceuticals Holdings Corp,Transportation,"$41,291,467",873.771.3967,11/05/2016
+CL-1248,Healthcare Group LLC,Pharmaceuticals,"""30,974,566.00""",630.539.7089,1498725279
+CL-1249,Aerospace Solutions Inc,Aerospace,"$27,111,227.00",897.590.9680,24/03/20
+CL-1250,Transportation Partners,Aerospace,"€43,464,268",384-997-2324,2016-03-02
+CL-1251,Retail Group LLC,Technology,"$22,264,801.00",332-829-8105,2020-05-07
+CL-1252,Banking Holdings Corp,Retail,"44,246,714",+1-395-218-1067,08/05/17
+CL-1253,Aerospace Holdings Corp,Telecommunications,"$9,762,675.00",505.497.8469,1470558879
+CL-1254,Transportation Partners,Finance,"€31,657,783",+1-334-416-1359,29-Apr-2023
+CL-1255,Aerospace Solutions Inc,Automotive,"$88,720,360.00",249-906-2897,1466238879
+CL-1256,Pharmaceuticals Systems,Banking,"€41,415,166",303.878.9524,2021-02-13
+CL-1257,Technology Solutions Inc,Healthcare,"67,805,406",+1-404-996-5308,12/08/23
+CL-1258,Transportation Group LLC,Real Estate,"$45,372,866.00",(213) 887-2458,2023-03-18
+CL-1259,Banking Solutions Inc,Banking,87481420,(503) 470-8606,01-Apr-2023
+CL-1260,Healthcare Solutions Inc,Banking,"$2,298,197",879.862.3793,14-Apr-2016
+CL-1261,Energy Partners,Healthcare,37484819,+1-906-689-7909,2016-06-19
+CL-1262,Insurance International,Real Estate,25328380,+1-997-567-1472,1545813279
+CL-1263,Pharmaceuticals Holdings Corp,Technology,"€95,565,539",737.985.4669,07/02/16
+CL-1264,Pharmaceuticals Systems,Pharmaceuticals,"20,952,062",+1-827-255-1190,2016-06-06
+CL-1265,Manufacturing Holdings Corp,Retail,"69,038,903",+1-858-587-7607,2023-05-05
+CL-1266,Healthcare Partners,Manufacturing,14776553,(236) 770-9996,1619339679
+CL-1267,Automotive Group LLC,Construction,"45,556,611",814-684-6952,23-Jul-2019
+CL-1268,Telecommunications Holdings Corp,Telecommunications,7144233,(343) 934-7704,2023-12-31
+CL-1269,Construction Group LLC,Real Estate,15464073,247-848-3018,1494146079
+CL-1270,Automotive International,Banking,"79,533,572",+1-999-381-3845,1591173279
+CL-1271,Energy Holdings Corp,Technology,"$61,779,921",341.622.9393,24/10/16
+CL-1272,Technology Systems,Banking,"€91,244,472",865.382.9255,08/05/2024
+CL-1273,Banking International,Pharmaceuticals,"$57,691,738.00",735-309-1414,10-Oct-2016
+CL-1274,Technology Group LLC,Pharmaceuticals,"""93,690,071.00""",(408) 971-9866,16/01/2017
+CL-1275,Insurance Systems,Telecommunications,"$94,004,305.00",590.596.7825,22/05/18
+CL-1276,Retail Systems,Construction,"€79,971,743",817.401.4170,17/09/19
+CL-1277,Automotive Partners,Energy,"$75,705,402",(364) 798-5178,16/11/22
+CL-1278,Insurance Systems,Automotive,89837400,(786) 763-6866,18/06/22
+CL-1279,Telecommunications Group LLC,Insurance,73890984,+1-294-557-4624,26-Oct-2019
+CL-1280,Real Estate International,Telecommunications,"""16,397,719.00""",(656) 446-4994,1525422879
+CL-1281,Technology Solutions Inc,Banking,"51,326,016",656.698.1718,2020-01-27
+CL-1282,Automotive Systems,Telecommunications,"€29,290,610",(992) 418-7950,28/04/18
+CL-1283,Manufacturing Solutions Inc,Banking,"$10,831,184",+1-457-771-2154,1742891679
+CL-1284,Energy Systems,Automotive,"€72,784,254",(937) 833-2036,09-Oct-2025
+CL-1285,Technology Partners,Healthcare,"€54,031,203",+1-231-685-3561,14/08/16
+CL-1286,Telecommunications International,Automotive,"$17,540,343.00",(786) 810-7456,1747298079
+CL-1287,Finance Group LLC,Finance,"$34,922,427.00",385-887-1891,2023-08-30
+CL-1288,Banking International,Retail,"$45,406,060",(887) 871-4842,01-Nov-2021
+CL-1289,Aerospace Systems,Manufacturing,"$94,074,374",779.780.6971,16/04/19
+CL-1290,Construction Holdings Corp,Technology,"""92,211,707.00""",691.673.8296,14/08/17
+CL-1291,Technology Group LLC,Construction,"€27,364,647",(841) 278-2235,20/11/2022
+CL-1292,Technology International,Telecommunications,"$64,364,719",574.601.4658,1530693279
+CL-1293,Pharmaceuticals Group LLC,Automotive,"92,826,623",+1-343-656-3608,24-Dec-2023
+CL-1294,Real Estate Group LLC,Insurance,"$36,481,411",243.884.4387,2021-09-11
+CL-1295,Telecommunications Systems,Banking,"36,341,684",783-378-7171,1557304479
+CL-1296,Manufacturing Holdings Corp,Energy,"$65,707,720.00",+1-713-342-8207,24/01/19
+CL-1297,Manufacturing International,Finance,89732634,538-937-2856,04/04/2023
+CL-1298,Retail Solutions Inc,Automotive,"$77,972,056",(337) 844-9399,13-Mar-2019
+CL-1299,Aerospace International,Energy,"€97,576,003",490-287-4548,04/09/17
+CL-1300,Insurance International,Finance,"84,646,063",470-371-6614,1528706079
+CL-1301,Automotive Group LLC,Healthcare,68693989,+1-353-820-2577,2018-03-01
+CL-1302,Aerospace International,Transportation,92074695,(734) 630-7068,1532334879
+CL-1303,Insurance Systems,Aerospace,"$14,115,341",(460) 688-4809,25-Jan-2021
+CL-1304,Banking Solutions Inc,Banking,"71,134,216",207.584.4365,1720427679
+CL-1305,Construction International,Technology,"76,788,756",+1-482-896-7511,27-Sep-2021
+CL-1306,Technology Holdings Corp,Real Estate,"€47,218,720",(607) 953-3262,2017-02-26
+CL-1307,Insurance Holdings Corp,Energy,"€83,413,089",923-253-3633,1515400479
+CL-1308,Healthcare Holdings Corp,Healthcare,"50,772,648",238-941-7296,10/12/2024
+CL-1309,Real Estate Partners,Pharmaceuticals,"€28,072,687",(730) 492-4190,20/04/2016
+CL-1310,Retail Systems,Manufacturing,"""22,131,878.00""",998-609-6785,2024-11-12
+CL-1311,Banking International,Technology,"""47,720,553.00""",431-820-4187,10/12/21
+CL-1312,Telecommunications Solutions Inc,Healthcare,"$40,493,811.00",725.463.9813,10/01/22
+CL-1313,Real Estate International,Pharmaceuticals,"""65,688,940.00""",+1-269-591-4610,14-Jul-2024
+CL-1314,Energy Systems,Healthcare,"$11,204,415",+1-687-521-6792,1565858079
+CL-1315,Retail Holdings Corp,Banking,"$31,763,714",(833) 564-3555,26/07/2023
+CL-1316,Aerospace Holdings Corp,Manufacturing,"""78,110,685.00""",702.387.9374,05/02/2016
+CL-1317,Automotive International,Telecommunications,"€53,843,790",(994) 378-8490,2016-03-10
+CL-1318,Aerospace Solutions Inc,Energy,"""49,533,442.00""",+1-391-761-5306,20/12/18
+CL-1319,Energy Systems,Retail,49999937,+1-486-661-3947,04-Apr-2016
+CL-1320,Construction Partners,Energy,"€20,574,814",+1-353-684-1159,1479026079
+CL-1321,Construction International,Telecommunications,"€54,472,598",367.261.4530,23-Sep-2024
+CL-1322,Telecommunications International,Manufacturing,47189726,+1-324-559-4259,13/08/2025
+CL-1323,Healthcare Partners,Transportation,"€39,456,543",348-371-6527,2020-08-21
+CL-1324,Manufacturing Holdings Corp,Retail,"96,352,768",860-604-5444,1667464479
+CL-1325,Automotive Group LLC,Construction,"€89,855,162",+1-917-967-2311,2023-01-07
+CL-1326,Automotive Partners,Automotive,"""12,173,787.00""",832-359-2381,1725352479
+CL-1327,Construction Group LLC,Telecommunications,"""5,718,421.00""",533.687.8654,26/05/2018
+CL-1328,Banking Systems,Pharmaceuticals,"€59,381,674",854.746.6073,1576830879
+CL-1329,Technology Group LLC,Energy,"2,416,778",976.339.6634,1762072479
+CL-1330,Energy Holdings Corp,Insurance,"$32,033,204.00",761-582-4089,26/11/16
+CL-1331,Technology Solutions Inc,Retail,"84,929,434",982.827.5454,1677314079
+CL-1332,Finance Holdings Corp,Finance,"86,482,292",+1-663-478-9060,24/09/2020
+CL-1333,Technology Holdings Corp,Healthcare,"€96,991,974",+1-208-438-2477,1606984479
+CL-1334,Real Estate Systems,Manufacturing,"$45,325,223",(257) 472-7429,09-Dec-2024
+CL-1335,Insurance Systems,Healthcare,52646699,+1-453-955-1549,1489221279
+CL-1336,Manufacturing Group LLC,Transportation,"$74,763,371.00",+1-459-692-5895,31/12/19
+CL-1337,Finance Holdings Corp,Automotive,"$17,059,096",+1-209-243-8786,26/05/21
+CL-1338,Aerospace Holdings Corp,Pharmaceuticals,"€9,022,882",(357) 918-9787,07/11/2021
+CL-1339,Retail Solutions Inc,Banking,"$49,072,427",456-240-8951,18/09/17
+CL-1340,Manufacturing Holdings Corp,Telecommunications,"37,953,423",+1-767-364-2128,1455093279
+CL-1341,Banking Group LLC,Energy,"""84,179,370.00""",994.835.4912,25/03/16
+CL-1342,Telecommunications Group LLC,Insurance,39000942,(856) 529-2809,22/03/22
+CL-1343,Healthcare Partners,Retail,"14,254,482",857.597.9026,2025-06-25
+CL-1344,Transportation Solutions Inc,Transportation,"""86,753,950.00""",771.961.7814,2025-02-27
+CL-1345,Telecommunications Solutions Inc,Retail,"98,330,929",+1-594-394-4164,2023-04-01
+CL-1346,Real Estate Systems,Pharmaceuticals,"$14,972,387",763.611.9268,20-Dec-2023
+CL-1347,Construction Holdings Corp,Manufacturing,"€85,992,144",+1-531-823-4943,1609749279
+CL-1348,Banking Solutions Inc,Automotive,"80,961,933",338.509.1107,28-Aug-2025
+CL-1349,Aerospace International,Telecommunications,13655004,564.359.3267,01-Jun-2025
+CL-1350,Energy International,Aerospace,"€99,551,508",532-694-3832,2024-12-21
+CL-1351,Insurance Solutions Inc,Healthcare,47698401,(626) 323-4714,22-Dec-2015
+CL-1352,Telecommunications International,Manufacturing,"€44,866,598",426-356-1827,16/03/20
+CL-1353,Energy Group LLC,Insurance,46119729,785-963-1807,29/11/24
+CL-1354,Retail Partners,Telecommunications,"$88,543,303",+1-774-830-9589,07-Jun-2019
+CL-1355,Pharmaceuticals Partners,Healthcare,"$50,025,393",528.552.1396,1638866079
+CL-1356,Pharmaceuticals Holdings Corp,Retail,"$98,775,836.00",+1-315-957-1893,11-Apr-2016
+CL-1357,Real Estate Solutions Inc,Real Estate,"29,052,785",416.408.9952,1500194079
+CL-1358,Technology Group LLC,Automotive,"€39,119,652",832-477-1869,03-Aug-2023
+CL-1359,Technology Systems,Automotive,"32,026,926",926-301-6168,27/07/21
+CL-1360,Transportation Systems,Telecommunications,"6,335,477",512-541-9027,24-Jan-2023
+CL-1361,Telecommunications Holdings Corp,Retail,84992429,+1-230-768-5590,2022-12-13
+CL-1362,Aerospace Systems,Pharmaceuticals,"57,013,532",356.636.6118,22/02/23
+CL-1363,Insurance Group LLC,Pharmaceuticals,"€42,473,062",+1-736-338-8046,2018-02-12
+CL-1364,Healthcare Group LLC,Banking,"$20,531,743.00",983-526-7783,07/09/17
+CL-1365,Automotive International,Finance,"36,817,693",+1-827-436-4804,1547800479
+CL-1366,Aerospace Partners,Construction,25692904,+1-703-685-3253,2016-04-13
+CL-1367,Banking Systems,Retail,"$28,455,861",649.831.9027,2025-02-05
+CL-1368,Manufacturing Partners,Banking,"77,763,742",(737) 856-1630,07/03/2019
+CL-1369,Automotive International,Banking,"€70,273,350",250-394-5770,04/04/17
+CL-1370,Transportation Solutions Inc,Aerospace,"€20,091,078",(662) 292-9202,1598085279
+CL-1371,Automotive Group LLC,Real Estate,"$80,230,801",665.292.5097,2017-11-06
+CL-1372,Manufacturing Solutions Inc,Pharmaceuticals,"€95,929,396",723-826-3619,13-Jul-2021
+CL-1373,Construction Group LLC,Finance,96569396,515.516.8311,06/04/25
+CL-1374,Technology Solutions Inc,Insurance,67790446,+1-756-205-9084,1459413279
+CL-1375,Aerospace Solutions Inc,Aerospace,"74,462,947",(843) 770-4401,2022-09-20
+CL-1376,Aerospace International,Pharmaceuticals,"$45,440,977.00",+1-311-626-3920,08/11/2024
+CL-1377,Insurance Holdings Corp,Healthcare,"$50,468,550.00",976.637.2063,03-Aug-2021
+CL-1378,Retail Systems,Telecommunications,"$83,148,463.00",(785) 947-9666,09/03/2025
+CL-1379,Aerospace International,Telecommunications,"18,409,802",708-732-9154,13/12/18
+CL-1380,Real Estate Systems,Automotive,"$99,981,329",(830) 624-7783,30/04/16
+CL-1381,Healthcare Holdings Corp,Insurance,"""69,006,730.00""",985.206.2865,03/09/19
+CL-1382,Pharmaceuticals Partners,Transportation,"$5,772,547",693.359.8546,07/08/2018
+CL-1383,Automotive Group LLC,Telecommunications,"""93,005,353.00""",(267) 352-5595,13/02/2022
+CL-1384,Aerospace Solutions Inc,Finance,"""95,659,224.00""",926-232-5448,1458549279
+CL-1385,Technology Group LLC,Telecommunications,"$51,226,379.00",996-406-2517,13/01/17
+CL-1386,Construction International,Banking,"$44,934,556.00",+1-728-892-3174,26/03/2024
+CL-1387,Transportation Solutions Inc,Technology,12687128,247.305.9529,06-Feb-2022
+CL-1388,Technology International,Technology,"$60,205,536.00",479.352.3580,25/04/18
+CL-1389,Manufacturing Holdings Corp,Telecommunications,"""95,536,752.00""",(787) 450-3806,2016-10-27
+CL-1390,Transportation Systems,Real Estate,"$15,217,270.00",+1-288-636-7421,15-Jul-2021
+CL-1391,Insurance Systems,Banking,11542212,781-334-2522,1494664479
+CL-1392,Construction International,Finance,"$49,781,345",916.881.6412,1623400479
+CL-1393,Real Estate Group LLC,Real Estate,"47,790,372",330-720-2686,23-Jan-2019
+CL-1394,Aerospace Partners,Energy,"84,332,410",(362) 693-7288,08/02/2023
+CL-1395,Retail Group LLC,Banking,96550784,317.806.8584,27-May-2019
+CL-1396,Healthcare Systems,Aerospace,51856575,(860) 876-2007,02/03/22
+CL-1397,Energy International,Technology,"$61,016,768",897.524.5910,24/08/2023
+CL-1398,Energy Group LLC,Telecommunications,"9,376,603",(254) 200-6885,12/09/2021
+CL-1399,Energy Partners,Banking,"$59,410,219",+1-878-377-8780,1569227679
+CL-1400,Pharmaceuticals Group LLC,Construction,"€2,557,295",216-347-8974,1736757279
+CL-1401,Finance Partners,Aerospace,57925051,+1-593-563-4698,25/08/19
+CL-1402,Transportation International,Energy,"$50,253,883.00",(781) 694-7038,18/06/2025
+CL-1403,Healthcare International,Telecommunications,12871068,845.959.2279,1675326879
+CL-1404,Real Estate International,Transportation,"""57,507,825.00""",496.371.1578,1637224479
+CL-1405,Automotive Systems,Aerospace,"$99,969,478.00",+1-493-696-2351,02/11/18
+CL-1406,Construction Holdings Corp,Technology,"$15,971,907",805-956-3476,1548405279
+CL-1407,Automotive Holdings Corp,Construction,"$20,470,999",707-970-7765,28/02/19
+CL-1408,Pharmaceuticals Holdings Corp,Automotive,8049544,608-687-5937,1702802079
+CL-1409,Finance International,Technology,2592230,(591) 894-6172,08/08/2022
+CL-1410,Technology Solutions Inc,Technology,88824468,+1-672-991-4961,16/04/2019
+CL-1411,Healthcare Solutions Inc,Construction,"$14,112,905.00",+1-901-656-6759,2019-12-13
+CL-1412,Automotive International,Healthcare,"$81,448,089.00",+1-925-322-2415,07/09/18
+CL-1413,Pharmaceuticals Solutions Inc,Real Estate,38095573,908.883.6298,2017-03-18
+CL-1414,Automotive Holdings Corp,Manufacturing,"$24,881,291.00",+1-703-405-7432,24/11/2020
+CL-1415,Pharmaceuticals Solutions Inc,Aerospace,"$97,019,405.00",235.274.2153,08/12/22
+CL-1416,Energy Holdings Corp,Pharmaceuticals,94959818,788-203-9444,21/02/2022
+CL-1417,Banking Partners,Energy,"""77,134,185.00""",541-898-5961,02/11/2019
+CL-1418,Real Estate Holdings Corp,Construction,"$24,705,307.00",593.876.4129,1565858079
+CL-1419,Retail Group LLC,Banking,"€26,916,466",807-444-9015,22/07/2025
+CL-1420,Manufacturing Solutions Inc,Automotive,97772591,321-416-9570,2025-05-11
+CL-1421,Pharmaceuticals Solutions Inc,Real Estate,"$83,996,496",(918) 864-3138,2025-04-29
+CL-1422,Construction International,Finance,15271532,(809) 830-4613,23-Jul-2024
+CL-1423,Finance Holdings Corp,Telecommunications,"$7,118,522",543.264.2978,10-Mar-2019
+CL-1424,Retail International,Real Estate,"€18,900,736",(827) 585-3584,19/09/24
+CL-1425,Technology Partners,Transportation,"$93,926,762",346-855-5439,01/06/2024
+CL-1426,Healthcare Systems,Aerospace,"$47,688,115.00",(771) 441-4144,1613896479
+CL-1427,Retail Solutions Inc,Automotive,92971859,(709) 380-3617,17/05/16
+CL-1428,Aerospace Partners,Manufacturing,"$15,015,162.00",(750) 380-3589,15/07/17
+CL-1429,Manufacturing Partners,Aerospace,"$91,845,610",+1-997-312-6343,1646814879
+CL-1430,Aerospace Partners,Real Estate,"$59,500,818",824-665-3917,19-Mar-2024
+CL-1431,Finance Solutions Inc,Manufacturing,"$9,006,318",313-676-8513,10-Sep-2022
+CL-1432,Insurance Systems,Insurance,"23,808,354",435-288-7745,11-May-2019
+CL-1433,Construction Group LLC,Banking,"44,928,918",(427) 805-3440,20/12/2020
+CL-1434,Energy Partners,Telecommunications,"$61,725,652",285-771-1203,14/04/20
+CL-1435,Pharmaceuticals Holdings Corp,Real Estate,"95,395,930",965-797-1399,08/09/20
+CL-1436,Pharmaceuticals Solutions Inc,Banking,"""52,657,620.00""",743-233-5859,2018-02-03
+CL-1437,Transportation Solutions Inc,Banking,"$91,550,388.00",313-592-6989,04/10/21
+CL-1438,Banking Group LLC,Telecommunications,"45,953,500",+1-316-864-8839,01-Mar-2023
+CL-1439,Energy Holdings Corp,Pharmaceuticals,"""9,505,267.00""",(663) 697-9215,1630139679
+CL-1440,Pharmaceuticals Systems,Insurance,26280389,+1-289-282-7400,05-Dec-2015
+CL-1441,Finance Group LLC,Real Estate,"""85,191,586.00""",+1-626-898-9870,2025-08-02
+CL-1442,Automotive Group LLC,Healthcare,87526415,792-551-6346,1643272479
+CL-1443,Transportation Holdings Corp,Finance,35897610,+1-580-495-1775,19/04/2023
+CL-1444,Finance Group LLC,Technology,"$22,643,241.00",242-524-3072,04/03/2023
+CL-1445,Finance Holdings Corp,Manufacturing,"73,459,667",508-324-1408,07-Jan-2024
+CL-1446,Telecommunications International,Banking,"""87,871,612.00""",685-496-3409,2017-12-05
+CL-1447,Technology Solutions Inc,Healthcare,"$83,882,398",656.565.2515,29-May-2016
+CL-1448,Telecommunications Partners,Healthcare,"$69,690,958",(702) 525-9381,1622536479
+CL-1449,Automotive Holdings Corp,Manufacturing,48158074,774-289-4533,21/05/22
+CL-1450,Construction International,Finance,"$12,553,190",510.686.9606,2024-03-24
+CL-1451,Finance International,Energy,"$96,327,739",404.390.7254,21/06/2019
+CL-1452,Banking Partners,Telecommunications,"$4,602,405.00",357-468-5917,19/12/16
+CL-1453,Healthcare Holdings Corp,Automotive,"€9,955,654",570-795-8872,14-Feb-2019
+CL-1454,Construction Holdings Corp,Automotive,"$79,068,345",527.672.3219,1741422879
+CL-1455,Technology International,Technology,"€69,969,993",+1-387-983-2548,01-Sep-2023
+CL-1456,Aerospace Holdings Corp,Telecommunications,"2,731,095",488-581-8944,21/04/24
+CL-1457,Retail International,Construction,"93,563,635",744-929-2867,2016-07-07
+CL-1458,Banking Holdings Corp,Technology,"60,315,901",981.550.3821,20/02/19
+CL-1459,Finance Group LLC,Technology,"€11,550,179",(981) 314-2273,27/01/21
+CL-1460,Pharmaceuticals International,Insurance,"$8,954,445.00",459.244.2085,30/07/2020
+CL-1461,Retail Group LLC,Transportation,"$4,927,092",964.484.6698,2024-10-27
+CL-1462,Retail Systems,Telecommunications,"38,830,178",+1-204-942-2616,30/11/2023
+CL-1463,Healthcare Group LLC,Pharmaceuticals,"$51,951,070",(726) 433-7677,2021-01-30
+CL-1464,Insurance Holdings Corp,Real Estate,"$75,777,007.00",(284) 535-9088,1506587679
+CL-1465,Technology Partners,Energy,10342782,(895) 576-3937,1464510879
+CL-1466,Finance Partners,Healthcare,"$94,286,302.00",959.372.2060,2019-03-21
+CL-1467,Real Estate Holdings Corp,Banking,"€80,678,350",609-564-8795,1665477279
+CL-1468,Real Estate Partners,Technology,"$85,338,531.00",(301) 955-1865,1714466079
+CL-1469,Technology International,Finance,"$13,929,680.00",876-969-9518,1493109279
+CL-1470,Manufacturing International,Telecommunications,"$3,371,679.00",640-321-7285,2017-04-09
+CL-1471,Pharmaceuticals Holdings Corp,Telecommunications,"$66,965,276",519-932-7374,1609662879
+CL-1472,Automotive Partners,Telecommunications,67396319,831.892.6779,19/03/19
+CL-1473,Banking International,Insurance,84906615,299.638.6654,05/01/22
+CL-1474,Healthcare Systems,Aerospace,"""41,924,657.00""",373.220.9821,22-Jul-2024
+CL-1475,Automotive Holdings Corp,Aerospace,"""77,551,556.00""",(786) 300-9001,1624005279
+CL-1476,Aerospace Holdings Corp,Finance,59517739,+1-850-277-9779,30/07/2023
+CL-1477,Banking Solutions Inc,Aerospace,"""13,714,930.00""",479-268-9700,15-Mar-2019
+CL-1478,Pharmaceuticals International,Energy,27853878,457-839-9443,2021-03-11
+CL-1479,Real Estate Group LLC,Aerospace,"36,961,754",(829) 987-8106,08/09/18
+CL-1480,Pharmaceuticals Holdings Corp,Banking,"$56,064,200.00",849.408.7757,07/04/2022
+CL-1481,Healthcare Group LLC,Retail,"""4,718,391.00""",675-697-8145,01-Feb-2023
+CL-1482,Insurance Holdings Corp,Technology,"$24,620,336.00",(939) 697-1326,1534062879
+CL-1483,Construction Systems,Energy,"32,680,907",952.712.2976,01-Aug-2024
+CL-1484,Energy Systems,Banking,"$57,756,516",309.379.4507,1685003679
+CL-1485,Healthcare Holdings Corp,Banking,"€57,878,965",452.484.3374,2020-07-06
+CL-1486,Banking Systems,Construction,"€93,701,829",445.459.7302,29/12/2016
+CL-1487,Automotive Partners,Energy,"$41,384,524",504-415-3625,29-Oct-2024
+CL-1488,Banking Partners,Real Estate,"$97,285,921.00",(364) 915-5275,1612600479
+CL-1489,Pharmaceuticals Group LLC,Pharmaceuticals,"$87,046,825.00",610.404.6006,24/04/24
+CL-1490,Aerospace Systems,Construction,43869025,+1-952-336-5270,10/10/20
+CL-1491,Finance Partners,Manufacturing,"$77,556,525.00",(223) 771-4747,2023-04-28
+CL-1492,Aerospace Holdings Corp,Energy,"$12,953,600",780-320-1231,17/09/21
+CL-1493,Construction Holdings Corp,Construction,"$67,326,127",641.411.4531,22/07/21
+CL-1494,Technology Holdings Corp,Automotive,"$83,903,638",(578) 796-8506,1602491679
+CL-1495,Energy Systems,Banking,"$35,390,017.00",770.260.1853,2025-01-07
+CL-1496,Energy Holdings Corp,Aerospace,"$91,095,263",772.242.3938,1630830879
+CL-1497,Banking International,Manufacturing,"$20,031,501.00",520-245-3095,02-Dec-2022
+CL-1498,Insurance Holdings Corp,Construction,"$43,011,533",+1-523-954-9049,14/12/20
+CL-1499,Finance Solutions Inc,Retail,"€35,926,669",678-646-2900,1704270879
+CL-1500,Banking Group LLC,Construction,"$47,923,095",490.384.3757,15/10/2024
+CL-1501,Transportation Solutions Inc,Energy,"$67,855,296.00",(536) 226-5657,01/04/18
+CL-1502,Construction Systems,Real Estate,"""61,942,299.00""",808.873.1095,17/10/2018
+CL-1503,Automotive Systems,Construction,"$44,375,256.00",961-272-9964,20/11/16
+CL-1504,Construction Group LLC,Automotive,53143976,(491) 862-3525,05/02/2017
+CL-1505,Healthcare Holdings Corp,Pharmaceuticals,27826266,597-687-5398,07/05/2020
+CL-1506,Energy Solutions Inc,Pharmaceuticals,69899524,892-429-3540,03-Jan-2022
+CL-1507,Transportation Partners,Healthcare,"€20,945,631",507-454-9570,2024-05-28
+CL-1508,Energy Partners,Telecommunications,"€63,365,138",782.459.6823,2018-06-06
+CL-1509,Finance Partners,Insurance,"€12,179,070",504-521-8454,04/03/21
+CL-1510,Aerospace Holdings Corp,Banking,"$59,223,505.00",(205) 604-2911,1573029279
+CL-1511,Aerospace International,Technology,"€93,699,123",(891) 604-5958,2018-04-14
+CL-1512,Automotive Group LLC,Construction,"€88,056,735",+1-447-646-9824,1710750879
+CL-1513,Finance Group LLC,Healthcare,"$66,101,884.00",+1-660-799-4975,20-Jul-2020
+CL-1514,Construction Systems,Pharmaceuticals,56792417,(954) 792-5764,28/04/16
+CL-1515,Energy International,Automotive,"""75,256,721.00""",(863) 627-8755,1739608479
+CL-1516,Banking Group LLC,Technology,"$47,150,415",719-424-6556,04-Dec-2020
+CL-1517,Retail Holdings Corp,Aerospace,"$90,530,801",377-404-3561,04/06/20
+CL-1518,Automotive Holdings Corp,Automotive,"$48,921,617",(378) 715-1523,2018-04-01
+CL-1519,Technology Holdings Corp,Real Estate,"7,264,794",(473) 354-9444,2017-03-15
+CL-1520,Insurance Solutions Inc,Aerospace,"$6,633,042.00",+1-371-845-2934,25/02/2020
+CL-1521,Pharmaceuticals Holdings Corp,Finance,"$19,491,507",+1-649-625-1107,2024-06-17
+CL-1522,Insurance Partners,Banking,"$85,482,060",355-971-9677,1526805279
+CL-1523,Pharmaceuticals Holdings Corp,Insurance,"$60,401,906.00",(934) 729-2140,1710578079
+CL-1524,Automotive Systems,Insurance,"€78,115,770",930.876.9516,11-Mar-2025
+CL-1525,Telecommunications International,Transportation,94992012,859-410-9919,23-Apr-2021
+CL-1526,Manufacturing Partners,Telecommunications,"""70,856,260.00""",418.295.9383,2019-10-10
+CL-1527,Retail Holdings Corp,Technology,"€68,816,807",261.581.5255,07-Aug-2024
+CL-1528,Manufacturing Group LLC,Real Estate,"€76,913,174",881.746.4831,28/10/2017
+CL-1529,Telecommunications International,Manufacturing,"$49,488,507.00",350-928-7974,29/09/20
+CL-1530,Healthcare Holdings Corp,Real Estate,"55,056,687",731.997.7468,1553934879
+CL-1531,Telecommunications Group LLC,Finance,"$96,449,013",(921) 725-9669,2020-09-15
+CL-1532,Transportation Solutions Inc,Manufacturing,"$55,844,029.00",(578) 785-5744,08-Aug-2024
+CL-1533,Real Estate Solutions Inc,Technology,"20,077,681",631.249.5999,2017-01-18
+CL-1534,Construction Solutions Inc,Healthcare,"""65,582,407.00""",779-663-6534,31/05/2019
+CL-1535,Real Estate Group LLC,Pharmaceuticals,"12,987,653",880-838-7711,1479026079
+CL-1536,Finance Systems,Construction,"€77,771,841",(516) 774-3028,10/10/2018
+CL-1537,Real Estate International,Insurance,"17,144,134",+1-384-219-5504,16/06/2018
+CL-1538,Aerospace Solutions Inc,Energy,4122340,384.624.1394,2022-01-10
+CL-1539,Finance Group LLC,Technology,"""13,029,742.00""",(617) 894-3772,2024-02-10
+CL-1540,Manufacturing Group LLC,Healthcare,44515775,+1-323-253-4318,12/12/2022
+CL-1541,Technology Solutions Inc,Healthcare,63387558,267-695-1473,21/08/2019
+CL-1542,Insurance International,Retail,41884443,+1-656-285-9199,20/06/19
+CL-1543,Telecommunications Partners,Transportation,1134359,(835) 496-3742,1474533279
+CL-1544,Construction International,Aerospace,"€7,104,857",746.776.2145,11/01/2024
+CL-1545,Aerospace International,Retail,"€92,550,045",467.970.8417,30/12/21
+CL-1546,Automotive Systems,Manufacturing,"87,764,149",+1-687-204-1156,25/10/2025
+CL-1547,Automotive Systems,Telecommunications,"""91,227,319.00""",585-815-6864,1718440479
+CL-1548,Automotive Group LLC,Real Estate,"€38,733,231",566.396.2474,17-Mar-2018
+CL-1549,Transportation Systems,Real Estate,"$29,063,091",853.605.2817,04/10/2025
+CL-1550,Pharmaceuticals International,Pharmaceuticals,"24,559,082",+1-331-963-2065,08/02/25
+CL-1551,Technology Systems,Aerospace,61924933,856.889.1849,25/10/2025
+CL-1552,Telecommunications Solutions Inc,Manufacturing,7303488,(745) 659-6181,21/09/2022
+CL-1553,Energy Solutions Inc,Banking,"""27,424,359.00""",(518) 264-2584,30-Dec-2023
+CL-1554,Retail Holdings Corp,Real Estate,"$45,773,484",(274) 994-8184,2020-01-05
+CL-1555,Transportation Systems,Manufacturing,18117564,(256) 508-8075,22-Feb-2025
+CL-1556,Aerospace Partners,Healthcare,"€81,473,708",838-210-8428,2017-01-03
+CL-1557,Aerospace Group LLC,Manufacturing,"14,782,772",+1-930-269-4172,1757752479
+CL-1558,Finance Group LLC,Real Estate,"$6,915,081",519.798.8140,28/02/25
+CL-1559,Manufacturing Holdings Corp,Aerospace,"2,084,726",(873) 894-3369,13-Jan-2020
+CL-1560,Transportation Group LLC,Pharmaceuticals,"€46,842,323",687.911.8657,1695112479
+CL-1561,Real Estate Solutions Inc,Healthcare,"€30,448,158",428-909-4772,18-Oct-2025
+CL-1562,Finance Solutions Inc,Energy,"""2,327,694.00""",+1-230-768-2887,2025-01-04
+CL-1563,Technology Group LLC,Retail,"$36,164,890",+1-547-767-5029,2017-10-11
+CL-1564,Pharmaceuticals Solutions Inc,Energy,29217583,+1-445-578-7100,2022-06-02
+CL-1565,Retail Group LLC,Insurance,"""51,760,544.00""",+1-525-813-8037,19/01/18
+CL-1566,Pharmaceuticals Holdings Corp,Automotive,69218774,414-944-2333,16/04/2019
+CL-1567,Real Estate International,Manufacturing,"€25,024,774",582-738-8918,25/03/22
+CL-1568,Construction Group LLC,Real Estate,30339153,586.785.3575,2022-05-29
+CL-1569,Manufacturing Group LLC,Telecommunications,"6,522,109",836-544-7981,1597480479
+CL-1570,Automotive Group LLC,Energy,"€32,378,816",277.567.2350,11-Nov-2022
+CL-1571,Healthcare Holdings Corp,Healthcare,"""74,286,377.00""",401.891.6394,05/08/2023
+CL-1572,Technology Solutions Inc,Transportation,"""38,828,631.00""",613-615-1194,13/08/16
+CL-1573,Retail International,Real Estate,75170763,(939) 672-6581,05/05/17
+CL-1574,Telecommunications Solutions Inc,Construction,"$19,649,583",512-955-1158,1557736479
+CL-1575,Insurance Systems,Insurance,"41,216,625",+1-223-781-1527,08/03/22
+CL-1576,Energy Group LLC,Telecommunications,"15,581,193",(662) 854-5991,25/02/2022
+CL-1577,Retail Solutions Inc,Finance,"$39,093,356",(498) 875-9591,13/07/23
+CL-1578,Finance Solutions Inc,Energy,73001505,+1-960-270-7373,1614069279
+CL-1579,Technology International,Aerospace,"€68,441,055",(669) 482-4304,20/10/2017
+CL-1580,Transportation International,Manufacturing,"62,767,610",240.954.2492,1598344479
+CL-1581,Retail Group LLC,Energy,99414337,(593) 874-4005,29/12/20
+CL-1582,Pharmaceuticals Solutions Inc,Technology,"67,234,781",(324) 577-2253,1616574879
+CL-1583,Telecommunications Solutions Inc,Retail,"€4,586,013",911-891-8567,1736238879
+CL-1584,Healthcare Systems,Technology,"€44,904,009",(675) 696-8558,28/04/18
+CL-1585,Finance Group LLC,Construction,"$82,468,625",501-327-9759,17/09/24
+CL-1586,Retail Systems,Finance,"$91,602,889",(652) 913-1782,2019-11-14
+CL-1587,Insurance Partners,Automotive,"$34,514,137",404-293-1262,2021-08-21
+CL-1588,Construction Systems,Insurance,"$98,175,178.00",625.724.2764,19/12/2023
+CL-1589,Retail Group LLC,Healthcare,"$48,858,864",(215) 611-6181,2022-03-19
+CL-1590,Automotive Solutions Inc,Manufacturing,"56,176,483",+1-711-304-9784,16/06/22
+CL-1591,Insurance Systems,Pharmaceuticals,"$90,438,746.00",543-218-8354,07/06/20
+CL-1592,Transportation Solutions Inc,Insurance,32728577,(975) 449-2300,25/07/17
+CL-1593,Pharmaceuticals Solutions Inc,Retail,98349248,956.536.3199,18-Feb-2019
+CL-1594,Banking Holdings Corp,Construction,"33,514,108",+1-255-880-5068,13/07/23
+CL-1595,Construction Partners,Healthcare,"€26,832,275",(344) 409-3057,03/04/25
+CL-1596,Banking Partners,Energy,"$23,033,022",+1-450-634-3890,30-Sep-2017
+CL-1597,Energy Partners,Manufacturing,64178094,+1-717-824-8101,2020-11-21
+CL-1598,Finance International,Telecommunications,35533110,513-664-5640,28-Jul-2021
+CL-1599,Finance Group LLC,Retail,"2,722,586",947-942-7131,1457166879
+CL-1600,Aerospace Solutions Inc,Pharmaceuticals,6211257,779-366-4182,11-Jun-2024
+CL-1601,Energy Systems,Transportation,"$33,528,051.00",+1-570-846-1462,25-Jun-2020
+CL-1602,Pharmaceuticals Group LLC,Aerospace,"$16,667,321.00",859-928-7297,1489307679
+CL-1603,Banking Holdings Corp,Technology,72565068,(800) 515-7743,15-Jun-2018
+CL-1604,Technology Solutions Inc,Banking,"$66,997,979.00",271-992-7845,27/10/25
+CL-1605,Finance Group LLC,Banking,"$25,425,523.00",+1-661-780-4482,15-Mar-2020
+CL-1606,Transportation International,Pharmaceuticals,"$86,420,677.00",(500) 287-7188,23/12/2023
+CL-1607,Pharmaceuticals Solutions Inc,Real Estate,"$9,194,860.00",(881) 796-1685,09/11/2022
+CL-1608,Real Estate Partners,Transportation,"""82,117,376.00""",579.898.6620,08/01/2021
+CL-1609,Manufacturing Solutions Inc,Construction,"€62,326,664",(611) 942-3275,29/01/16
+CL-1610,Pharmaceuticals Systems,Aerospace,"€70,110,587",(392) 203-6278,1615883679
+CL-1611,Energy Systems,Real Estate,11921193,687-874-2645,07/12/2021
+CL-1612,Finance Partners,Automotive,"€41,446,284",761-678-3753,03/07/16
+CL-1613,Pharmaceuticals Systems,Insurance,"€15,155,900",229-364-6349,1608194079
+CL-1614,Telecommunications Systems,Transportation,"€13,138,886",540.429.2059,01/12/16
+CL-1615,Technology Solutions Inc,Healthcare,"€12,964,091",806.392.2902,09-Jan-2022
+CL-1616,Retail Partners,Telecommunications,"""43,901,755.00""",+1-895-329-9515,10-Mar-2017
+CL-1617,Retail Partners,Construction,"""20,787,096.00""",349.964.1562,04/02/2019
+CL-1618,Technology Systems,Real Estate,"""8,893,691.00""",+1-356-933-4450,1475397279
+CL-1619,Pharmaceuticals Group LLC,Construction,"""74,543,652.00""",632.894.8756,10/06/2021
+CL-1620,Transportation Group LLC,Banking,"$53,851,244",531.970.1886,1727685279
+CL-1621,Finance Group LLC,Transportation,"€27,260,378",+1-209-570-2670,2017-08-05
+CL-1622,Automotive Solutions Inc,Finance,"88,254,650",+1-644-352-7619,1642322079
+CL-1623,Pharmaceuticals Systems,Finance,"€93,851,132",874-291-8596,2016-12-02
+CL-1624,Healthcare Partners,Healthcare,"31,190,270",786.786.8856,1753950879
+CL-1625,Aerospace Group LLC,Technology,"€44,651,494",(750) 389-7640,2025-02-15
+CL-1626,Banking Systems,Telecommunications,"$28,845,315.00",(385) 813-3948,2018-06-15
+CL-1627,Pharmaceuticals Group LLC,Retail,"$76,496,963.00",286.327.9292,2022-12-17
+CL-1628,Telecommunications Holdings Corp,Automotive,"60,716,190",702.911.6127,2024-04-09
+CL-1629,Retail Group LLC,Automotive,"29,885,391",765.421.6882,02/05/2024
+CL-1630,Pharmaceuticals Group LLC,Energy,"""62,212,377.00""",+1-892-635-3346,26-Nov-2024
+CL-1631,Finance Partners,Aerospace,43461165,(588) 226-5055,02/01/2017
+CL-1632,Pharmaceuticals Solutions Inc,Manufacturing,"""45,763,940.00""",(349) 431-5483,2017-02-11
+CL-1633,Banking Holdings Corp,Telecommunications,"66,715,496",557.917.5620,07-Oct-2024
+CL-1634,Insurance Systems,Manufacturing,75044121,688.806.3090,04/03/19
+CL-1635,Banking Holdings Corp,Aerospace,"""98,364,126.00""",924-996-5081,02-Sep-2018
+CL-1636,Technology Partners,Technology,"$97,430,982",512.850.2424,2015-12-15
+CL-1637,Finance International,Healthcare,"""12,352,822.00""",767-704-1175,1498984479
+CL-1638,Healthcare Partners,Banking,"€83,716,588",207.931.7962,16/09/2023
+CL-1639,Transportation International,Pharmaceuticals,"""24,463,164.00""",(336) 726-6788,30-Dec-2024
+CL-1640,Pharmaceuticals Group LLC,Transportation,"""16,819,626.00""",+1-694-500-5337,02-Aug-2022
+CL-1641,Real Estate International,Transportation,"$8,717,080.00",830.671.6382,06/11/21
+CL-1642,Healthcare Partners,Automotive,"27,513,965",(726) 357-7729,20/11/24
+CL-1643,Technology Holdings Corp,Manufacturing,"""25,452,059.00""",+1-311-649-8198,28-Oct-2019
+CL-1644,Technology Solutions Inc,Retail,"€53,955,068",+1-539-232-3626,1613118879
+CL-1645,Insurance Systems,Real Estate,44605688,+1-713-943-7370,01/06/17
+CL-1646,Insurance Systems,Automotive,"""7,984,668.00""",639-811-1131,2018-03-26
+CL-1647,Finance Systems,Aerospace,"""26,079,956.00""",+1-985-317-5317,2023-01-16
+CL-1648,Retail International,Finance,"$31,787,425",+1-610-239-5486,2024-06-27
+CL-1649,Telecommunications Holdings Corp,Energy,30766168,690-262-9353,26-Jan-2022
+CL-1650,Banking Partners,Manufacturing,"$43,928,316",241.200.1854,22/04/2025
+CL-1651,Technology Partners,Finance,"$45,866,590.00",+1-299-885-1223,05/06/22
+CL-1652,Energy Solutions Inc,Aerospace,"€18,513,454",+1-816-323-1672,2018-10-12
+CL-1653,Technology Systems,Manufacturing,"€28,111,862",+1-357-244-3094,09-Nov-2019
+CL-1654,Energy Solutions Inc,Transportation,"57,237,786",+1-222-370-5491,1576744479
+CL-1655,Telecommunications Solutions Inc,Construction,"59,753,131",593-775-7393,2017-06-03
+CL-1656,Aerospace Systems,Retail,"69,826,270",924.937.9602,24/09/2020
+CL-1657,Automotive International,Retail,"€40,170,544",351.484.3178,26/05/2025
+CL-1658,Manufacturing Systems,Pharmaceuticals,"$50,541,127.00",+1-922-762-5326,2022-03-14
+CL-1659,Banking Holdings Corp,Retail,"35,358,021",873-996-2743,30/08/25
+CL-1660,Aerospace Systems,Retail,"$21,889,845",947.943.8109,01/11/20
+CL-1661,Construction Group LLC,Construction,"€77,458,200",(384) 863-5621,03/05/2020
+CL-1662,Healthcare Partners,Finance,62072308,+1-302-941-9630,1533803679
+CL-1663,Construction Solutions Inc,Healthcare,"$18,740,771.00",(474) 346-1221,20/01/23
+CL-1664,Aerospace Partners,Insurance,42256515,358.449.1915,2022-02-13
+CL-1665,Healthcare International,Technology,"$20,036,775",224-432-7998,1761726879
+CL-1666,Healthcare Group LLC,Finance,"$38,824,471.00",830.541.2939,1635669279
+CL-1667,Finance Systems,Aerospace,"€21,162,191",508.839.5702,10-May-2018
+CL-1668,Transportation Group LLC,Construction,43984033,(657) 938-8838,07/03/24
+CL-1669,Finance Partners,Finance,43857838,692.910.7782,1587198879
+CL-1670,Telecommunications Partners,Telecommunications,"$72,969,231",+1-593-285-7911,2016-08-17
+CL-1671,Telecommunications Partners,Manufacturing,"""15,784,930.00""",569.997.3283,03/03/25
+CL-1672,Finance Solutions Inc,Banking,"$51,661,928.00",(912) 634-7089,14/08/2017
+CL-1673,Manufacturing Group LLC,Finance,"$33,889,491.00",+1-782-626-3452,1734856479
+CL-1674,Insurance Systems,Real Estate,"$39,489,493",+1-261-857-1526,1722760479
+CL-1675,Construction Holdings Corp,Banking,"€68,360,178",432.633.3569,29/05/22
+CL-1676,Retail Partners,Automotive,"$76,067,208.00",909.679.8821,20/01/19
+CL-1677,Energy Group LLC,Pharmaceuticals,"$15,549,320.00",(571) 817-6496,2024-09-01
+CL-1678,Insurance Holdings Corp,Automotive,"€75,046,763",(233) 446-5410,2023-07-30
+CL-1679,Technology Solutions Inc,Healthcare,"38,903,378",399.522.7400,1621240479
+CL-1680,Insurance Group LLC,Telecommunications,79809362,688.800.1612,2016-11-29
+CL-1681,Pharmaceuticals Systems,Insurance,"97,442,757",728.946.9573,13-Jan-2024
+CL-1682,Transportation Systems,Automotive,"33,092,885",821-276-3496,01/07/2023
+CL-1683,Real Estate Holdings Corp,Healthcare,"$40,675,858.00",486.790.6952,11-Jan-2024
+CL-1684,Transportation Partners,Insurance,17638464,240-572-5696,18-Jun-2019
+CL-1685,Manufacturing Solutions Inc,Manufacturing,"""68,906,443.00""",+1-898-243-1934,2020-10-16
+CL-1686,Aerospace Partners,Finance,30937437,885-295-6716,2021-06-26
+CL-1687,Healthcare Partners,Banking,"""27,772,544.00""",266-524-6610,03-May-2021
+CL-1688,Finance Partners,Telecommunications,"""86,928,388.00""",(781) 232-7230,2023-06-12
+CL-1689,Pharmaceuticals Partners,Insurance,"$34,832,435",285.345.2134,1537173279
+CL-1690,Transportation Holdings Corp,Pharmaceuticals,8213167,+1-550-971-5864,1729413279
+CL-1691,Energy Holdings Corp,Banking,"$53,229,213.00",(774) 811-4253,10-Aug-2016
+CL-1692,Real Estate Group LLC,Transportation,"€43,467,541",(616) 469-9531,2024-07-25
+CL-1693,Banking International,Energy,"$81,657,252",(556) 414-4131,09-Aug-2021
+CL-1694,Real Estate Systems,Banking,"""56,573,350.00""",560.755.7977,28-Mar-2021
+CL-1695,Finance International,Aerospace,"€52,212,562",905.896.8167,2022-08-23
+CL-1696,Transportation Partners,Aerospace,"67,626,341",(757) 302-8276,06/06/17
+CL-1697,Healthcare Group LLC,Energy,17702129,(622) 860-7484,27-Nov-2021
+CL-1698,Transportation Partners,Construction,"$1,558,017.00",215.226.3512,10/03/21
+CL-1699,Telecommunications Partners,Retail,83714079,+1-252-791-8030,12-Aug-2018
+CL-1700,Retail Solutions Inc,Energy,"€68,680,235",+1-790-601-5263,2024-07-06
+CL-1701,Insurance International,Pharmaceuticals,"€4,733,713",(756) 280-7265,28-Nov-2018
+CL-1702,Transportation Group LLC,Pharmaceuticals,"$27,015,276",943.998.7194,01/11/19
+CL-1703,Healthcare Solutions Inc,Construction,"$80,979,598.00",+1-345-489-5292,18/06/24
+CL-1704,Insurance Solutions Inc,Real Estate,"€10,875,199",278-415-7879,20/05/20
+CL-1705,Finance Systems,Transportation,"$85,720,028.00",320-551-6681,14/01/19
+CL-1706,Healthcare Group LLC,Transportation,"$4,966,837.00",+1-730-724-3496,30-Oct-2019
+CL-1707,Banking Systems,Healthcare,36915393,404.294.6710,09/10/2022
+CL-1708,Finance Group LLC,Technology,"53,724,203",+1-984-801-6105,1725698079
+CL-1709,Technology Holdings Corp,Banking,15436339,639.404.6782,2019-01-11
+CL-1710,Energy Holdings Corp,Aerospace,"""87,583,583.00""",+1-607-230-2878,22/11/19
+CL-1711,Manufacturing Holdings Corp,Pharmaceuticals,"$43,205,153.00",526.904.1178,20/06/2024
+CL-1712,Aerospace Group LLC,Technology,"30,187,446",484-933-2225,07-Sep-2024
+CL-1713,Insurance Partners,Automotive,7280294,+1-322-327-8418,05/10/2022
+CL-1714,Pharmaceuticals International,Automotive,"$62,977,968",(612) 237-9740,1661502879
+CL-1715,Technology Holdings Corp,Banking,"$47,415,774.00",769-993-6131,1620462879
+CL-1716,Manufacturing International,Construction,"$4,930,993.00",210.342.2722,30/04/23
+CL-1717,Transportation Holdings Corp,Banking,"$1,663,217.00",(465) 244-2815,13/02/2018
+CL-1718,Finance Group LLC,Banking,"$62,833,270",526-351-7771,29/06/2024
+CL-1719,Manufacturing Systems,Technology,"""31,310,459.00""",984.503.2356,2024-10-22
+CL-1720,Automotive Systems,Retail,63834081,392.699.2712,29-Aug-2016
+CL-1721,Telecommunications Solutions Inc,Construction,30364802,+1-663-835-9412,05-Oct-2021
+CL-1722,Technology International,Pharmaceuticals,"$20,768,893.00",(962) 312-4941,1598949279
+CL-1723,Technology Solutions Inc,Manufacturing,12283250,417-354-7503,12-Nov-2021
+CL-1724,Pharmaceuticals Partners,Automotive,"$27,029,062",612-380-5520,17/07/22
+CL-1725,Automotive Solutions Inc,Healthcare,"$36,725,839.00",+1-744-303-5513,1677659679
+CL-1726,Construction Systems,Banking,"$67,460,815",408.555.5718,14/07/2023
+CL-1727,Technology Systems,Banking,"€23,848,229",271.370.4069,1650616479
+CL-1728,Technology Solutions Inc,Finance,"$92,161,075.00",(808) 560-8763,2017-04-24
+CL-1729,Technology Group LLC,Pharmaceuticals,"$68,531,176",993.296.2638,18-Dec-2023
+CL-1730,Real Estate Holdings Corp,Pharmaceuticals,"""62,572,485.00""",508-927-6467,08/09/25
+CL-1731,Finance Holdings Corp,Pharmaceuticals,"5,147,955",958.912.8056,1675672479
+CL-1732,Pharmaceuticals Systems,Transportation,"61,299,910",379.471.6715,06-Jan-2016
+CL-1733,Telecommunications Systems,Aerospace,83190565,665.780.6685,1718613279
+CL-1734,Aerospace International,Technology,"""41,754,622.00""",266-501-1255,2020-05-18
+CL-1735,Energy Holdings Corp,Automotive,"$7,697,739",+1-558-490-9224,08/01/23
+CL-1736,Healthcare Holdings Corp,Transportation,"""5,313,313.00""",454-894-7328,13/07/2020
+CL-1737,Energy Systems,Aerospace,"€78,600,317",+1-986-404-5096,11-Apr-2024
+CL-1738,Transportation Systems,Aerospace,74260153,647-298-3270,1697186079
+CL-1739,Energy Partners,Real Estate,"$4,714,198.00",+1-985-631-2448,28/07/19
+CL-1740,Aerospace Holdings Corp,Transportation,53701842,886-206-8582,2024-06-05
+CL-1741,Construction Holdings Corp,Healthcare,"""65,621,527.00""",(262) 324-9369,04/02/2018
+CL-1742,Transportation Systems,Retail,"""41,385,068.00""",+1-936-206-8945,17/10/2018
+CL-1743,Retail Group LLC,Healthcare,"64,584,629",(654) 600-1911,25/07/25
+CL-1744,Aerospace Systems,Construction,"$89,336,648.00",+1-642-349-1354,02/12/2018
+CL-1745,Real Estate Holdings Corp,Real Estate,"90,595,102",704-576-5508,1726734879
+CL-1746,Technology Partners,Automotive,"$76,726,861.00",794-510-1558,1624264479
+CL-1747,Manufacturing International,Finance,"€29,290,431",(737) 599-9405,05/12/2021
+CL-1748,Construction Group LLC,Banking,89374850,269-860-8925,11/06/22
+CL-1749,Manufacturing International,Aerospace,"$55,193,609.00",+1-230-950-3607,1738226079
+CL-1750,Insurance Systems,Insurance,"$15,150,817",(945) 593-7882,2015-12-18
+CL-1751,Manufacturing International,Insurance,"$24,362,909.00",+1-915-660-7187,28-Mar-2022
+CL-1752,Technology Group LLC,Pharmaceuticals,"22,755,295",(396) 288-1397,21-Dec-2020
+CL-1753,Construction Solutions Inc,Telecommunications,"€25,871,129",945-857-9653,10-Mar-2018
+CL-1754,Finance Solutions Inc,Construction,58379655,+1-272-782-2280,1540802079
+CL-1755,Telecommunications Holdings Corp,Aerospace,"""31,067,619.00""",(457) 599-6863,17/08/2016
+CL-1756,Energy International,Technology,"$74,275,043.00",(796) 682-5309,06/01/18
+CL-1757,Retail International,Finance,"$90,031,467.00",(441) 705-2194,28/12/2015
+CL-1758,Banking Solutions Inc,Technology,"5,778,162",430-865-6738,2020-04-08
+CL-1759,Aerospace Partners,Telecommunications,"$75,154,752.00",+1-596-984-7180,2020-06-07
+CL-1760,Aerospace Holdings Corp,Transportation,26990676,(259) 443-4801,28/12/2021
+CL-1761,Automotive Systems,Insurance,"$8,634,795.00",329.649.3958,24-Dec-2024
+CL-1762,Real Estate Systems,Energy,"$89,126,056.00",456-756-4372,1734942879
+CL-1763,Telecommunications Holdings Corp,Insurance,"""71,711,829.00""",(914) 754-9248,03-Nov-2022
+CL-1764,Finance International,Transportation,"41,928,246",+1-415-325-7101,2017-07-09
+CL-1765,Automotive Holdings Corp,Construction,"""79,952,257.00""",286-261-5572,1626165279
+CL-1766,Energy Group LLC,Retail,"€72,469,858",512.232.9872,02/04/2025
+CL-1767,Banking International,Manufacturing,"€58,384,680",(953) 970-1935,1485160479
+CL-1768,Telecommunications Holdings Corp,Insurance,"€52,176,016",443.335.1248,06/08/2020
+CL-1769,Energy Solutions Inc,Aerospace,"""37,811,880.00""",(875) 456-1202,13/10/21
+CL-1770,Real Estate Solutions Inc,Automotive,5966560,853-769-4569,25/10/2021
+CL-1771,Real Estate Group LLC,Healthcare,38063466,+1-330-432-3858,2022-12-05
+CL-1772,Telecommunications Partners,Pharmaceuticals,"43,591,907",934.433.1996,15/05/2025
+CL-1773,Healthcare International,Healthcare,"$16,191,106.00",442.408.6337,09-Feb-2020
+CL-1774,Aerospace Holdings Corp,Manufacturing,"""55,779,294.00""",+1-681-501-1510,12/07/2018
+CL-1775,Retail Holdings Corp,Aerospace,"€97,068,750",+1-720-795-6636,1485765279
+CL-1776,Retail International,Transportation,"78,099,930",(951) 628-9830,09-Oct-2018
+CL-1777,Aerospace Holdings Corp,Construction,"""45,115,287.00""",(436) 666-6157,11-Feb-2023
+CL-1778,Telecommunications Solutions Inc,Telecommunications,"88,688,458",+1-435-659-7862,1590741279
+CL-1779,Technology Holdings Corp,Aerospace,"$43,123,474.00",+1-618-631-9274,1720341279
+CL-1780,Energy Holdings Corp,Healthcare,"€96,480,058",303-329-1558,27/07/20
+CL-1781,Energy Partners,Transportation,"€18,106,450",(770) 447-5806,2021-04-30
+CL-1782,Energy Systems,Transportation,59477341,(916) 337-4005,1659774879
+CL-1783,Telecommunications Systems,Finance,"$38,486,955.00",437.504.9082,03-Mar-2017
+CL-1784,Insurance Group LLC,Manufacturing,"€6,628,343",948.415.8053,16-Sep-2016
+CL-1785,Technology Holdings Corp,Healthcare,"$59,910,408",+1-495-465-2738,01/05/23
+CL-1786,Finance Solutions Inc,Insurance,"6,334,488",(399) 206-9001,1571042079
+CL-1787,Real Estate Holdings Corp,Construction,"$97,133,569.00",655.642.9081,01-Dec-2017
+CL-1788,Healthcare Holdings Corp,Banking,"""69,056,464.00""",(664) 845-9402,1643445279
+CL-1789,Retail International,Manufacturing,"$86,160,766.00",+1-451-340-7163,21/10/18
+CL-1790,Real Estate Holdings Corp,Banking,"$27,652,012.00",(728) 940-4509,20/09/18
+CL-1791,Technology International,Banking,"$85,694,927",+1-853-557-8933,1555490079
+CL-1792,Telecommunications Partners,Manufacturing,"$13,956,471.00",973-982-5706,2023-05-21
+CL-1793,Pharmaceuticals Solutions Inc,Manufacturing,"€94,545,539",331-992-8925,17-May-2021
+CL-1794,Transportation Partners,Retail,"""76,464,898.00""",467-891-6203,08-Mar-2017
+CL-1795,Banking Group LLC,Real Estate,"$86,398,202.00",+1-515-658-7714,2016-08-29
+CL-1796,Finance International,Manufacturing,"$3,673,605.00",588.292.6460,27/09/2017
+CL-1797,Retail Group LLC,Telecommunications,"€54,086,639",434.497.3644,2016-03-13
+CL-1798,Telecommunications Solutions Inc,Insurance,54410254,243.360.5638,18-Dec-2016
+CL-1799,Energy Group LLC,Pharmaceuticals,"$12,397,317.00",(716) 939-7805,2024-12-24
+CL-1800,Construction International,Retail,"44,449,866",961.223.5950,26/01/2021
+CL-1801,Energy Solutions Inc,Technology,"""55,536,785.00""",+1-694-491-9736,20-Jul-2019
+CL-1802,Retail International,Real Estate,"$54,331,228",(657) 578-8811,2017-03-11
+CL-1803,Retail Partners,Finance,"$34,550,279",+1-612-831-8758,1732437279
+CL-1804,Finance Solutions Inc,Construction,"93,475,692",+1-616-205-5393,02-Jul-2019
+CL-1805,Banking Partners,Real Estate,"€75,464,967",950-283-2721,2016-03-17
+CL-1806,Healthcare Group LLC,Banking,"$59,733,846.00",+1-239-634-9113,01/02/2016
+CL-1807,Technology Solutions Inc,Automotive,"€40,490,030",477.735.6281,07-Oct-2017
+CL-1808,Aerospace Systems,Insurance,"""70,709,974.00""",683.673.4450,22/01/2019
+CL-1809,Energy Group LLC,Manufacturing,"$64,148,560.00",+1-519-918-4074,01-Feb-2025
+CL-1810,Real Estate International,Aerospace,"€9,961,986",(772) 431-6651,28/11/2021
+CL-1811,Insurance Partners,Aerospace,"€76,311,217",+1-875-407-2269,09/10/19
+CL-1812,Finance International,Healthcare,87547634,538-789-5542,01/04/17
+CL-1813,Finance Group LLC,Finance,"$1,033,134.00",253-340-9383,19-Mar-2022
+CL-1814,Telecommunications Partners,Retail,52744941,563.519.9552,02-Dec-2017
+CL-1815,Real Estate Partners,Telecommunications,"92,988,480",+1-645-867-6704,1719563679
+CL-1816,Transportation Group LLC,Telecommunications,"€51,225,060",210.400.8243,31-Oct-2023
+CL-1817,Technology International,Transportation,"$82,439,883.00",862-481-8843,2022-10-11
+CL-1818,Banking Partners,Construction,85857827,(377) 684-9938,28/09/20
+CL-1819,Construction Solutions Inc,Energy,"€60,509,188",263.521.2597,09-Sep-2018
+CL-1820,Manufacturing International,Banking,90187054,(883) 885-2007,26-Apr-2021
+CL-1821,Automotive Holdings Corp,Real Estate,"27,666,834",619.377.1052,12-Feb-2018
+CL-1822,Banking Solutions Inc,Construction,"$63,143,529.00",+1-292-386-2415,2024-11-06
+CL-1823,Healthcare Systems,Real Estate,"€42,309,843",857.395.3174,13-Jun-2016
+CL-1824,Energy Group LLC,Manufacturing,"$37,614,518",381-502-5249,06/12/2015
+CL-1825,Pharmaceuticals International,Insurance,"$85,694,930",+1-237-799-7318,18-Feb-2018
+CL-1826,Banking International,Manufacturing,"37,097,873",+1-991-415-5230,27/10/2024
+CL-1827,Real Estate International,Finance,50966944,874.802.1554,08/07/19
+CL-1828,Manufacturing Systems,Manufacturing,"""26,113,682.00""",+1-366-678-9958,28/10/2021
+CL-1829,Energy Partners,Banking,"""34,900,011.00""",815-545-8906,1506155679
+CL-1830,Energy International,Aerospace,"$23,015,192",+1-507-811-9586,05-Feb-2020
+CL-1831,Insurance Group LLC,Technology,"$62,567,486",+1-671-200-3416,26/05/21
+CL-1832,Healthcare Systems,Energy,"21,688,043",994-583-1081,28/02/2018
+CL-1833,Real Estate Systems,Transportation,"$63,207,767",+1-981-298-7350,02-Dec-2017
+CL-1834,Energy International,Aerospace,"€47,555,725",+1-958-800-1440,12-May-2020
+CL-1835,Automotive International,Construction,"€54,442,916",+1-435-341-9191,2024-12-21
+CL-1836,Finance Partners,Pharmaceuticals,39247237,891.692.1570,08/05/2022
+CL-1837,Healthcare Holdings Corp,Insurance,89029193,+1-212-364-6226,2016-03-02
+CL-1838,Insurance Solutions Inc,Energy,"€58,040,011",849.318.8377,2022-12-09
+CL-1839,Insurance Partners,Telecommunications,"""21,184,631.00""",+1-924-804-5224,2025-10-05
+CL-1840,Healthcare Partners,Automotive,"50,271,881",902-578-5134,11/04/2025
+CL-1841,Manufacturing Partners,Technology,"""60,964,474.00""",851.236.2829,14/03/22
+CL-1842,Healthcare Group LLC,Telecommunications,85949087,+1-481-553-8504,2020-04-21
+CL-1843,Finance International,Automotive,"€52,259,494",280-545-5947,2020-02-03
+CL-1844,Retail International,Insurance,"41,695,005",752.449.1800,08-Dec-2018
+CL-1845,Pharmaceuticals Solutions Inc,Telecommunications,"€54,508,666",491-479-1082,22-Oct-2023
+CL-1846,Insurance Systems,Aerospace,"$14,038,943",+1-218-926-6318,11/05/2023
+CL-1847,Telecommunications Partners,Manufacturing,"""75,847,472.00""",548-527-6674,12/09/2025
+CL-1848,Energy Solutions Inc,Technology,11550656,+1-774-553-2361,04-Oct-2018
+CL-1849,Real Estate Solutions Inc,Pharmaceuticals,"$84,867,651",839-560-8070,13/04/19
+CL-1850,Energy International,Finance,"$14,016,411",+1-416-313-5740,27-May-2021
+CL-1851,Aerospace Holdings Corp,Transportation,"$49,744,480.00",880-903-6206,09-Oct-2018
+CL-1852,Construction Group LLC,Transportation,"39,709,441",+1-542-981-8602,1760949279
+CL-1853,Automotive International,Pharmaceuticals,"19,598,824",(715) 282-7697,01/01/2019
+CL-1854,Automotive Systems,Manufacturing,"88,793,969",723-397-3644,1624350879
+CL-1855,Technology Solutions Inc,Finance,28784045,+1-670-450-8268,13/05/2019
+CL-1856,Real Estate Systems,Retail,"$1,923,862.00",898-893-7657,11/06/2017
+CL-1857,Telecommunications Systems,Pharmaceuticals,"€59,857,308",(261) 499-7527,1591950879
+CL-1858,Construction Holdings Corp,Finance,"$16,003,358",+1-575-622-6567,2017-09-28
+CL-1859,Transportation Systems,Real Estate,"""33,846,895.00""",550.502.8285,08/05/2017
+CL-1860,Telecommunications Holdings Corp,Finance,"""30,665,008.00""",777.571.5771,1450600479
+CL-1861,Insurance Systems,Banking,"""20,666,405.00""",(593) 463-4734,10/01/2019
+CL-1862,Banking International,Manufacturing,"55,471,544",374.552.3553,28/06/20
+CL-1863,Real Estate Partners,Finance,"""90,757,409.00""",+1-430-516-4382,10-Feb-2025
+CL-1864,Transportation Systems,Aerospace,"€71,345,971",407-572-1538,12-Apr-2023
+CL-1865,Banking International,Construction,"8,512,810",735.453.5009,1604046879
+CL-1866,Technology International,Aerospace,"$13,262,023",950.265.3171,04/07/2017
+CL-1867,Healthcare International,Real Estate,"€43,796,441",(274) 401-8836,2016-12-24
+CL-1868,Aerospace Partners,Retail,"77,414,081",+1-640-314-8252,24-Sep-2025
+CL-1869,Real Estate Systems,Technology,45109233,726.490.5909,25/02/2020
+CL-1870,Real Estate Solutions Inc,Pharmaceuticals,"""66,441,939.00""",+1-721-681-9122,2025-10-07
+CL-1871,Pharmaceuticals International,Pharmaceuticals,"$26,983,948.00",981.437.4493,2017-02-08
+CL-1872,Aerospace Systems,Retail,"$44,455,060",+1-984-605-3814,01/02/2024
+CL-1873,Energy Systems,Insurance,31698761,510.579.3375,1669106079
+CL-1874,Energy Partners,Aerospace,55234848,562-861-3292,21/03/25
+CL-1875,Manufacturing Solutions Inc,Construction,58377856,+1-533-771-4267,2016-12-20
+CL-1876,Manufacturing Systems,Finance,97806412,247-999-7390,2019-03-11
+CL-1877,Telecommunications Holdings Corp,Technology,39149420,337.967.2212,05/08/24
+CL-1878,Retail International,Aerospace,"""59,822,422.00""",786.759.5271,02-Feb-2023
+CL-1879,Transportation Group LLC,Banking,"$44,119,744",+1-671-570-6456,02/08/2020
+CL-1880,Pharmaceuticals Partners,Healthcare,54191556,249.741.1987,19/10/2016
+CL-1881,Technology International,Real Estate,"€86,144,216",(277) 778-2509,01/02/2025
+CL-1882,Retail Solutions Inc,Pharmaceuticals,38160179,(956) 355-6413,13/08/2020
+CL-1883,Aerospace Holdings Corp,Energy,84710220,219.208.4690,20/07/2016
+CL-1884,Pharmaceuticals Systems,Real Estate,"€78,099,818",+1-790-356-4094,2021-11-11
+CL-1885,Automotive Group LLC,Construction,"""47,777,508.00""",+1-522-435-4421,23/01/25
+CL-1886,Finance Partners,Automotive,51346941,961-957-4417,21/07/25
+CL-1887,Construction Solutions Inc,Aerospace,"24,501,092",+1-941-728-2993,27/02/2020
+CL-1888,Retail Group LLC,Energy,69036333,461-720-2834,1634805279
+CL-1889,Technology Solutions Inc,Manufacturing,"$88,510,205",918-286-7384,20/06/22
+CL-1890,Automotive Group LLC,Aerospace,"€21,905,527",(681) 980-1638,07/04/2024
+CL-1891,Finance Group LLC,Energy,"€21,317,946",+1-385-573-2792,1499502879
+CL-1892,Manufacturing Solutions Inc,Aerospace,45504189,235-952-3364,09/07/25
+CL-1893,Transportation Group LLC,Manufacturing,"$57,355,725.00",687-675-7800,1738658079
+CL-1894,Manufacturing Systems,Finance,"€50,067,682",933-298-8828,16/12/18
+CL-1895,Finance Group LLC,Insurance,13722389,+1-489-829-2724,18-Oct-2017
+CL-1896,Telecommunications International,Telecommunications,18677427,(583) 877-3379,28/02/22
+CL-1897,Automotive Group LLC,Pharmaceuticals,"$54,252,708.00",785.692.8927,22/03/22
+CL-1898,Telecommunications Partners,Technology,"38,487,708",545.545.4052,2018-06-28
+CL-1899,Healthcare Holdings Corp,Technology,"87,207,066",329-296-4721,21-Jul-2025
+CL-1900,Telecommunications Solutions Inc,Energy,"25,509,818",(399) 345-4634,19/05/2021
+CL-1901,Insurance International,Automotive,"€73,404,720",+1-743-370-7135,04/04/23
+CL-1902,Construction Group LLC,Energy,"""7,564,881.00""",599-734-7901,2021-05-06
+CL-1903,Telecommunications Systems,Banking,"29,018,594",808-268-1970,12/08/17
+CL-1904,Energy Partners,Pharmaceuticals,"""26,953,856.00""",+1-272-431-5525,1674117279
+CL-1905,Manufacturing Solutions Inc,Insurance,"70,876,471",+1-305-990-8718,08/05/2022
+CL-1906,Healthcare Systems,Finance,37521017,461-315-8643,19/05/25
+CL-1907,Banking International,Healthcare,"€49,660,554",706-918-8085,18-Feb-2023
+CL-1908,Energy Systems,Manufacturing,"$48,870,268.00",+1-303-930-8955,27-Nov-2024
+CL-1909,Aerospace International,Telecommunications,"€82,420,209",(591) 243-2766,08-Jan-2020
+CL-1910,Construction Partners,Energy,47614414,(671) 787-9564,01/08/18
+CL-1911,Pharmaceuticals Holdings Corp,Automotive,"$40,228,733.00",946.667.5153,20-Mar-2021
+CL-1912,Real Estate Systems,Manufacturing,"22,554,308",989-760-6273,2023-06-29
+CL-1913,Telecommunications Systems,Aerospace,"""43,484,493.00""",303-939-2481,1468830879
+CL-1914,Banking Partners,Construction,46231541,+1-570-972-3608,20/10/2016
+CL-1915,Pharmaceuticals International,Banking,"$76,151,359",+1-607-833-2244,21/10/19
+CL-1916,Energy Group LLC,Manufacturing,"€14,908,449",500.828.2346,12/05/2016
+CL-1917,Real Estate Group LLC,Automotive,"$33,930,552",+1-650-863-4538,10/01/2016
+CL-1918,Telecommunications International,Energy,"$26,801,896",731-794-7547,1616229279
+CL-1919,Transportation Group LLC,Transportation,"$73,527,114.00",+1-909-337-6270,01/11/2021
+CL-1920,Healthcare International,Manufacturing,"€97,651,024",918-860-4669,07/12/2021
+CL-1921,Energy Solutions Inc,Aerospace,3968249,772.865.1942,24-Jul-2019
+CL-1922,Technology Systems,Aerospace,96779406,641-921-3184,19/02/2019
+CL-1923,Aerospace International,Retail,"20,358,634",(897) 800-6152,2017-03-31
+CL-1924,Energy Systems,Telecommunications,"$99,322,047",+1-815-992-3938,28-Aug-2023
+CL-1925,Aerospace Systems,Energy,"€55,703,681",+1-685-341-6624,1627202079
+CL-1926,Finance Holdings Corp,Healthcare,"""27,925,055.00""",862.848.2336,2023-04-19
+CL-1927,Automotive Systems,Telecommunications,"$13,816,494.00",741.212.1076,2023-12-13
+CL-1928,Aerospace Partners,Pharmaceuticals,"""72,835,206.00""",299.899.3534,23/05/2023
+CL-1929,Aerospace Solutions Inc,Automotive,"""17,144,121.00""",+1-498-310-6718,1476434079
+CL-1930,Aerospace Holdings Corp,Finance,89380763,658.319.2072,1568190879
+CL-1931,Manufacturing Solutions Inc,Automotive,"89,538,069",301.732.2490,26/11/2017
+CL-1932,Finance Partners,Manufacturing,40320311,(613) 645-7177,25-Oct-2018
+CL-1933,Energy Holdings Corp,Aerospace,"€39,546,517",(915) 256-9643,12-Mar-2017
+CL-1934,Automotive Holdings Corp,Automotive,"26,265,012",+1-253-900-8107,2021-11-23
+CL-1935,Retail Systems,Transportation,"$10,792,992",(707) 411-1255,2017-10-31
+CL-1936,Energy Group LLC,Finance,"$54,949,988",345.813.5033,03-May-2025
+CL-1937,Construction Partners,Energy,"$38,324,162",(997) 699-5152,1463906079
+CL-1938,Pharmaceuticals Solutions Inc,Healthcare,22330395,268.387.9797,19-Dec-2016
+CL-1939,Construction International,Technology,"$15,561,556.00",604-406-2417,1492763679
+CL-1940,Retail Solutions Inc,Healthcare,"€25,760,262",269.447.8142,25/11/2024
+CL-1941,Retail Group LLC,Insurance,"$6,873,085.00",+1-356-549-5109,1560846879
+CL-1942,Telecommunications Solutions Inc,Technology,"$25,691,117",(543) 873-8190,21/10/2018
+CL-1943,Manufacturing Solutions Inc,Telecommunications,92907311,+1-730-747-1286,09/02/25
+CL-1944,Energy Solutions Inc,Automotive,8840669,+1-987-780-2960,2016-09-18
+CL-1945,Energy Holdings Corp,Pharmaceuticals,"€52,911,006",443.899.9037,18/10/20
+CL-1946,Manufacturing Group LLC,Transportation,"€39,502,168",+1-378-597-5214,11-Sep-2018
+CL-1947,Energy Systems,Real Estate,"$31,465,492",841-561-4409,1619771679
+CL-1948,Manufacturing Holdings Corp,Manufacturing,"18,866,349",+1-410-451-4554,23/09/2017
+CL-1949,Technology Group LLC,Pharmaceuticals,"$19,969,191.00",755.867.8410,25/07/20
+CL-1950,Transportation Group LLC,Telecommunications,"$70,457,789",653-224-4382,30/12/2020
+CL-1951,Insurance Group LLC,Aerospace,56202373,451-956-3139,2022-04-16
+CL-1952,Automotive Solutions Inc,Automotive,"""13,072,478.00""",+1-407-961-3467,29/04/2022
+CL-1953,Banking Group LLC,Manufacturing,"41,700,248",363-355-3674,13/09/2024
+CL-1954,Technology Systems,Banking,"$16,214,980",+1-655-299-1645,24/05/18
+CL-1955,Construction Holdings Corp,Banking,"$79,502,768",658.220.9057,05/06/19
+CL-1956,Pharmaceuticals Partners,Technology,"€15,894,384",401.849.6254,2016-12-20
+CL-1957,Finance Holdings Corp,Energy,"""26,772,910.00""",732.224.9021,31-Jan-2020
+CL-1958,Automotive Holdings Corp,Manufacturing,"""89,504,582.00""",(764) 232-3140,1733733279
+CL-1959,Energy Solutions Inc,Energy,"""94,530,441.00""",575-724-7955,19-Aug-2021
+CL-1960,Technology Holdings Corp,Real Estate,"$61,381,095.00",(882) 526-9336,2018-04-22
+CL-1961,Finance International,Healthcare,"$12,728,894.00",209.940.1220,26-Feb-2016
+CL-1962,Automotive Systems,Healthcare,"$27,779,296.00",(390) 293-2500,2017-06-22
+CL-1963,Pharmaceuticals International,Manufacturing,"$64,893,558",925-707-4048,02/09/16
+CL-1964,Finance Group LLC,Healthcare,"20,312,960",(789) 393-3031,28/12/15
+CL-1965,Aerospace Partners,Technology,"$86,979,202",+1-636-456-6648,21/08/22
+CL-1966,Real Estate Holdings Corp,Healthcare,84194239,(281) 890-8306,13/05/2017
+CL-1967,Healthcare International,Pharmaceuticals,"""98,596,276.00""",661.566.8871,03/06/2016
+CL-1968,Finance Solutions Inc,Aerospace,55993351,532-612-8596,1597566879
+CL-1969,Manufacturing Partners,Insurance,"$54,609,010.00",+1-644-877-3830,2021-09-27
+CL-1970,Technology Holdings Corp,Finance,3909930,+1-362-510-5549,1586075679
+CL-1971,Automotive Holdings Corp,Pharmaceuticals,"€9,979,981",+1-688-822-5740,1647678879
+CL-1972,Pharmaceuticals Group LLC,Technology,"€85,618,779",+1-833-639-2996,10/05/22
+CL-1973,Healthcare Solutions Inc,Real Estate,"$50,661,702",414.534.4824,28/02/2021
+CL-1974,Finance Holdings Corp,Transportation,"31,726,021",824-442-5081,24/11/2017
+CL-1975,Finance International,Insurance,11912930,(673) 817-5358,27/11/19
+CL-1976,Retail Group LLC,Real Estate,"44,917,970",694.775.3394,05/11/21
+CL-1977,Technology Systems,Healthcare,"99,716,451",716-489-5066,27-Aug-2023
+CL-1978,Automotive Solutions Inc,Technology,11564233,994-351-8318,2021-09-15
+CL-1979,Retail Systems,Technology,"$61,845,390",(800) 331-6288,24-Aug-2022
+CL-1980,Banking Partners,Construction,4417889,+1-861-531-7480,15-Oct-2018
+CL-1981,Transportation International,Automotive,"€98,009,442",(335) 708-2046,18/10/17
+CL-1982,Manufacturing Solutions Inc,Manufacturing,"$47,113,600.00",(704) 610-9931,02/06/2017
+CL-1983,Finance Solutions Inc,Real Estate,"$31,520,595.00",(860) 899-1396,2023-02-26
+CL-1984,Retail Group LLC,Insurance,"""68,187,230.00""",(596) 974-7484,2022-04-04
+CL-1985,Automotive Group LLC,Healthcare,"$5,832,588",796.703.1117,1688200479
+CL-1986,Automotive Systems,Telecommunications,"38,771,170",+1-583-723-7363,10/11/22
+CL-1987,Healthcare Systems,Energy,61619406,817-867-9385,1751877279
+CL-1988,Insurance International,Retail,"$93,576,653",807-510-6913,12/04/18
+CL-1989,Automotive Group LLC,Technology,45819596,937-597-6363,1689064479
+CL-1990,Insurance Systems,Technology,"$11,425,244.00",(200) 231-1819,1543998879
+CL-1991,Automotive Holdings Corp,Healthcare,87674066,959.581.2246,2023-09-13
+CL-1992,Technology Partners,Finance,"€17,149,750",+1-898-231-8807,1536827679
+CL-1993,Technology Solutions Inc,Technology,"€65,387,599",(908) 356-4530,2025-02-16
+CL-1994,Real Estate Partners,Construction,"$2,780,943.00",872.264.5601,2019-05-16
+CL-1995,Banking Partners,Retail,"88,265,980",+1-645-772-9004,06-May-2025
+CL-1996,Real Estate Partners,Manufacturing,"€22,997,576",+1-580-943-9859,27/08/21
+CL-1997,Real Estate Holdings Corp,Manufacturing,"€20,814,990",969-706-9884,15/09/16
+CL-1998,Real Estate Partners,Pharmaceuticals,"$92,313,376.00",551.718.3376,31/12/23
+CL-1999,Energy Solutions Inc,Construction,"74,014,006",306.789.1066,15-May-2025
+CL-2000,Banking Holdings Corp,Manufacturing,"€54,010,703",602-424-6752,1577003679
+CL-2001,Automotive International,Banking,"$67,465,010.00",911-513-4962,21/03/24
+CL-2002,Technology Solutions Inc,Automotive,"€25,926,126",273-268-5152,2016-07-22
+CL-2003,Energy Holdings Corp,Manufacturing,"41,773,548",803-689-1686,2021-01-12
+CL-2004,Insurance Partners,Construction,"€14,154,252",801-835-6751,2021-02-05
+CL-2005,Healthcare Solutions Inc,Telecommunications,"€98,211,032",846-296-8449,2016-07-10
+CL-2006,Insurance Systems,Telecommunications,30065567,(297) 210-3103,1544949279
+CL-2007,Insurance International,Energy,"$34,984,506.00",+1-914-729-9046,10-Apr-2019
+CL-2008,Healthcare Systems,Energy,11310693,697-455-1093,2023-08-10
+CL-2009,Manufacturing Systems,Retail,"€67,216,456",(655) 917-2902,1681202079
+CL-2010,Banking Partners,Insurance,"€96,081,020",(577) 850-9904,1576226079
+CL-2011,Healthcare Solutions Inc,Healthcare,90214834,+1-610-719-4985,30/10/2021
+CL-2012,Pharmaceuticals International,Real Estate,75808730,268-872-4039,21/11/22
+CL-2013,Banking Systems,Finance,"$2,502,382.00",722.212.2847,01/09/21
+CL-2014,Real Estate Group LLC,Construction,90125450,+1-690-419-2622,07/07/20
+CL-2015,Construction Solutions Inc,Finance,"69,905,312",368.452.7774,1736411679
+CL-2016,Energy Solutions Inc,Insurance,"""91,148,139.00""",+1-600-660-4681,10/09/17
+CL-2017,Technology Partners,Telecommunications,"$59,081,584.00",+1-627-267-2390,11-Feb-2019
+CL-2018,Pharmaceuticals Holdings Corp,Real Estate,"""72,845,535.00""",515-681-9379,19-Jan-2019
+CL-2019,Telecommunications International,Manufacturing,"""85,740,493.00""",844.474.5444,18-Feb-2025
+CL-2020,Manufacturing Holdings Corp,Retail,"€45,962,735",621-485-5323,13-Jan-2020
+CL-2021,Telecommunications International,Banking,28442758,(795) 732-3841,21/11/16
+CL-2022,Transportation Systems,Finance,51331463,695-934-5435,31/01/2023
+CL-2023,Energy International,Healthcare,"$1,438,499",460.706.8450,03-Feb-2025
+CL-2024,Real Estate International,Pharmaceuticals,64937051,+1-520-322-3289,2020-12-08
+CL-2025,Telecommunications Holdings Corp,Telecommunications,"€13,870,221",(633) 409-1654,04-Jul-2017
+CL-2026,Retail International,Retail,"""77,586,930.00""",+1-765-562-4872,29/05/17
+CL-2027,Aerospace Solutions Inc,Telecommunications,"€13,237,670",(828) 476-8966,08/06/19
+CL-2028,Transportation Group LLC,Finance,"$38,509,920.00",444-887-6054,20/08/24
+CL-2029,Healthcare Partners,Construction,"€60,395,043",(593) 829-7228,1708936479
+CL-2030,Manufacturing Solutions Inc,Manufacturing,69123460,652.821.4366,08/12/18
+CL-2031,Manufacturing Holdings Corp,Retail,"€37,794,685",497-436-7216,1674117279
+CL-2032,Manufacturing Holdings Corp,Aerospace,3750674,(941) 656-7949,02-May-2020
+CL-2033,Finance Group LLC,Real Estate,"79,583,752",(813) 743-4206,2018-08-10
+CL-2034,Banking International,Aerospace,"34,606,927",461.663.3441,13/12/24
+CL-2035,Telecommunications Solutions Inc,Finance,"$13,384,401.00",786.870.3882,16/11/18
+CL-2036,Banking Solutions Inc,Aerospace,"$14,624,482",746.327.8578,27/10/22
+CL-2037,Finance Holdings Corp,Construction,"3,780,717",+1-258-603-3211,22/03/20
+CL-2038,Insurance Holdings Corp,Aerospace,"$33,989,230",+1-927-312-5066,1601109279
+CL-2039,Real Estate International,Technology,91935921,763-754-7617,19-May-2017
+CL-2040,Telecommunications Partners,Finance,"$5,887,763.00",(814) 576-5889,09-Jul-2023
+CL-2041,Real Estate Group LLC,Manufacturing,"€29,933,373",+1-968-350-8371,15/12/20
+CL-2042,Real Estate Holdings Corp,Transportation,"€54,584,976",676-580-4353,10/08/20
+CL-2043,Automotive Holdings Corp,Manufacturing,52882781,279.812.5816,1530866079
+CL-2044,Retail Holdings Corp,Manufacturing,"$23,272,814.00",(349) 962-5417,2025-09-18
+CL-2045,Insurance International,Manufacturing,"""47,563,585.00""",(491) 576-1834,13/11/2018
+CL-2046,Banking International,Banking,10031400,538.876.8206,13/02/2024
+CL-2047,Retail Solutions Inc,Energy,"$41,655,931",399-628-4172,14/09/25
+CL-2048,Construction Solutions Inc,Finance,"$98,608,223.00",424-679-3713,05/06/2020
+CL-2049,Aerospace International,Technology,"€45,372,362",534.739.3549,2018-10-04
+CL-2050,Manufacturing International,Technology,67957784,252.805.5920,19/09/17
+CL-2051,Healthcare Systems,Transportation,68893186,960.609.7869,08/10/2021
+CL-2052,Manufacturing Solutions Inc,Insurance,55482291,(357) 624-8752,12/09/16
+CL-2053,Energy International,Transportation,"$55,400,820",493.449.3701,2021-01-06
+CL-2054,Insurance Systems,Healthcare,21138866,(704) 294-3488,12/10/19
+CL-2055,Pharmaceuticals Systems,Pharmaceuticals,"$90,396,822.00",241.369.6075,05/06/2019
+CL-2056,Finance Partners,Insurance,"15,433,569",(498) 830-9619,1667550879
+CL-2057,Pharmaceuticals Systems,Finance,"13,901,033",(429) 905-5648,1586421279
+CL-2058,Technology Systems,Technology,"$57,098,929",+1-516-882-6351,2016-10-15
+CL-2059,Transportation Solutions Inc,Aerospace,"$15,451,825",352.940.2203,1603269279
+CL-2060,Transportation Systems,Healthcare,"""98,895,787.00""",(926) 414-8753,01-Apr-2019
+CL-2061,Construction Holdings Corp,Automotive,26039993,674.874.7512,22-Sep-2016
+CL-2062,Construction Group LLC,Automotive,56807870,+1-542-351-1688,17/10/24
+CL-2063,Insurance Solutions Inc,Automotive,"96,477,823",(581) 545-1044,29/12/21
+CL-2064,Pharmaceuticals Systems,Pharmaceuticals,37701305,741-804-4222,20/11/2019
+CL-2065,Insurance Partners,Telecommunications,"$39,183,020.00",617-803-2028,09/02/2022
+CL-2066,Technology Systems,Technology,"31,799,334",(460) 604-5347,1525595679
+CL-2067,Energy Solutions Inc,Automotive,"37,726,628",626.216.9220,02/11/2019
+CL-2068,Telecommunications Holdings Corp,Pharmaceuticals,"32,518,806",+1-943-536-3903,23-Jun-2021
+CL-2069,Healthcare Group LLC,Automotive,"""23,685,833.00""",+1-887-463-7808,2018-06-20
+CL-2070,Banking International,Telecommunications,"$11,230,849.00",203.445.2081,2024-02-04
+CL-2071,Telecommunications Solutions Inc,Real Estate,"""90,657,224.00""",285.564.2507,2018-12-13
+CL-2072,Finance Group LLC,Healthcare,"€22,520,447",747.398.8842,2019-12-26
+CL-2073,Finance Group LLC,Retail,"86,562,356",+1-965-914-2096,1591000479
+CL-2074,Transportation Solutions Inc,Retail,"$61,788,473.00",784.563.1280,24-Sep-2023
+CL-2075,Construction Solutions Inc,Finance,"$70,862,230.00",807-339-8756,18/07/2019
+CL-2076,Technology International,Retail,"$40,386,369.00",256.507.3243,1748334879
+CL-2077,Healthcare Partners,Manufacturing,"$41,241,177.00",+1-226-491-6369,11-Apr-2021
+CL-2078,Insurance Holdings Corp,Technology,"17,606,352",+1-417-796-2291,16/10/2023
+CL-2079,Transportation International,Technology,"$14,480,253.00",519.630.2523,2021-04-24
+CL-2080,Healthcare Partners,Automotive,"""63,978,060.00""",615.754.2751,05-Oct-2016
+CL-2081,Transportation International,Pharmaceuticals,"$85,669,760.00",+1-681-423-3075,1474706079
+CL-2082,Technology International,Transportation,"$67,122,740",260-640-4457,13/09/19
+CL-2083,Transportation International,Energy,"37,152,919",327.923.7884,2023-01-17
+CL-2084,Banking Holdings Corp,Retail,"€78,392,091",+1-794-322-5076,2023-10-09
+CL-2085,Retail Holdings Corp,Finance,"€78,118,114",(415) 934-2814,1761122079
+CL-2086,Pharmaceuticals Solutions Inc,Banking,44635741,875-731-5506,1616661279
+CL-2087,Pharmaceuticals Systems,Construction,"""66,755,054.00""",(647) 250-5130,2020-05-10
+CL-2088,Retail Partners,Technology,"""39,548,665.00""",(486) 381-7982,05/04/2024
+CL-2089,Pharmaceuticals Group LLC,Technology,"""27,967,563.00""",+1-688-599-5417,2018-02-13
+CL-2090,Retail International,Energy,"$87,152,815.00",474.938.7075,1710923679
+CL-2091,Transportation Solutions Inc,Aerospace,"$38,958,563",+1-975-884-9682,05/01/23
+CL-2092,Banking International,Insurance,"$77,229,101.00",(692) 398-4069,05-Jan-2022
+CL-2093,Energy Systems,Pharmaceuticals,"""76,861,963.00""",+1-298-589-8730,07-Jul-2019
+CL-2094,Manufacturing Partners,Telecommunications,"$58,824,109.00",+1-906-278-2690,1563093279
+CL-2095,Healthcare Solutions Inc,Banking,"$60,227,756",+1-426-955-4514,2017-10-13
+CL-2096,Technology Systems,Healthcare,"$61,376,084.00",(548) 442-2946,2023-06-30
+CL-2097,Finance Systems,Telecommunications,"$66,706,214",(621) 538-2639,2016-09-04
+CL-2098,Manufacturing Partners,Transportation,"$94,407,352.00",956.299.1349,2023-12-31
+CL-2099,Retail Group LLC,Construction,"$40,594,225.00",+1-877-660-4696,02-Sep-2020
+CL-2100,Healthcare Group LLC,Banking,"$51,745,863",+1-583-235-9733,02/10/25
+CL-2101,Energy Solutions Inc,Finance,"$31,770,370",472.930.9523,1514536479
+CL-2102,Construction Partners,Aerospace,"43,376,590",+1-419-951-1328,2022-12-03
+CL-2103,Banking Group LLC,Insurance,"€31,834,888",746-315-8853,29/07/2017
+CL-2104,Retail Group LLC,Transportation,"7,812,646",(756) 275-4956,20-Feb-2020
+CL-2105,Finance Group LLC,Telecommunications,"$58,407,701",+1-343-425-2464,03/05/2020
+CL-2106,Finance Systems,Real Estate,"$46,322,842.00",(983) 211-1447,03/07/25
+CL-2107,Banking Group LLC,Healthcare,"14,188,314",(863) 580-1937,1606725279
+CL-2108,Technology Holdings Corp,Pharmaceuticals,"22,377,455",351-814-9847,19/11/24
+CL-2109,Aerospace Solutions Inc,Telecommunications,"$51,928,280.00",(719) 645-8656,31-Jul-2020
+CL-2110,Pharmaceuticals Holdings Corp,Manufacturing,"49,515,244",481-742-3456,1505896479
+CL-2111,Retail Holdings Corp,Telecommunications,"""89,761,392.00""",(517) 374-7149,2025-04-16
+CL-2112,Energy International,Retail,"75,928,707",+1-563-217-9615,2020-09-05
+CL-2113,Construction International,Technology,"€75,597,332",+1-205-467-5237,27/11/2019
+CL-2114,Insurance Group LLC,Banking,87938535,(474) 448-3537,13/02/25
+CL-2115,Pharmaceuticals Systems,Pharmaceuticals,"$55,712,677",+1-221-448-7877,03/07/22
+CL-2116,Technology Solutions Inc,Insurance,6473245,+1-498-846-7387,2016-08-14
+CL-2117,Retail Systems,Insurance,"€46,624,728",(391) 500-4140,29-Sep-2019
+CL-2118,Technology International,Construction,"$72,183,035.00",990.431.2785,04-Mar-2020
+CL-2119,Aerospace Systems,Real Estate,"""91,419,501.00""",238.496.1942,13-Feb-2018
+CL-2120,Aerospace Holdings Corp,Technology,"$53,978,421",(344) 304-2475,2017-09-02
+CL-2121,Retail Group LLC,Aerospace,"€13,270,008",+1-402-704-4551,2018-10-06
+CL-2122,Healthcare Solutions Inc,Banking,"""68,764,711.00""",598-297-8564,2020-04-08
+CL-2123,Automotive Solutions Inc,Construction,15327177,(314) 762-3095,1643704479
+CL-2124,Technology International,Banking,"$98,278,007.00",835-896-4501,2021-03-07
+CL-2125,Healthcare Solutions Inc,Aerospace,"86,803,846",493.311.9834,08-Mar-2017
+CL-2126,Insurance Partners,Finance,"€23,897,636",+1-361-420-9287,12-Sep-2016
+CL-2127,Healthcare Holdings Corp,Healthcare,"€94,337,300",501-333-9514,22-Jun-2017
+CL-2128,Energy Partners,Transportation,"€7,222,119",298-319-3110,2020-01-06
+CL-2129,Energy Partners,Manufacturing,"$12,862,128.00",(595) 357-8465,30/08/16
+CL-2130,Manufacturing Holdings Corp,Transportation,"58,685,899",387-646-2782,17/02/2020
+CL-2131,Technology Holdings Corp,Construction,"""16,546,247.00""",767-205-9647,15/02/23
+CL-2132,Transportation International,Banking,"$55,687,986",(439) 860-7132,2025-04-28
+CL-2133,Manufacturing International,Telecommunications,"""95,965,380.00""",(492) 787-3978,1739176479
+CL-2134,Pharmaceuticals Partners,Aerospace,77868540,999-872-5856,11/10/2016
+CL-2135,Pharmaceuticals International,Energy,"20,720,859",305.501.1348,18/02/22
+CL-2136,Insurance Group LLC,Construction,19963920,613-777-1897,18/02/17
+CL-2137,Insurance Partners,Real Estate,"$87,159,185",+1-967-421-6070,18/11/2020
+CL-2138,Telecommunications Group LLC,Transportation,"""3,348,712.00""",(203) 552-7676,2016-06-18
+CL-2139,Aerospace Holdings Corp,Energy,91805566,876-472-2531,2024-03-12
+CL-2140,Real Estate Partners,Telecommunications,"€91,195,872",349.984.4117,10/07/16
+CL-2141,Finance Group LLC,Telecommunications,"42,707,179",(478) 841-1664,2016-04-23
+CL-2142,Energy Partners,Aerospace,8402229,(715) 406-2229,2024-07-12
+CL-2143,Automotive International,Telecommunications,"€11,751,435",(821) 274-6265,21/07/2022
+CL-2144,Finance Solutions Inc,Pharmaceuticals,"""30,596,454.00""",476-217-9114,09/09/18
+CL-2145,Finance Systems,Transportation,"$56,250,204",(810) 340-6645,1524472479
+CL-2146,Banking International,Aerospace,36372528,736.890.9741,1754037279
+CL-2147,Finance Holdings Corp,Transportation,"$96,954,791",553-610-2781,02/12/23
+CL-2148,Aerospace Group LLC,Healthcare,"$51,979,859",968.632.4898,1722242079
+CL-2149,Real Estate Solutions Inc,Retail,"""40,826,179.00""",806.250.3763,25/05/2022
+CL-2150,Technology Holdings Corp,Energy,"$32,743,500",898-456-2664,1602232479
+CL-2151,Transportation Group LLC,Finance,"$2,880,862",+1-854-294-9053,27/06/2016
+CL-2152,Telecommunications Holdings Corp,Aerospace,"99,143,831",+1-648-439-7979,19/02/2018
+CL-2153,Manufacturing Group LLC,Automotive,"$61,350,097.00",704-919-9922,1500626079
+CL-2154,Real Estate Group LLC,Construction,"$70,562,011",215-573-1036,03/02/17
+CL-2155,Pharmaceuticals Group LLC,Manufacturing,"€53,795,451",574-215-6489,24/03/2018
+CL-2156,Pharmaceuticals Group LLC,Telecommunications,"""77,587,087.00""",(781) 607-8482,13/04/24
+CL-2157,Telecommunications Holdings Corp,Aerospace,"$3,169,801",+1-238-538-1555,24/01/2024
+CL-2158,Transportation International,Technology,"99,707,033",(766) 844-2081,2019-01-01
+CL-2159,Transportation Group LLC,Manufacturing,74010270,+1-599-689-4211,1619944479
+CL-2160,Banking Systems,Healthcare,"67,424,119",+1-704-593-9879,29/12/18
+CL-2161,Aerospace Group LLC,Telecommunications,"€6,124,422",(744) 525-9591,21-Dec-2016
+CL-2162,Automotive Systems,Transportation,"€53,365,641",(834) 539-8481,26-Jul-2021
+CL-2163,Banking Holdings Corp,Insurance,"$37,013,628",736-602-8547,09/01/23
+CL-2164,Telecommunications Systems,Pharmaceuticals,37138454,(427) 399-9948,2016-12-26
+CL-2165,Insurance Holdings Corp,Telecommunications,24877142,371-789-3815,27/12/2021
+CL-2166,Retail International,Healthcare,76153004,578-574-1420,2017-11-14
+CL-2167,Real Estate Systems,Insurance,"$36,125,720.00",(398) 513-2965,2023-04-29
+CL-2168,Banking Holdings Corp,Construction,"$32,677,801.00",288-572-4443,1666859679
+CL-2169,Manufacturing Group LLC,Construction,"$30,071,005",574-834-4513,31/08/17
+CL-2170,Manufacturing Solutions Inc,Construction,"$84,318,446",913.858.2787,10/11/22
+CL-2171,Telecommunications Solutions Inc,Aerospace,"71,292,642",261-819-3156,15/07/20
+CL-2172,Construction Holdings Corp,Telecommunications,"""22,849,239.00""",770-994-8014,1713688479
+CL-2173,Technology Group LLC,Technology,"""67,130,666.00""",722.545.5581,02-Dec-2017
+CL-2174,Telecommunications Group LLC,Finance,"$83,461,026.00",(909) 638-6444,04/07/24
+CL-2175,Retail International,Pharmaceuticals,"$10,764,093",858.318.6340,10-Mar-2023
+CL-2176,Retail Systems,Telecommunications,"$75,564,128",898.302.5651,1500885279
+CL-2177,Real Estate Group LLC,Banking,93658638,659.852.8226,08/05/23
+CL-2178,Banking Group LLC,Banking,"$39,643,064.00",(738) 423-3832,30/06/23
+CL-2179,Transportation Systems,Finance,"85,142,699",(294) 260-7179,03-Jun-2022
+CL-2180,Banking International,Retail,"47,306,069",369-985-8727,26/07/25
+CL-2181,Real Estate Holdings Corp,Real Estate,"€49,746,187",472-695-3222,15/07/19
+CL-2182,Construction Systems,Telecommunications,"52,326,574",446-947-2675,2018-06-19
+CL-2183,Real Estate Systems,Healthcare,"€27,618,219",(945) 422-4049,14/11/2020
+CL-2184,Banking Partners,Retail,14530495,534.873.2234,15/08/17
+CL-2185,Retail International,Banking,"28,271,231",(515) 473-7846,01/04/22
+CL-2186,Retail Solutions Inc,Technology,"""45,644,060.00""",(791) 993-9161,29/11/22
+CL-2187,Healthcare Group LLC,Real Estate,"€45,440,795",810-679-9634,28-Jan-2023
+CL-2188,Transportation International,Telecommunications,"$18,538,006.00",+1-891-970-2614,01/03/24
+CL-2189,Insurance International,Technology,"€82,413,784",676-731-9248,29/09/2016
+CL-2190,Pharmaceuticals International,Retail,"$9,171,310.00",406.217.5556,2016-11-18
+CL-2191,Construction Group LLC,Manufacturing,"$98,704,839.00",+1-223-997-3444,2019-06-11
+CL-2192,Technology Systems,Real Estate,"26,884,060",401-205-7808,15/03/2025
+CL-2193,Automotive Systems,Energy,"$99,214,551.00",412-361-2934,2024-02-20
+CL-2194,Healthcare Partners,Healthcare,"$15,026,495",242-323-1522,21/05/24
+CL-2195,Banking Group LLC,Banking,"$40,407,965",+1-641-589-6526,05-Jun-2019
+CL-2196,Insurance Holdings Corp,Finance,"""14,483,335.00""",+1-223-771-7468,29/10/24
+CL-2197,Finance Solutions Inc,Energy,"""26,991,785.00""",(558) 938-7234,25/12/2017
+CL-2198,Insurance Systems,Finance,"$67,646,894.00",994-299-4749,1470645279
+CL-2199,Telecommunications Holdings Corp,Manufacturing,"$42,197,481",(417) 227-5249,15/04/17
+CL-2200,Healthcare Holdings Corp,Energy,"$22,737,079",(770) 706-5553,2020-06-18
+CL-2201,Aerospace Solutions Inc,Construction,"$31,628,653",488.743.2753,19/05/24
+CL-2202,Automotive Solutions Inc,Retail,83696535,708.777.8396,1633595679
+CL-2203,Technology Partners,Manufacturing,34030652,308-340-5114,08/01/2023
+CL-2204,Insurance International,Insurance,"$6,198,305.00",(954) 622-4765,1688805279
+CL-2205,Automotive International,Telecommunications,"€70,370,691",(886) 575-8336,29-Sep-2024
+CL-2206,Retail International,Healthcare,"$55,839,596.00",+1-452-255-8568,04-Oct-2020
+CL-2207,Technology Group LLC,Real Estate,"€24,485,502",401-225-1285,1721723679
+CL-2208,Technology Partners,Aerospace,"28,455,833",+1-205-541-4259,27-Jun-2024
+CL-2209,Construction Group LLC,Energy,"$48,410,229.00",737-446-3264,1555058079
+CL-2210,Technology Holdings Corp,Healthcare,"$4,346,501.00",319-251-8322,2017-05-16
+CL-2211,Retail International,Aerospace,"€10,119,383",(776) 975-5416,21/08/16
+CL-2212,Aerospace International,Aerospace,"€80,140,910",812-708-7471,1656750879
+CL-2213,Healthcare Partners,Pharmaceuticals,"€81,931,542",499-304-7731,07-Aug-2019
+CL-2214,Aerospace Holdings Corp,Real Estate,"$32,312,845",+1-980-530-8158,09/07/2016
+CL-2215,Real Estate Solutions Inc,Aerospace,"""96,494,153.00""",(369) 641-3286,12/08/2016
+CL-2216,Energy Solutions Inc,Healthcare,"€89,685,162",(228) 845-5251,18/05/2018
+CL-2217,Telecommunications International,Aerospace,"$20,677,109.00",655.222.9806,01/08/2024
+CL-2218,Telecommunications Group LLC,Technology,"""17,138,727.00""",734-725-4819,11/10/2020
+CL-2219,Automotive Holdings Corp,Insurance,7284386,+1-527-684-2535,21/02/2021
+CL-2220,Pharmaceuticals Systems,Insurance,22183715,+1-890-804-5430,1581323679
+CL-2221,Transportation Partners,Pharmaceuticals,"36,854,181",563.434.2931,10-May-2025
+CL-2222,Transportation International,Real Estate,"""24,760,468.00""",890.907.4672,1589618079
+CL-2223,Technology Systems,Finance,"€82,167,742",855-489-7165,2021-02-09
+CL-2224,Technology Group LLC,Telecommunications,"$60,585,481",774-546-2674,1758011679
+CL-2225,Finance Solutions Inc,Telecommunications,"$78,023,573",+1-472-747-7555,26-Dec-2016
+CL-2226,Insurance International,Finance,"$81,791,349.00",(635) 222-2038,20/05/2019
+CL-2227,Insurance International,Pharmaceuticals,28457064,310-438-4495,28/10/17
+CL-2228,Technology Holdings Corp,Transportation,69591106,+1-540-998-1359,12/10/24
+CL-2229,Healthcare Partners,Aerospace,"$88,279,876",(913) 496-5482,1750926879
+CL-2230,Telecommunications Group LLC,Insurance,"80,798,773",(971) 759-1685,21-Oct-2019
+CL-2231,Energy International,Technology,"""31,396,847.00""",837-389-7463,03/06/2016
+CL-2232,Real Estate Holdings Corp,Telecommunications,"""52,158,753.00""",905.292.6362,2019-06-24
+CL-2233,Banking International,Finance,"€8,863,558",+1-999-689-6919,2016-05-13
+CL-2234,Energy Systems,Healthcare,"31,476,715",+1-750-970-7469,02/07/16
+CL-2235,Technology Holdings Corp,Aerospace,81462702,(697) 207-1805,19-Mar-2025
+CL-2236,Finance Solutions Inc,Technology,"€51,510,897",480-958-8125,1629362079
+CL-2237,Construction Holdings Corp,Automotive,"""57,853,378.00""",701.974.8259,20-Feb-2016
+CL-2238,Telecommunications International,Insurance,"$58,062,863",578-464-7626,16-May-2024
+CL-2239,Energy Systems,Healthcare,"""82,020,593.00""",434-254-1150,07/01/19
+CL-2240,Insurance Partners,Insurance,"€65,205,049",+1-685-518-7573,2018-01-21
+CL-2241,Technology Systems,Finance,"13,388,317",457-746-9471,2021-08-30
+CL-2242,Energy Partners,Telecommunications,"$76,004,808",281-377-6871,1716885279
+CL-2243,Insurance Partners,Pharmaceuticals,"$20,766,881.00",368.254.4340,25/08/17
+CL-2244,Aerospace Systems,Banking,72442747,767.558.3765,20/04/25
+CL-2245,Insurance Group LLC,Banking,"""44,526,658.00""",(570) 970-5396,27-Dec-2015
+CL-2246,Real Estate Holdings Corp,Pharmaceuticals,"$27,415,300.00",+1-314-343-4171,10/05/2016
+CL-2247,Transportation Partners,Real Estate,"""33,600,976.00""",860-856-3725,22/05/18
+CL-2248,Banking Solutions Inc,Manufacturing,"$9,157,513.00",(821) 596-5045,1478594079
+CL-2249,Banking International,Manufacturing,"20,438,263",434.538.4760,1667723679
+CL-2250,Technology International,Telecommunications,"$58,040,474",485.460.5167,19/12/2021
+CL-2251,Manufacturing Systems,Transportation,"64,768,377",(422) 661-2755,30/01/2019
+CL-2252,Real Estate International,Telecommunications,"89,727,377",+1-952-595-7972,22-Dec-2022
+CL-2253,Finance Partners,Banking,37807983,897-340-5158,03-Jun-2016
+CL-2254,Transportation Group LLC,Finance,"88,066,702",+1-660-366-9543,2023-04-20
+CL-2255,Energy Group LLC,Automotive,"29,197,836",+1-727-250-4474,2023-11-27
+CL-2256,Transportation Solutions Inc,Finance,"9,459,845",595-672-8110,1517301279
+CL-2257,Healthcare Holdings Corp,Telecommunications,"$51,019,101.00",495.263.4854,15/07/2021
+CL-2258,Real Estate Holdings Corp,Insurance,"$74,864,238",399-522-6068,2018-08-24
+CL-2259,Construction Partners,Real Estate,"""1,470,877.00""",537-960-7212,1631176479
+CL-2260,Technology Solutions Inc,Energy,2750455,(579) 506-2417,1533026079
+CL-2261,Energy International,Healthcare,"37,086,390",(680) 242-9565,1488789279
+CL-2262,Telecommunications Group LLC,Technology,"72,711,972",+1-778-836-7639,13/09/2017
+CL-2263,Telecommunications International,Energy,"$86,265,713.00",(683) 741-8951,30/06/19
+CL-2264,Healthcare International,Construction,"€51,607,407",(808) 442-3072,1753864479
+CL-2265,Construction Group LLC,Telecommunications,"$2,971,999.00",+1-766-205-7038,12/06/2022
+CL-2266,Real Estate Partners,Real Estate,"€95,766,620",965.341.8999,2024-10-29
+CL-2267,Technology Solutions Inc,Finance,96666383,+1-341-646-5362,14/03/2019
+CL-2268,Automotive Systems,Real Estate,"""97,771,799.00""",472.335.2724,2017-08-21
+CL-2269,Telecommunications Group LLC,Insurance,"$78,574,875",(575) 708-1000,02/04/24
+CL-2270,Automotive Partners,Technology,"$29,356,463",+1-485-681-3910,2016-07-24
+CL-2271,Telecommunications Systems,Real Estate,"€25,530,735",+1-468-934-8415,1705134879
+CL-2272,Real Estate Solutions Inc,Automotive,"€48,168,440",(914) 971-1966,14/07/2019
+CL-2273,Insurance Solutions Inc,Transportation,43276352,282.965.1714,03/10/23
+CL-2274,Healthcare Partners,Real Estate,"$43,132,300.00",(204) 695-5201,17-Mar-2018
+CL-2275,Aerospace International,Insurance,"56,459,350",786.418.7752,1552206879
+CL-2276,Banking Solutions Inc,Construction,"$97,764,319",(685) 407-6093,25-Jan-2020
+CL-2277,Manufacturing International,Finance,"€55,127,552",387.270.8672,09-May-2023
+CL-2278,Construction Group LLC,Manufacturing,72127300,(479) 758-8133,28/02/2025
+CL-2279,Technology Holdings Corp,Banking,"68,562,496",+1-510-381-6208,26/08/23
+CL-2280,Manufacturing Solutions Inc,Manufacturing,"€60,637,432",251-602-6899,26-Sep-2022
+CL-2281,Aerospace Group LLC,Retail,"80,734,272",(541) 984-6317,16/06/2025
+CL-2282,Healthcare Solutions Inc,Healthcare,"$69,116,890.00",+1-815-903-1312,2021-06-28
+CL-2283,Automotive Partners,Pharmaceuticals,"""50,787,936.00""",+1-474-915-2362,1679387679
+CL-2284,Construction Solutions Inc,Manufacturing,22194143,(977) 916-1831,12/03/16
+CL-2285,Real Estate Systems,Technology,46605075,(489) 244-9066,1750754079
+CL-2286,Transportation Holdings Corp,Automotive,"€91,472,332",(228) 436-2077,25-Sep-2021
+CL-2287,Transportation International,Banking,"""1,403,216.00""",329-232-4514,2022-09-23
+CL-2288,Aerospace Solutions Inc,Pharmaceuticals,"88,770,504",831.378.9936,23/01/2022
+CL-2289,Manufacturing Partners,Automotive,5463768,(698) 783-1213,2025-03-05
+CL-2290,Real Estate Partners,Banking,"€6,917,502",447.690.9207,10/02/17
+CL-2291,Aerospace Systems,Technology,"$31,202,787.00",602-702-8511,2025-08-10
+CL-2292,Manufacturing Solutions Inc,Pharmaceuticals,67200246,520-461-3130,16/06/2023
+CL-2293,Automotive Systems,Aerospace,"€89,783,880",+1-997-353-4585,2019-06-02
+CL-2294,Pharmaceuticals Partners,Automotive,"$48,804,260.00",852-982-9863,06/02/23
+CL-2295,Energy Partners,Energy,"$19,264,493.00",488-894-6480,05-Dec-2018
+CL-2296,Finance International,Healthcare,"$57,840,903",+1-604-247-4783,06/05/22
+CL-2297,Telecommunications Group LLC,Manufacturing,35337526,(225) 911-3065,28/08/20
+CL-2298,Finance Group LLC,Automotive,"$95,009,322.00",(862) 822-3800,2023-12-14
+CL-2299,Energy Solutions Inc,Healthcare,"$68,529,353",(748) 580-6444,1607589279
+CL-2300,Telecommunications International,Energy,"""96,137,515.00""",+1-442-690-9765,10/04/2025
+CL-2301,Finance International,Transportation,"""45,519,864.00""",+1-254-873-2572,2015-12-13
+CL-2302,Retail International,Telecommunications,"€73,028,558",(434) 338-3547,1716971680
+CL-2303,Finance Systems,Banking,15724522,(568) 791-4215,2025-02-05
+CL-2304,Transportation Systems,Technology,"$30,396,033",333-934-8191,12-Apr-2016
+CL-2305,Insurance Group LLC,Transportation,"""13,554,330.00""",248-616-5152,25/02/2021
+CL-2306,Real Estate Holdings Corp,Real Estate,"79,458,610",(750) 429-3163,1728117280
+CL-2307,Energy International,Technology,"€22,356,906",(743) 423-2955,2019-04-24
+CL-2308,Finance Group LLC,Energy,"$11,893,092",(321) 629-8976,07/11/2016
+CL-2309,Transportation Partners,Construction,"$6,446,471",(917) 603-3506,17-Jul-2021
+CL-2310,Technology Holdings Corp,Aerospace,89050465,641.600.4216,07/06/2025
+CL-2311,Technology Systems,Automotive,51590529,394-332-3767,18-Dec-2023
+CL-2312,Insurance Partners,Retail,"47,106,831",+1-912-528-5367,01/07/2018
+CL-2313,Aerospace Solutions Inc,Pharmaceuticals,"€55,702,301",(445) 941-6097,08/03/24
+CL-2314,Insurance Group LLC,Manufacturing,97658966,391.574.1943,06-Sep-2022
+CL-2315,Banking Group LLC,Insurance,"""11,560,999.00""",884-741-9183,1512117280
+CL-2316,Technology Partners,Pharmaceuticals,"61,871,955",929.937.5395,03-May-2021
+CL-2317,Technology Partners,Construction,"98,728,417",+1-591-265-8059,04-Mar-2019
+CL-2318,Telecommunications Systems,Automotive,"77,864,684",513.720.2434,11-Feb-2022
+CL-2319,Energy Holdings Corp,Energy,"$25,390,563",+1-213-664-5524,28/07/24
+CL-2320,Construction Holdings Corp,Transportation,"€90,616,888",+1-757-797-4201,14-Nov-2022
+CL-2321,Insurance Solutions Inc,Banking,"$77,043,905",+1-873-988-8502,18/03/2021
+CL-2322,Construction Holdings Corp,Telecommunications,"$20,070,828.00",577-947-9994,28/06/24
+CL-2323,Pharmaceuticals Holdings Corp,Construction,59108970,(465) 473-9160,2020-03-03
+CL-2324,Manufacturing Systems,Insurance,30872087,663-335-8044,07/11/20
+CL-2325,Technology Solutions Inc,Healthcare,"""85,463,186.00""",(356) 649-9798,2017-12-26
+CL-2326,Construction Systems,Real Estate,"$98,910,252.00",516-390-6239,2024-05-27
+CL-2327,Aerospace Systems,Retail,30208016,741-842-2422,13/04/17
+CL-2328,Manufacturing Systems,Manufacturing,70537865,+1-380-938-1438,21-Feb-2017
+CL-2329,Manufacturing Systems,Aerospace,"$32,491,678",+1-354-855-8253,2024-03-05
+CL-2330,Real Estate Systems,Construction,"$48,518,285",(432) 633-7993,1682325280
+CL-2331,Real Estate Solutions Inc,Telecommunications,"26,157,442",+1-709-323-9284,2021-06-23
+CL-2332,Energy Solutions Inc,Finance,"87,544,417",(427) 771-3996,11/05/2016
+CL-2333,Retail Holdings Corp,Real Estate,"$36,253,038",+1-414-421-3502,2024-05-15
+CL-2334,Finance Holdings Corp,Technology,"€90,973,250",+1-779-357-4016,1458462880
+CL-2335,Retail Holdings Corp,Manufacturing,"€53,292,747",(939) 690-5008,14-Feb-2023
+CL-2336,Healthcare Group LLC,Technology,"""66,171,676.00""",(434) 772-5995,2018-05-03
+CL-2337,Energy Group LLC,Insurance,"89,731,132",+1-493-879-7542,1741854880
+CL-2338,Technology Partners,Banking,"""49,524,020.00""",(782) 274-3855,2022-04-08
+CL-2339,Transportation Systems,Insurance,"""45,284,913.00""",217-783-2496,13/01/2021
+CL-2340,Finance Solutions Inc,Insurance,"$1,070,858",218-459-3764,28/09/2016
+CL-2341,Banking Systems,Finance,"$21,088,520.00",406-785-4991,1653294880
+CL-2342,Real Estate Group LLC,Telecommunications,23142393,+1-695-436-2309,1611218080
+CL-2343,Telecommunications International,Telecommunications,88073528,560.442.4407,24-Sep-2019
+CL-2344,Telecommunications Systems,Automotive,"$86,487,860",(438) 327-3371,2022-01-31
+CL-2345,Energy Holdings Corp,Insurance,76569997,(490) 691-1112,1535618080
+CL-2346,Pharmaceuticals Partners,Telecommunications,"54,809,725",658.807.8375,02-Jul-2022
+CL-2347,Construction Holdings Corp,Technology,"$4,094,200",561-522-4614,12/04/2021
+CL-2348,Real Estate Partners,Finance,"€15,751,864",+1-779-865-6867,10-Dec-2015
+CL-2349,Manufacturing International,Banking,"$97,504,673",+1-576-558-2804,01/10/25
+CL-2350,Healthcare Holdings Corp,Retail,"39,920,575",773-783-6495,16/12/19
+CL-2351,Technology Holdings Corp,Insurance,"""42,257,395.00""",274-512-2987,20-Nov-2017
+CL-2352,Technology Group LLC,Real Estate,37190360,+1-470-217-9615,02/01/2016
+CL-2353,Banking Partners,Aerospace,"78,258,340",857.989.9558,2018-05-03
+CL-2354,Automotive Systems,Finance,16454302,979.244.8846,10-Mar-2016
+CL-2355,Real Estate International,Manufacturing,"$17,865,926",210.243.5944,2025-06-03
+CL-2356,Aerospace Solutions Inc,Retail,"""19,983,103.00""",+1-309-339-2880,28-Jul-2017
+CL-2357,Retail Holdings Corp,Energy,"€46,282,621",(682) 202-8049,18-Oct-2018
+CL-2358,Retail Holdings Corp,Technology,"$54,223,875",286.274.4650,28/06/21
+CL-2359,Pharmaceuticals Systems,Transportation,"$5,494,343",399.517.8495,2016-03-20
+CL-2360,Pharmaceuticals Partners,Retail,"€56,792,325",(909) 890-7492,07/03/2020
+CL-2361,Aerospace Solutions Inc,Insurance,"€88,754,046",878.698.8178,2024-10-31
+CL-2362,Manufacturing Solutions Inc,Construction,"""31,652,764.00""",248.367.3653,1572251680
+CL-2363,Retail Group LLC,Retail,"$21,577,994",+1-209-339-1266,05/11/18
+CL-2364,Retail Group LLC,Automotive,55799954,269-951-3012,1596357280
+CL-2365,Aerospace Holdings Corp,Aerospace,"$34,436,784.00",+1-377-484-7065,12/06/2017
+CL-2366,Real Estate Group LLC,Construction,"""4,898,137.00""",+1-933-334-1764,30/05/2023
+CL-2367,Banking Group LLC,Real Estate,"$89,841,048",(499) 253-7116,25/11/2016
+CL-2368,Transportation Partners,Construction,"""44,099,315.00""",623.308.3996,03/08/2016
+CL-2369,Pharmaceuticals Partners,Insurance,"$46,564,019.00",(384) 359-6188,1583138080
+CL-2370,Technology International,Banking,"$34,206,194",(842) 392-8395,2020-05-24
+CL-2371,Real Estate International,Telecommunications,"""32,635,949.00""",(904) 766-7814,1515486880
+CL-2372,Pharmaceuticals Group LLC,Insurance,"$21,273,667.00",801.834.5125,1637397280
+CL-2373,Finance Partners,Finance,"$35,162,057",+1-770-665-3978,14/01/23
+CL-2374,Energy Systems,Finance,"""92,952,459.00""",+1-805-861-7266,29/09/16
+CL-2375,Real Estate Solutions Inc,Technology,"68,404,592",(711) 720-6416,2016-05-30
+CL-2376,Energy International,Pharmaceuticals,"""10,579,312.00""",394-898-8343,1545467680
+CL-2377,Aerospace Systems,Transportation,"""56,581,553.00""",389-663-9159,23/03/2023
+CL-2378,Healthcare Partners,Energy,"$73,844,920",819.337.1455,25/11/2024
+CL-2379,Manufacturing Partners,Healthcare,"6,642,716",+1-525-523-7590,1708418080
+CL-2380,Technology Systems,Banking,6737190,(277) 543-5246,31/12/20
+CL-2381,Pharmaceuticals International,Retail,"6,853,153",(747) 429-3572,2022-10-13
+CL-2382,Banking Holdings Corp,Manufacturing,"$89,952,299.00",+1-928-581-9819,1449477280
+CL-2383,Insurance International,Healthcare,"""72,247,910.00""",769-750-1958,2022-03-05
+CL-2384,Transportation International,Aerospace,"60,357,007",691.450.6139,06-Sep-2018
+CL-2385,Banking Solutions Inc,Insurance,"$59,430,937",(422) 503-3953,19/09/17
+CL-2386,Automotive Holdings Corp,Finance,"$7,103,166",+1-826-459-9714,2022-08-26
+CL-2387,Finance Partners,Real Estate,"82,793,674",(484) 789-9631,2019-03-06
+CL-2388,Retail Partners,Automotive,"€56,005,289",(904) 963-3754,09/08/25
+CL-2389,Telecommunications Partners,Retail,"""13,933,377.00""",+1-846-247-6351,18/10/2025
+CL-2390,Banking Group LLC,Telecommunications,"€83,670,664",(997) 778-2023,03/12/23
+CL-2391,Retail Group LLC,Transportation,"75,599,555",+1-824-594-4339,2023-07-09
+CL-2392,Energy Partners,Finance,"34,263,469",(512) 995-2780,21/12/20
+CL-2393,Healthcare Systems,Finance,"$69,196,270",(557) 391-8554,1503390880
+CL-2394,Healthcare Systems,Energy,"€57,705,907",(940) 579-3736,14-May-2017
+CL-2395,Finance Partners,Aerospace,"$60,672,487.00",671.715.2813,30/03/2021
+CL-2396,Real Estate Group LLC,Pharmaceuticals,"€97,125,458",354-918-7402,15/08/16
+CL-2397,Construction Solutions Inc,Aerospace,"$44,442,625",+1-515-831-9310,1603528480
+CL-2398,Technology Group LLC,Banking,82581531,+1-474-842-8785,02/08/2025
+CL-2399,Real Estate International,Insurance,"$54,198,173.00",775.203.8492,28/05/2020
+CL-2400,Aerospace Holdings Corp,Construction,"38,017,197",398.822.9258,29-Dec-2024
+CL-2401,Manufacturing Group LLC,Pharmaceuticals,"99,391,813",746.309.7239,27-Apr-2019
+CL-2402,Insurance International,Automotive,"89,970,427",+1-603-210-6352,30/08/18
+CL-2403,Energy Holdings Corp,Energy,"$81,776,162.00",757.383.5432,2025-02-25
+CL-2404,Telecommunications Group LLC,Aerospace,"""45,275,746.00""",882-753-4882,1591346080
+CL-2405,Transportation Partners,Finance,"$2,707,969.00",417-247-6651,23/04/2025
+CL-2406,Retail Solutions Inc,Pharmaceuticals,"$52,996,292.00",771-467-4138,1658478880
+CL-2407,Insurance Partners,Telecommunications,"88,728,424",(683) 365-7790,06-Jul-2024
+CL-2408,Technology Holdings Corp,Retail,"34,831,592",809-244-7445,13/05/2024
+CL-2409,Technology Solutions Inc,Finance,"$20,027,158",319-531-6639,03/01/17
+CL-2410,Aerospace Solutions Inc,Healthcare,"€32,663,551",863-875-5831,1685867680
+CL-2411,Technology Systems,Telecommunications,"$50,978,040",+1-815-647-6345,21-Feb-2019
+CL-2412,Healthcare Group LLC,Construction,"""45,696,776.00""",(423) 304-3723,01/09/17
+CL-2413,Construction Solutions Inc,Transportation,"€32,786,590",346-848-8590,08/02/2017
+CL-2414,Banking Systems,Manufacturing,"$75,375,928",+1-385-798-6001,2022-03-13
+CL-2415,Manufacturing Partners,Telecommunications,83536894,(268) 256-6504,23-Nov-2024
+CL-2416,Real Estate Partners,Technology,"$37,137,452",983.574.4519,20/07/2020
+CL-2417,Insurance Partners,Construction,"""48,836,153.00""",+1-919-784-8527,30-Apr-2019
+CL-2418,Telecommunications Solutions Inc,Telecommunications,"27,204,095",(422) 631-2362,1717922080
+CL-2419,Telecommunications International,Real Estate,"""75,734,631.00""",378-691-9901,27/01/25
+CL-2420,Finance Solutions Inc,Manufacturing,93812834,534.876.4484,2022-05-30
+CL-2421,Healthcare Holdings Corp,Construction,"$93,014,181",499-485-7250,1592814880
+CL-2422,Energy International,Insurance,"$42,660,060",605-339-5209,2023-04-28
+CL-2423,Aerospace Solutions Inc,Aerospace,"16,054,603",809-767-6575,19-Apr-2025
+CL-2424,Healthcare International,Banking,"55,975,413",497.494.3788,26/05/2018
+CL-2425,Manufacturing Partners,Aerospace,"""76,301,514.00""",993.702.6383,03/01/2016
+CL-2426,Healthcare Partners,Finance,"63,110,699",+1-823-876-2212,22/08/2017
+CL-2427,Automotive Holdings Corp,Real Estate,"""72,017,405.00""",+1-536-301-5356,26/06/2022
+CL-2428,Banking Group LLC,Finance,"29,174,991",(549) 970-8117,01/12/2019
+CL-2429,Manufacturing International,Transportation,"4,041,899",(872) 937-3734,25-Jul-2017
+CL-2430,Energy Partners,Construction,"""28,880,490.00""",(291) 843-6129,12-May-2023
+CL-2431,Energy Solutions Inc,Pharmaceuticals,"$17,355,844",+1-798-281-1170,21/05/19
+CL-2432,Retail Systems,Healthcare,"$6,672,381.00",(906) 743-6375,28-May-2019
+CL-2433,Finance Holdings Corp,Transportation,"$96,916,504",610-271-6623,1598949280
+CL-2434,Manufacturing International,Banking,"$54,813,689",(414) 561-4964,1561019680
+CL-2435,Technology Partners,Pharmaceuticals,"""12,535,774.00""",595-584-4922,2018-07-17
+CL-2436,Retail Partners,Technology,"$6,715,975",720-445-8725,09/06/2018
+CL-2437,Pharmaceuticals Partners,Insurance,"$1,628,942",(502) 381-9539,1640680480
+CL-2438,Healthcare International,Transportation,"$44,396,592",542-748-5908,2018-09-21
+CL-2439,Automotive Group LLC,Telecommunications,"""29,721,683.00""",+1-346-698-7876,30-Sep-2025
+CL-2440,Healthcare International,Real Estate,"""31,858,901.00""",(416) 222-7746,15/03/2019
+CL-2441,Finance International,Finance,"38,342,004",665.983.5417,16-Dec-2018
+CL-2442,Construction Partners,Finance,"$61,869,451",(221) 857-7960,2022-11-09
+CL-2443,Aerospace International,Retail,9724926,410-761-8698,25/02/20
+CL-2444,Insurance Partners,Technology,"""2,868,922.00""",(296) 438-1138,15/07/2016
+CL-2445,Telecommunications Group LLC,Finance,"""18,883,205.00""",(370) 240-5292,05/12/2021
+CL-2446,Real Estate Group LLC,Real Estate,"""37,041,613.00""",267-220-1927,04/05/2017
+CL-2447,Manufacturing Group LLC,Technology,"$87,335,090.00",(836) 694-6071,29/12/2024
+CL-2448,Banking Systems,Aerospace,"€64,709,054",+1-599-461-7666,1708677280
+CL-2449,Technology Solutions Inc,Finance,"€94,133,307",(419) 376-7868,07/08/18
+CL-2450,Energy Solutions Inc,Telecommunications,29871875,212-352-9948,11/04/25
+CL-2451,Manufacturing Group LLC,Aerospace,"$56,580,175",+1-271-784-6904,30-Sep-2017
+CL-2452,Manufacturing Solutions Inc,Aerospace,"$13,855,332",(339) 541-1201,15/04/20
+CL-2453,Finance Solutions Inc,Finance,28406435,779-242-9344,11/10/19
+CL-2454,Insurance Holdings Corp,Automotive,"""96,287,234.00""",961-617-2832,1488357280
+CL-2455,Technology Group LLC,Technology,"$8,220,051",+1-977-508-5802,1710923680
+CL-2456,Finance Group LLC,Manufacturing,"$37,222,425.00",345.950.1278,15/05/17
+CL-2457,Retail Systems,Automotive,"€57,460,869",+1-561-523-2546,1535099680
+CL-2458,Telecommunications Solutions Inc,Banking,"€37,285,546",567.798.9848,2021-12-21
+CL-2459,Healthcare Holdings Corp,Pharmaceuticals,"$79,039,848.00",374-640-9855,26-May-2016
+CL-2460,Insurance International,Energy,18032459,588.260.1158,10/06/2023
+CL-2461,Pharmaceuticals International,Construction,"76,773,305",+1-233-702-5777,2024-08-11
+CL-2462,Banking International,Banking,"€53,752,683",840.330.4233,08/01/2019
+CL-2463,Automotive International,Real Estate,"16,739,492",740.620.6219,30/04/23
+CL-2464,Banking Systems,Retail,"$93,116,207",(214) 567-6387,2017-07-06
+CL-2465,Telecommunications Partners,Telecommunications,"€40,150,077",(612) 664-4920,2017-07-01
+CL-2466,Insurance Solutions Inc,Energy,"$78,798,642.00",+1-593-781-3494,1459240480
+CL-2467,Aerospace Systems,Insurance,"$97,148,327.00",597.209.9876,1543480480
+CL-2468,Automotive Solutions Inc,Retail,"81,091,105",+1-727-483-4590,1473323680
+CL-2469,Transportation Solutions Inc,Telecommunications,"13,410,699",768.861.7051,31/05/18
+CL-2470,Technology Systems,Pharmaceuticals,"$10,182,316",531.980.4918,08-Oct-2021
+CL-2471,Aerospace Holdings Corp,Aerospace,"""79,115,343.00""",+1-614-642-8235,11/12/2017
+CL-2472,Pharmaceuticals Systems,Transportation,"19,693,730",+1-293-905-9306,01/12/2017
+CL-2473,Transportation Partners,Finance,"""5,520,546.00""",712.271.9140,20/11/19
+CL-2474,Technology Group LLC,Energy,"$47,230,062.00",+1-208-501-2428,2020-09-28
+CL-2475,Energy Solutions Inc,Pharmaceuticals,"""85,764,758.00""",778-218-5699,03/03/2022
+CL-2476,Technology Partners,Automotive,"$4,158,362.00",+1-330-775-4969,27/03/25
+CL-2477,Banking Systems,Aerospace,"$10,213,212.00",328.230.5333,26-Nov-2021
+CL-2478,Energy Systems,Technology,"$41,998,348",+1-347-650-7864,2018-06-29
+CL-2479,Retail Solutions Inc,Manufacturing,"€68,004,252",840-409-6064,10/10/2017
+CL-2480,Energy International,Real Estate,"$22,901,903.00",967-895-3067,2022-04-11
+CL-2481,Energy Systems,Construction,48121480,(356) 333-5522,01/01/2018
+CL-2482,Real Estate Partners,Technology,"89,904,677",261.854.4402,19/01/2024
+CL-2483,Real Estate Holdings Corp,Aerospace,"""17,851,582.00""",(478) 414-6039,15/03/2023
+CL-2484,Healthcare Holdings Corp,Finance,"€34,927,264",969.564.3680,1548146080
+CL-2485,Construction Solutions Inc,Pharmaceuticals,"€14,566,103",(827) 704-4204,2018-04-27
+CL-2486,Retail Holdings Corp,Technology,"39,587,625",383.941.2061,1585038880
+CL-2487,Insurance Solutions Inc,Construction,"$14,198,915.00",+1-244-386-2492,2016-09-06
+CL-2488,Automotive Solutions Inc,Construction,"7,839,427",(961) 740-7944,09/05/2022
+CL-2489,Retail Group LLC,Automotive,"$94,800,389.00",(808) 657-1810,31/07/23
+CL-2490,Healthcare Group LLC,Construction,"€93,591,287",301-803-8645,09/04/20
+CL-2491,Automotive Systems,Insurance,"35,677,903",863.491.8645,25/09/24
+CL-2492,Manufacturing International,Retail,"$95,780,372.00",683-370-9658,02/07/24
+CL-2493,Automotive Systems,Insurance,63806952,(308) 636-1450,01/08/24
+CL-2494,Insurance International,Transportation,34730822,+1-993-323-9773,1591864480
+CL-2495,Healthcare Solutions Inc,Construction,"$39,493,103.00",889.940.9995,2019-09-15
+CL-2496,Construction Holdings Corp,Pharmaceuticals,19113144,390-366-2991,13/06/2023
+CL-2497,Energy Systems,Technology,3674033,(898) 899-6841,23/06/2021
+CL-2498,Manufacturing Solutions Inc,Healthcare,"$55,569,208",597-274-1072,2022-06-30
+CL-2499,Insurance Group LLC,Transportation,"€29,438,227",+1-911-315-9817,16/12/2017
+CL-2500,Automotive Holdings Corp,Automotive,"$58,054,128.00",(215) 523-4745,1549528480
+CL-2501,Insurance Systems,Insurance,"""53,094,564.00""",+1-613-930-5015,03-Jan-2018
+CL-2502,Automotive Holdings Corp,Healthcare,"""16,903,665.00""",+1-710-630-5252,19-Dec-2015
+CL-2503,Manufacturing Holdings Corp,Telecommunications,"$19,363,097.00",(659) 704-6398,19/09/2019
+CL-2504,Technology Group LLC,Manufacturing,"€86,831,138",+1-812-672-3634,30-Apr-2025
+CL-2505,Banking Holdings Corp,Insurance,57754167,679.344.1600,1488530080
+CL-2506,Telecommunications Partners,Construction,"""49,540,351.00""",+1-972-867-8875,2021-07-13
+CL-2507,Retail International,Technology,"""25,925,895.00""",274.508.9245,2020-11-17
+CL-2508,Manufacturing Holdings Corp,Finance,92972857,351.661.4046,01-Dec-2019
+CL-2509,Pharmaceuticals Partners,Real Estate,"$20,302,769.00",+1-923-411-6542,1592901280
+CL-2510,Finance Group LLC,Aerospace,"58,879,700",686-821-1853,28/09/2017
+CL-2511,Pharmaceuticals Group LLC,Aerospace,"""8,722,133.00""",998.579.4855,1516523680
+CL-2512,Banking Solutions Inc,Energy,81018084,639.463.1144,1460018080
+CL-2513,Aerospace Partners,Telecommunications,"""96,385,847.00""",(460) 362-8148,14/01/2022
+CL-2514,Finance Partners,Construction,"$55,014,743",+1-666-946-4379,07/06/17
+CL-2515,Insurance Solutions Inc,Healthcare,50793666,636-821-2977,15-Jul-2018
+CL-2516,Telecommunications Holdings Corp,Transportation,"39,782,228",(613) 790-4812,31/10/2022
+CL-2517,Construction Group LLC,Aerospace,"€4,971,230",(623) 782-1227,1698309280
+CL-2518,Telecommunications Solutions Inc,Energy,"$61,475,414.00",+1-421-282-7554,2020-08-18
+CL-2519,Retail Group LLC,Aerospace,56468002,387-459-5581,22/06/16
+CL-2520,Real Estate Partners,Insurance,"75,518,625",427-776-1532,12/10/25
+CL-2521,Aerospace International,Banking,"15,592,917",+1-424-955-4684,01/01/18
+CL-2522,Transportation International,Finance,"""53,025,032.00""",867-248-5890,1683448480
+CL-2523,Finance Partners,Construction,"""75,217,674.00""",564.410.9015,1534062880
+CL-2524,Telecommunications Partners,Construction,"€1,374,362",(707) 572-7763,2021-02-22
+CL-2525,Automotive Group LLC,Aerospace,"""11,436,008.00""",443.834.1533,03/09/21
+CL-2526,Retail Group LLC,Retail,"$1,880,540",+1-566-268-1667,2023-12-16
+CL-2527,Banking Group LLC,Transportation,"€39,074,872",899-234-4703,26/02/2022
+CL-2528,Transportation Group LLC,Retail,"$34,056,454",(806) 636-3166,2021-06-02
+CL-2529,Technology Solutions Inc,Insurance,78817765,998.541.7435,2025-03-12
+CL-2530,Energy Group LLC,Real Estate,"""65,575,117.00""",+1-802-580-5552,06/09/2020
+CL-2531,Retail Partners,Aerospace,"$84,501,427.00",800-335-3962,1480149280
+CL-2532,Energy Group LLC,Banking,"""37,784,982.00""",354-883-9334,2020-07-12
+CL-2533,Real Estate Group LLC,Healthcare,"1,605,250",362.875.9733,08/06/19
+CL-2534,Manufacturing Systems,Healthcare,"$45,542,152.00",+1-525-296-5438,11/11/2021
+CL-2535,Pharmaceuticals Solutions Inc,Retail,"60,272,776",672.853.3288,25-May-2020
+CL-2536,Telecommunications International,Healthcare,"""96,052,455.00""",(843) 891-6264,28/08/2016
+CL-2537,Energy Partners,Automotive,"$78,118,971",440-975-3787,13/08/23
+CL-2538,Telecommunications Systems,Banking,"$59,155,333.00",732.541.9248,03/10/2022
+CL-2539,Energy Systems,Banking,"$19,116,129",218.957.9321,21-Apr-2021
+CL-2540,Insurance Systems,Construction,"$99,933,742.00",+1-799-601-3765,2021-08-27
+CL-2541,Banking Systems,Manufacturing,"""23,548,933.00""",+1-657-376-7736,2017-05-08
+CL-2542,Finance Group LLC,Insurance,"12,702,378",(787) 379-1187,13/08/22
+CL-2543,Energy Partners,Finance,"""36,202,115.00""",253-794-6919,09-Jul-2016
+CL-2544,Retail International,Banking,"$7,697,766.00",788.424.5024,27/07/17
+CL-2545,Real Estate Solutions Inc,Construction,80441626,205-911-1766,1683448480
+CL-2546,Technology Partners,Energy,92950866,+1-256-685-8142,2017-06-12
+CL-2547,Retail Partners,Manufacturing,27828136,+1-292-655-7973,18/10/22
+CL-2548,Pharmaceuticals International,Automotive,"$38,998,956.00",+1-645-506-3248,06-Nov-2017
+CL-2549,Banking Group LLC,Transportation,24981636,874.597.9574,20/08/20
+CL-2550,Finance International,Technology,38237796,271.684.6370,2015-12-21
+CL-2551,Aerospace Group LLC,Aerospace,"$41,235,754",+1-242-372-5702,2018-01-07
+CL-2552,Technology Holdings Corp,Retail,"$45,995,300",713-598-5186,29-Nov-2016
+CL-2553,Banking Group LLC,Manufacturing,"19,363,062",781-242-5601,24-Feb-2021
+CL-2554,Aerospace Holdings Corp,Automotive,"""68,224,265.00""",840.520.8892,13/01/16
+CL-2555,Automotive Solutions Inc,Aerospace,"30,578,165",(279) 468-8001,28-Jun-2020
+CL-2556,Transportation International,Telecommunications,38018238,(252) 605-7146,1686990880
+CL-2557,Real Estate Group LLC,Construction,"32,385,480",(268) 576-5864,2021-04-22
+CL-2558,Transportation Systems,Real Estate,"$78,425,465.00",211.995.9470,2016-05-20
+CL-2559,Energy Partners,Manufacturing,"$46,293,238",922.453.8277,06/06/25
+CL-2560,Pharmaceuticals Partners,Real Estate,3986769,+1-682-917-2970,1472805280
+CL-2561,Technology Solutions Inc,Pharmaceuticals,"3,166,903",662-720-9307,11/03/2017
+CL-2562,Insurance Group LLC,Real Estate,"""56,661,439.00""",896-373-9438,2023-07-19
+CL-2563,Finance Solutions Inc,Finance,"€8,876,259",774-632-2273,1669278880
+CL-2564,Construction Solutions Inc,Finance,"$54,984,939",791-892-1242,13/04/2017
+CL-2565,Healthcare International,Real Estate,"""57,194,219.00""",987-408-4823,17-Dec-2017
+CL-2566,Energy International,Finance,"$22,170,843",+1-935-912-9774,02-Jul-2025
+CL-2567,Technology Holdings Corp,Healthcare,82939357,(227) 589-3943,22/02/21
+CL-2568,Aerospace International,Technology,"37,447,411",+1-724-960-5553,1679992480
+CL-2569,Real Estate International,Energy,52856982,(856) 477-4633,2018-09-24
+CL-2570,Insurance International,Transportation,"$88,784,963.00",536-201-4272,2020-02-09
+CL-2571,Pharmaceuticals Holdings Corp,Energy,"$60,896,880.00",(408) 231-9407,22/12/15
+CL-2572,Finance International,Telecommunications,"€74,855,692",988.503.5901,21/11/23
+CL-2573,Aerospace Holdings Corp,Pharmaceuticals,"€25,676,025",(678) 846-5515,1535099680
+CL-2574,Aerospace Partners,Banking,24017065,(615) 601-3169,2016-11-13
+CL-2575,Real Estate Solutions Inc,Healthcare,"€57,543,141",+1-470-487-5412,28-Aug-2023
+CL-2576,Construction Partners,Pharmaceuticals,"$11,901,565.00",+1-953-964-5837,1698914080
+CL-2577,Healthcare Group LLC,Aerospace,"$62,542,767",209-387-5362,03/10/2021
+CL-2578,Finance Holdings Corp,Automotive,"$51,389,714",(983) 906-6051,09-Apr-2022
+CL-2579,Telecommunications Partners,Banking,"$38,363,712.00",+1-448-609-5456,21/03/18
+CL-2580,Banking Partners,Technology,"$21,437,354",436-638-1629,16-Aug-2023
+CL-2581,Manufacturing International,Finance,77094420,(882) 378-3210,06/09/16
+CL-2582,Aerospace Group LLC,Aerospace,52517012,+1-274-664-7687,01/03/2021
+CL-2583,Retail Holdings Corp,Retail,99623703,769-727-8602,1593160480
+CL-2584,Retail Holdings Corp,Healthcare,"24,174,916",(457) 822-5047,16/04/2025
+CL-2585,Energy Solutions Inc,Finance,"""1,593,111.00""",504-250-8641,03/02/25
+CL-2586,Transportation International,Banking,"$30,222,844.00",217-409-9463,21/06/22
+CL-2587,Telecommunications Partners,Aerospace,"""91,108,658.00""",363.960.3218,15/07/2021
+CL-2588,Construction Group LLC,Manufacturing,77534666,638.823.2676,28/05/2020
+CL-2589,Construction Holdings Corp,Pharmaceuticals,"$72,665,302.00",+1-287-685-6971,1715502880
+CL-2590,Aerospace Holdings Corp,Energy,"€21,526,614",(950) 857-5757,05-May-2017
+CL-2591,Retail Solutions Inc,Manufacturing,"65,714,670",(523) 614-2588,07/06/18
+CL-2592,Manufacturing Solutions Inc,Real Estate,"57,243,095",(980) 879-3938,15/11/2024
+CL-2593,Retail Group LLC,Real Estate,"""6,410,958.00""",949.388.5815,17-Sep-2023
+CL-2594,Real Estate Systems,Automotive,"$56,832,266",(993) 430-6164,16-Feb-2016
+CL-2595,Insurance Partners,Healthcare,"""93,350,005.00""",+1-291-694-4914,04-Aug-2019
+CL-2596,Technology Solutions Inc,Retail,"""10,848,166.00""",721.201.6641,31-Jul-2019
+CL-2597,Banking International,Technology,"$90,801,979",816-882-2916,2021-09-26
+CL-2598,Aerospace Group LLC,Automotive,"""97,210,554.00""",519.320.9840,07/05/22
+CL-2599,Pharmaceuticals Group LLC,Automotive,"$52,354,247",+1-985-956-1653,04-Jun-2021
+CL-2600,Telecommunications Solutions Inc,Telecommunications,"$53,578,740",(822) 914-6536,26/03/22
+CL-2601,Energy Group LLC,Banking,"8,448,247",(679) 507-5319,1694939680
+CL-2602,Aerospace International,Banking,"$6,712,322",(242) 895-2924,2019-02-24
+CL-2603,Construction Group LLC,Pharmaceuticals,"$51,811,116.00",543.750.5516,1726648480
+CL-2604,Healthcare Solutions Inc,Pharmaceuticals,"$89,073,374.00",+1-502-665-3603,2021-04-26
+CL-2605,Manufacturing Systems,Technology,"€40,764,133",+1-914-258-9713,2020-06-14
+CL-2606,Healthcare International,Banking,"$46,494,237",790-478-7901,30/08/17
+CL-2607,Insurance International,Banking,"$1,372,592",(213) 341-7297,06/10/21
+CL-2608,Telecommunications Partners,Construction,"30,002,011",(610) 249-6417,1624696480
+CL-2609,Automotive Holdings Corp,Construction,"18,349,748",856.289.8027,2017-08-23
+CL-2610,Aerospace Solutions Inc,Automotive,"€8,878,883",+1-442-854-1472,21-Oct-2016
+CL-2611,Real Estate Holdings Corp,Insurance,"63,745,566",+1-575-436-2836,2018-01-12
+CL-2612,Transportation Partners,Manufacturing,"""89,796,599.00""",(479) 845-3245,26-Mar-2022
+CL-2613,Healthcare International,Healthcare,"$85,640,612.00",935.761.7378,19-Jul-2019
+CL-2614,Energy Group LLC,Energy,"€81,143,816",579-352-3020,1481013280
+CL-2615,Insurance Partners,Retail,"$57,371,321",(517) 754-7931,31/05/16
+CL-2616,Finance Group LLC,Automotive,"9,440,661",573.227.2163,1632558880
+CL-2617,Real Estate Solutions Inc,Energy,"""57,807,216.00""",739.650.2013,2025-03-26
+CL-2618,Manufacturing Holdings Corp,Aerospace,"$77,123,950.00",926.584.5328,12/11/2022
+CL-2619,Real Estate Solutions Inc,Banking,"€99,695,626",737-852-9708,10/12/2024
+CL-2620,Energy Solutions Inc,Manufacturing,"""32,548,073.00""",930.821.9108,28/08/2023
+CL-2621,Real Estate Solutions Inc,Pharmaceuticals,"€33,599,792",689.685.2453,22/06/17
+CL-2622,Energy Partners,Manufacturing,"$30,127,109",+1-906-923-8848,18-Sep-2023
+CL-2623,Construction International,Finance,"$44,239,585",+1-604-671-7161,23/02/23
+CL-2624,Banking International,Retail,"$88,470,440.00",(339) 444-3987,2024-04-05
+CL-2625,Retail Group LLC,Retail,"$38,433,364",(417) 504-9104,20/07/2022
+CL-2626,Construction Holdings Corp,Manufacturing,"""45,057,731.00""",906-550-3078,22/05/2016
+CL-2627,Retail International,Healthcare,"$17,685,559.00",+1-933-602-5658,1751704480
+CL-2628,Real Estate Partners,Real Estate,"$30,305,626.00",(624) 943-9294,2023-07-22
+CL-2629,Telecommunications Holdings Corp,Retail,"$32,949,215.00",+1-543-829-6131,05-Aug-2021
+CL-2630,Real Estate Systems,Pharmaceuticals,"$98,700,383",707-476-1303,1743150880
+CL-2631,Manufacturing International,Finance,"$58,673,347",214-240-5015,11-Jul-2016
+CL-2632,Aerospace Partners,Technology,43286809,(861) 800-4422,02/03/2019
+CL-2633,Transportation Systems,Aerospace,"58,344,434",957.835.6160,1749976480
+CL-2634,Finance Group LLC,Retail,80252562,+1-303-333-2652,2022-12-15
+CL-2635,Telecommunications Holdings Corp,Technology,"$34,752,783.00",916-274-3989,28/08/25
+CL-2636,Transportation Holdings Corp,Banking,"€41,288,298",365-549-7515,26/11/2023
+CL-2637,Transportation Group LLC,Finance,"€61,431,696",(759) 864-8914,2019-12-11
+CL-2638,Energy Systems,Automotive,"€99,151,718",940-461-7063,1691397280
+CL-2639,Energy Systems,Telecommunications,"84,689,067",+1-993-596-4158,26/10/22
+CL-2640,Construction International,Automotive,"$78,031,592",627-285-7294,21-Dec-2015
+CL-2641,Real Estate Systems,Banking,"""55,539,646.00""",711-881-9564,22-Sep-2022
+CL-2642,Real Estate Partners,Technology,"$1,767,842.00",595.736.8313,05-Oct-2025
+CL-2643,Energy Partners,Healthcare,"$35,273,033.00",357.379.5205,12-Mar-2022
+CL-2644,Construction Group LLC,Insurance,"72,039,251",+1-636-217-9397,1618216480
+CL-2645,Retail Solutions Inc,Energy,"""41,037,019.00""",357-417-9399,2016-10-03
+CL-2646,Telecommunications Group LLC,Banking,"""82,700,119.00""",964.270.4483,2017-02-15
+CL-2647,Real Estate International,Aerospace,"""19,109,926.00""",(544) 356-5402,30/05/2016
+CL-2648,Transportation Solutions Inc,Manufacturing,28466847,969.907.9063,14/11/21
+CL-2649,Automotive Holdings Corp,Pharmaceuticals,"85,280,319",(246) 343-8081,20/04/17
+CL-2650,Manufacturing International,Healthcare,"19,778,677",487-825-1287,11/02/22
+CL-2651,Real Estate Systems,Banking,"64,238,694",647.671.6940,20/08/2022
+CL-2652,Pharmaceuticals International,Transportation,"28,040,388",734.972.3115,2025-10-18
+CL-2653,Retail Systems,Finance,"$23,590,892.00",954-858-6907,1610181280
+CL-2654,Transportation International,Technology,14241515,397-916-1040,25-Apr-2016
+CL-2655,Transportation Solutions Inc,Transportation,"$73,596,002",501-997-3403,23/03/2020
+CL-2656,Automotive Partners,Construction,32617209,942-347-4605,05/05/24
+CL-2657,Pharmaceuticals International,Real Estate,5819968,523-479-9882,1511426080
+CL-2658,Technology Solutions Inc,Banking,"""57,467,984.00""",(521) 407-9598,09/04/20
+CL-2659,Manufacturing International,Healthcare,"44,004,111",259.771.5956,1587285280
+CL-2660,Technology International,Telecommunications,"$60,497,896",(737) 223-3548,25/03/21
+CL-2661,Pharmaceuticals Solutions Inc,Energy,"€16,370,116",(817) 228-6467,03/10/2018
+CL-2662,Energy Systems,Pharmaceuticals,"$69,550,839",(227) 864-9002,2017-03-28
+CL-2663,Retail Partners,Finance,"$80,118,626",+1-596-766-4784,14-Aug-2019
+CL-2664,Automotive Group LLC,Transportation,6937620,535-671-9372,13-Feb-2021
+CL-2665,Insurance Partners,Automotive,"$32,692,245.00",(984) 374-4572,18-Jul-2017
+CL-2666,Finance Systems,Manufacturing,"71,437,142",817.891.4647,22-Jun-2020
+CL-2667,Retail Solutions Inc,Telecommunications,"""42,790,477.00""",+1-694-252-2677,14/02/25
+CL-2668,Healthcare Holdings Corp,Real Estate,"$72,647,438.00",961-238-8174,03/02/19
+CL-2669,Insurance Systems,Insurance,"48,937,270",498-469-7750,1611218080
+CL-2670,Automotive Solutions Inc,Construction,"30,249,959",526-691-4582,30-Apr-2024
+CL-2671,Real Estate Systems,Manufacturing,"€81,721,220",+1-350-878-8195,2017-12-14
+CL-2672,Healthcare Holdings Corp,Construction,"€50,430,880",+1-511-857-3681,1512549280
+CL-2673,Manufacturing Systems,Telecommunications,"73,147,956",643-598-1392,1674549280
+CL-2674,Banking Solutions Inc,Finance,"""85,851,039.00""",757-490-2348,2019-06-03
+CL-2675,Automotive Group LLC,Manufacturing,"€11,324,372",296.614.2176,1580373280
+CL-2676,Aerospace Holdings Corp,Banking,28299303,+1-660-494-1423,21-Jan-2018
+CL-2677,Transportation Solutions Inc,Insurance,"€58,009,298",556-967-1484,1460363680
+CL-2678,Healthcare International,Real Estate,56765838,279.201.3286,13/03/21
+CL-2679,Construction Group LLC,Insurance,"$92,274,681",(475) 828-9916,01/01/2018
+CL-2680,Manufacturing International,Real Estate,13587924,+1-829-273-6364,2020-07-09
+CL-2681,Aerospace Group LLC,Automotive,"""33,925,384.00""",264-668-5981,1487147680
+CL-2682,Energy Group LLC,Telecommunications,"$18,212,173",268-781-6844,01/08/2021
+CL-2683,Pharmaceuticals Partners,Real Estate,"$36,260,096.00",(505) 822-1736,25/09/16
+CL-2684,Banking Systems,Healthcare,"""37,384,571.00""",899-461-7542,05/02/2017
+CL-2685,Insurance Group LLC,Real Estate,"""9,872,420.00""",482.587.2371,02/01/23
+CL-2686,Technology Systems,Healthcare,"62,470,167",+1-677-803-6190,2019-12-10
+CL-2687,Retail Partners,Technology,88326280,(297) 726-4183,2020-12-15
+CL-2688,Retail Solutions Inc,Real Estate,"$28,666,357.00",532.294.2063,23/04/19
+CL-2689,Insurance International,Real Estate,"$74,657,703.00",246.829.7641,1600677280
+CL-2690,Telecommunications Systems,Pharmaceuticals,20164667,+1-792-872-4242,26/02/16
+CL-2691,Automotive Solutions Inc,Energy,"$27,204,357",714.642.6492,25/03/25
+CL-2692,Technology Group LLC,Healthcare,55185820,(237) 305-6161,2021-04-03
+CL-2693,Retail Group LLC,Transportation,"$19,877,659",(339) 484-1612,24/05/24
+CL-2694,Finance Systems,Energy,"€13,831,991",(828) 975-1759,27/05/2018
+CL-2695,Aerospace Solutions Inc,Retail,"$31,578,143",572-385-9470,23/08/2018
+CL-2696,Construction Partners,Construction,"$45,728,939",511-390-9201,1717403680
+CL-2697,Aerospace International,Technology,"""58,632,927.00""",378.963.1893,03/09/23
+CL-2698,Pharmaceuticals Systems,Telecommunications,24803103,(437) 564-7631,1542011680
+CL-2699,Construction Solutions Inc,Aerospace,66488223,(361) 578-5035,2017-04-09
+CL-2700,Manufacturing Group LLC,Insurance,"55,266,882",914.579.3609,1461659680
+CL-2701,Retail International,Manufacturing,"€94,783,578",+1-617-330-6555,1518165280
+CL-2702,Healthcare Holdings Corp,Technology,"€11,978,502",+1-668-860-7854,31-Jan-2024
+CL-2703,Technology Partners,Pharmaceuticals,"€45,093,693",639-452-1428,25-Mar-2020
+CL-2704,Pharmaceuticals Group LLC,Aerospace,"82,660,550",(873) 279-7803,2017-05-28
+CL-2705,Retail Systems,Pharmaceuticals,"$12,862,766",223-709-4411,06/07/25
+CL-2706,Telecommunications International,Technology,"€65,689,395",219-769-3292,18/08/19
+CL-2707,Insurance Group LLC,Energy,40976778,606.388.6297,21-Jan-2017
+CL-2708,Transportation Group LLC,Retail,"$15,614,265",(966) 799-5924,2020-09-05
+CL-2709,Transportation Partners,Banking,"$77,122,518.00",(835) 619-8397,05-Sep-2020
+CL-2710,Automotive Solutions Inc,Healthcare,"""15,419,839.00""",(991) 784-1451,08/12/2023
+CL-2711,Retail Group LLC,Retail,37493377,+1-881-629-8897,04-Jun-2023
+CL-2712,Insurance Systems,Telecommunications,"$12,893,154.00",+1-272-644-9087,2017-09-02
+CL-2713,Aerospace Systems,Technology,"$89,975,182.00",990.225.1779,19/06/2018
+CL-2714,Energy Solutions Inc,Construction,"€74,053,533",+1-274-835-1648,20-Jun-2025
+CL-2715,Telecommunications Holdings Corp,Technology,"""9,041,483.00""",(402) 276-7970,28/06/2023
+CL-2716,Telecommunications Partners,Transportation,11715605,301-918-2415,17/03/2022
+CL-2717,Technology Partners,Finance,"22,685,822",(870) 290-5740,31-Dec-2019
+CL-2718,Real Estate Systems,Transportation,82546931,687-722-7037,14/06/2023
+CL-2719,Insurance Solutions Inc,Telecommunications,"""86,517,115.00""",(829) 313-7208,28/03/20
+CL-2720,Transportation Solutions Inc,Technology,"$96,292,774.00",(543) 423-6431,1678091680
+CL-2721,Technology Holdings Corp,Telecommunications,"$23,443,981",975.871.9140,20-Mar-2022
+CL-2722,Banking Partners,Transportation,"€73,853,850",828.482.9529,2019-02-21
+CL-2723,Aerospace Systems,Healthcare,"""59,074,117.00""",879.611.4411,10/10/20
+CL-2724,Banking Solutions Inc,Pharmaceuticals,21946328,336-978-6924,2021-06-20
+CL-2725,Automotive Solutions Inc,Pharmaceuticals,"$88,766,247.00",427-205-7194,2022-10-05
+CL-2726,Construction Partners,Pharmaceuticals,"$73,678,279.00",888-478-2643,1549960480
+CL-2727,Telecommunications Systems,Retail,"€17,336,260",+1-365-343-4757,25/11/2021
+CL-2728,Telecommunications Holdings Corp,Automotive,"$44,854,589",738.397.6864,2016-02-15
+CL-2729,Aerospace Solutions Inc,Real Estate,"$51,066,663.00",921.318.5034,26-Jan-2017
+CL-2730,Insurance Systems,Finance,"$80,463,428.00",647.496.2927,14/05/2024
+CL-2731,Transportation International,Finance,"""10,769,429.00""",304.836.5713,28/07/25
+CL-2732,Pharmaceuticals Holdings Corp,Transportation,64019381,(665) 494-3111,2019-08-10
+CL-2733,Manufacturing Partners,Insurance,"$87,231,589.00",(889) 432-8612,15/11/2017
+CL-2734,Transportation Group LLC,Transportation,"$81,028,838.00",526.539.6294,20/05/2019
+CL-2735,Transportation Systems,Aerospace,57250899,780.852.1800,2019-01-30
+CL-2736,Automotive Partners,Banking,"$57,422,263",439.663.5478,07-Sep-2020
+CL-2737,Healthcare Group LLC,Energy,"$90,104,753.00",+1-506-801-1959,23/07/19
+CL-2738,Aerospace Group LLC,Aerospace,"""54,387,741.00""",+1-508-670-9173,10/07/22
+CL-2739,Technology Group LLC,Transportation,"$41,464,166.00",(985) 232-5487,2020-02-04
+CL-2740,Construction Partners,Retail,"15,497,174",546.522.8512,1646210080
+CL-2741,Finance Holdings Corp,Automotive,"$50,515,955.00",+1-444-981-4488,07-Oct-2020
+CL-2742,Healthcare Holdings Corp,Construction,19696461,(431) 247-5579,13/12/19
+CL-2743,Real Estate Group LLC,Healthcare,"$66,145,653",(814) 342-3146,11/07/2022
+CL-2744,Pharmaceuticals Group LLC,Manufacturing,24634793,(818) 414-8779,2021-04-14
+CL-2745,Retail International,Construction,"""68,123,852.00""",(744) 998-6870,2025-05-02
+CL-2746,Aerospace Group LLC,Healthcare,"29,406,702",(431) 701-8982,2021-08-25
+CL-2747,Manufacturing Partners,Pharmaceuticals,"$51,570,940",548-585-5600,14/03/2024
+CL-2748,Real Estate International,Banking,"$20,143,006.00",+1-492-998-6638,1681806880
+CL-2749,Insurance International,Transportation,39233775,+1-496-651-5717,14-Feb-2022
+CL-2750,Transportation Solutions Inc,Banking,90936616,638.630.8012,1602405280
+CL-2751,Insurance International,Automotive,"€75,326,331",(863) 528-8811,13/11/24
+CL-2752,Pharmaceuticals Solutions Inc,Healthcare,"65,217,871",896-652-1393,26-Oct-2018
+CL-2753,Retail Systems,Finance,"""17,522,764.00""",+1-799-359-2173,17/10/2019
+CL-2754,Transportation Partners,Retail,"$12,157,038",(820) 519-4154,19-Aug-2022
+CL-2755,Telecommunications International,Insurance,"€33,653,792",274.412.3346,1513326880
+CL-2756,Real Estate International,Finance,"€14,862,208",767-406-9141,02/05/20
+CL-2757,Healthcare Solutions Inc,Automotive,"$90,563,347.00",597-561-3681,1453970080
+CL-2758,Insurance Group LLC,Healthcare,"""25,572,406.00""",553-425-5078,1663144480
+CL-2759,Technology International,Energy,"69,626,770",636.363.3698,2022-07-19
+CL-2760,Finance Holdings Corp,Pharmaceuticals,"$56,468,928",781-628-6357,2019-05-09
+CL-2761,Real Estate Partners,Insurance,"$25,068,341",957-527-1356,21-Feb-2019
+CL-2762,Aerospace Solutions Inc,Finance,"€59,664,720",+1-580-204-4048,05/02/2016
+CL-2763,Manufacturing Partners,Transportation,"$63,228,848",582.319.9515,2016-03-20
+CL-2764,Aerospace International,Pharmaceuticals,13563750,+1-768-896-3359,23/07/2022
+CL-2765,Banking Partners,Healthcare,"€54,714,074",+1-655-212-7478,01/04/2017
+CL-2766,Healthcare Solutions Inc,Automotive,"$21,340,520.00",937.892.9486,15-Jul-2025
+CL-2767,Insurance Group LLC,Retail,"61,580,360",+1-590-223-9347,2018-04-06
+CL-2768,Construction Holdings Corp,Automotive,82415077,813.336.1393,19/08/22
+CL-2769,Manufacturing Solutions Inc,Aerospace,"$29,876,806.00",(868) 200-2268,1629707680
+CL-2770,Banking Systems,Banking,"$73,597,478.00",(421) 736-9348,30-Dec-2015
+CL-2771,Healthcare Holdings Corp,Retail,"""52,668,735.00""",277.903.4499,18/02/2020
+CL-2772,Real Estate Holdings Corp,Technology,"$68,872,004",(243) 839-1196,12-Apr-2025
+CL-2773,Construction Partners,Real Estate,"$36,200,483.00",822-238-3535,1749371680
+CL-2774,Healthcare Holdings Corp,Healthcare,"53,245,891",632-315-2395,30/01/21
+CL-2775,Real Estate Solutions Inc,Healthcare,"4,769,354",412.583.4106,08/02/2022
+CL-2776,Real Estate Systems,Manufacturing,"$74,206,688",+1-573-445-5054,11/09/21
+CL-2777,Insurance Systems,Transportation,"$45,983,217.00",268.897.6410,26/07/2019
+CL-2778,Construction Group LLC,Construction,"21,350,750",549-409-3581,29/12/2016
+CL-2779,Manufacturing Solutions Inc,Technology,"$96,310,744",527.328.9484,2025-02-25
+CL-2780,Retail Solutions Inc,Construction,"$76,739,453",+1-939-208-8482,1595147680
+CL-2781,Banking Solutions Inc,Transportation,"$68,278,338",526-331-8876,1658565280
+CL-2782,Automotive Group LLC,Healthcare,"""19,899,505.00""",+1-891-497-9009,1693643680
+CL-2783,Aerospace Systems,Insurance,"17,147,671",(796) 846-8778,1522226080
+CL-2784,Technology Solutions Inc,Energy,"€82,792,282",+1-586-736-4842,2017-09-22
+CL-2785,Finance Holdings Corp,Finance,"€91,525,052",929-573-4215,2021-07-31
+CL-2786,Technology Group LLC,Insurance,95411491,221-570-5661,2025-09-09
+CL-2787,Pharmaceuticals International,Insurance,"$12,088,535.00",(963) 918-2575,2022-02-25
+CL-2788,Finance Partners,Automotive,"€76,232,398",413-885-5286,05/06/19
+CL-2789,Telecommunications Systems,Telecommunications,"$49,070,969.00",814.391.2766,27-Apr-2020
+CL-2790,Banking International,Transportation,"""86,036,366.00""",(895) 445-3552,1625042080
+CL-2791,Insurance International,Finance,"42,658,222",541-470-3727,2021-06-07
+CL-2792,Telecommunications Partners,Automotive,"€12,591,136",964.586.1286,06-Jun-2022
+CL-2793,Transportation Solutions Inc,Real Estate,"€88,470,016",+1-258-860-4246,25/07/2023
+CL-2794,Transportation Solutions Inc,Healthcare,"97,956,457",(253) 738-4846,2025-06-01
+CL-2795,Finance International,Automotive,"""46,086,729.00""",+1-266-543-9908,2017-12-31
+CL-2796,Real Estate Partners,Pharmaceuticals,12881015,(603) 374-9745,1676277280
+CL-2797,Construction International,Manufacturing,"""62,587,674.00""",987.668.1061,2018-01-07
+CL-2798,Pharmaceuticals Systems,Retail,"2,122,998",643-709-4322,2016-03-04
+CL-2799,Banking Holdings Corp,Healthcare,"90,558,923",438.685.7687,1612686880
+CL-2800,Construction Solutions Inc,Banking,67469934,+1-328-873-9696,2020-06-21
+CL-2801,Insurance Systems,Transportation,"$62,725,422",806-362-4015,03/05/2021
+CL-2802,Energy Solutions Inc,Pharmaceuticals,"$44,602,595",(763) 856-9810,11/12/2023
+CL-2803,Manufacturing Holdings Corp,Finance,64971013,355-644-6287,14/06/2020
+CL-2804,Manufacturing Solutions Inc,Automotive,"$96,372,766.00",991-651-2791,30/07/22
+CL-2805,Energy Holdings Corp,Construction,72723698,282.863.2870,12-Nov-2019
+CL-2806,Aerospace Group LLC,Banking,"€37,207,877",853-385-9566,2019-03-05
+CL-2807,Finance International,Insurance,"$3,418,315.00",(948) 353-6568,2024-06-15
+CL-2808,Aerospace Solutions Inc,Finance,"89,794,105",+1-552-352-3968,2018-08-17
+CL-2809,Finance Solutions Inc,Energy,"$67,904,158",+1-220-339-5287,03-Sep-2018
+CL-2810,Retail Partners,Manufacturing,"""4,339,687.00""",706.906.2507,1515314080
+CL-2811,Energy International,Banking,"€28,954,684",+1-511-459-7105,1634027680
+CL-2812,Pharmaceuticals Partners,Telecommunications,"€70,003,124",+1-965-474-9301,12/08/2023
+CL-2813,Energy Partners,Construction,"""59,274,194.00""",+1-730-520-4937,12-Jun-2021
+CL-2814,Transportation International,Automotive,"$40,020,810",+1-991-866-7693,08/02/23
+CL-2815,Manufacturing International,Banking,"€48,785,681",512.526.1976,1753691680
+CL-2816,Construction Solutions Inc,Banking,"""62,456,370.00""",(376) 976-4213,1692347680
+CL-2817,Technology Systems,Manufacturing,"€90,517,091",(204) 447-1468,2018-10-15
+CL-2818,Finance Systems,Pharmaceuticals,"$41,251,543.00",873.389.2543,27/12/21
+CL-2819,Insurance Systems,Technology,31037513,+1-835-976-6416,03/06/17
+CL-2820,Automotive Holdings Corp,Aerospace,"$54,835,402",671-470-3441,2021-10-28
+CL-2821,Real Estate Group LLC,Manufacturing,"€26,828,705",893.558.6710,2019-08-17
+CL-2822,Retail Holdings Corp,Aerospace,"€11,521,659",511.552.6856,2020-06-29
+CL-2823,Finance International,Real Estate,"$56,798,756",453-652-5098,1600850080
+CL-2824,Banking Systems,Banking,"$58,096,487.00",(377) 971-7951,14/12/2022
+CL-2825,Automotive International,Finance,"8,947,134",+1-439-285-8069,1612082080
+CL-2826,Manufacturing Solutions Inc,Technology,"97,784,883",752-346-3048,08/12/18
+CL-2827,Insurance International,Construction,"""72,214,939.00""",714.552.2481,29-May-2025
+CL-2828,Technology Holdings Corp,Energy,"92,203,884",(379) 939-4891,20-Mar-2024
+CL-2829,Real Estate Group LLC,Energy,"$82,823,674.00",(935) 539-5797,2025-02-14
+CL-2830,Technology Group LLC,Pharmaceuticals,"$83,548,875",286-239-3568,2021-08-30
+CL-2831,Aerospace Solutions Inc,Pharmaceuticals,82195906,+1-547-265-8404,02/06/24
+CL-2832,Automotive Systems,Banking,"66,655,526",+1-359-360-2604,1681202080
+CL-2833,Insurance Partners,Energy,"$4,611,130",778-726-8392,24/10/2021
+CL-2834,Construction Group LLC,Manufacturing,"""35,130,969.00""",(252) 210-3909,07/10/2022
+CL-2835,Automotive Group LLC,Aerospace,"$86,624,361.00",374-808-6180,15/12/21
+CL-2836,Aerospace Systems,Automotive,"€37,660,566",906.670.6701,06/04/21
+CL-2837,Healthcare Solutions Inc,Telecommunications,"33,693,683",+1-880-335-8313,12/07/16
+CL-2838,Automotive Solutions Inc,Energy,"$42,675,192",+1-202-300-4850,18/01/2024
+CL-2839,Insurance Systems,Transportation,"€71,192,097",+1-998-852-7735,1719131680
+CL-2840,Automotive Partners,Aerospace,"""80,525,475.00""",863-697-8019,01-Dec-2017
+CL-2841,Banking Systems,Technology,"$7,758,413.00",+1-667-316-8105,10/07/2020
+CL-2842,Finance Group LLC,Healthcare,"""1,861,645.00""",(282) 983-2804,27-Nov-2019
+CL-2843,Real Estate Group LLC,Aerospace,"""54,073,432.00""",598-317-4048,1640334880
+CL-2844,Insurance Systems,Banking,"$68,172,742",635-446-6806,1615192480
+CL-2845,Manufacturing Holdings Corp,Automotive,"$28,846,585.00",400-757-9597,10/09/20
+CL-2846,Energy Solutions Inc,Pharmaceuticals,40878686,590-380-9097,03-Jan-2017
+CL-2847,Real Estate Partners,Insurance,"$92,831,475",841.887.2675,2022-06-30
+CL-2848,Banking Partners,Telecommunications,56788698,227.456.7361,2022-11-26
+CL-2849,Telecommunications Group LLC,Telecommunications,"4,799,276",425-698-4732,20/09/2022
+CL-2850,Banking International,Insurance,"$89,760,953",694.259.7280,2018-08-14
+CL-2851,Banking Systems,Energy,"$78,713,329.00",+1-756-662-3790,2024-10-13
+CL-2852,Healthcare International,Automotive,"60,908,086",991-610-1875,11/01/2018
+CL-2853,Aerospace Partners,Aerospace,"""81,566,532.00""",365-338-2744,15-Mar-2025
+CL-2854,Banking Solutions Inc,Telecommunications,"€84,189,631",(304) 209-8088,05/11/19
+CL-2855,Construction Solutions Inc,Retail,"""81,044,457.00""",560-659-3916,01/09/20
+CL-2856,Healthcare Solutions Inc,Telecommunications,"€29,354,723",927-804-1877,12/12/19
+CL-2857,Energy Partners,Healthcare,"€26,303,414",912-375-2882,2016-12-02
+CL-2858,Aerospace International,Real Estate,"$36,938,256.00",(972) 246-6086,09-May-2019
+CL-2859,Manufacturing International,Insurance,46868421,(440) 896-9981,17/01/2018
+CL-2860,Manufacturing Holdings Corp,Transportation,"""59,780,031.00""",271.814.4018,1475915680
+CL-2861,Banking Group LLC,Construction,"$55,467,710.00",324-912-9880,28-Sep-2016
+CL-2862,Insurance International,Banking,"$43,726,741.00",(521) 598-4565,21/03/2023
+CL-2863,Banking Holdings Corp,Pharmaceuticals,"7,193,001",638.912.6011,18-Jul-2018
+CL-2864,Aerospace International,Banking,95303819,695.851.4083,1724056480
+CL-2865,Transportation Group LLC,Healthcare,"$84,443,168",639-663-1471,24/07/20
+CL-2866,Transportation Group LLC,Banking,"$18,797,823",(861) 374-5429,2018-07-18
+CL-2867,Banking Group LLC,Finance,"$42,966,025.00",296.757.2636,19/05/2022
+CL-2868,Pharmaceuticals Solutions Inc,Pharmaceuticals,"$94,029,965",972.576.1119,2022-09-15
+CL-2869,Healthcare Holdings Corp,Pharmaceuticals,"37,770,884",789.491.2688,30/09/25
+CL-2870,Technology Systems,Manufacturing,"""41,276,314.00""",+1-295-900-1914,07/06/16
+CL-2871,Aerospace Holdings Corp,Manufacturing,"$78,565,391",+1-236-849-3859,08/03/2019
+CL-2872,Insurance Group LLC,Finance,"$47,570,076",750.592.2528,21/03/2023
+CL-2873,Retail Holdings Corp,Insurance,"€38,640,380",352-501-1036,05-Jul-2018
+CL-2874,Insurance Holdings Corp,Retail,"$73,316,237",443-463-4419,1548146080
+CL-2875,Automotive International,Banking,"""49,582,968.00""",+1-379-491-5081,25-Sep-2016
+CL-2876,Retail Holdings Corp,Technology,"""78,526,539.00""",367.977.9569,04/03/16
+CL-2877,Transportation International,Insurance,"$39,034,516",530-815-2574,1646469280
+CL-2878,Retail Solutions Inc,Telecommunications,"80,445,871",548-480-3234,1479630880
+CL-2879,Real Estate International,Energy,"""83,046,026.00""",(667) 216-7694,05/05/2019
+CL-2880,Technology International,Construction,"$12,010,615.00",976.420.9578,1733560480
+CL-2881,Energy Systems,Energy,"""1,006,914.00""",278-755-9276,1531125280
+CL-2882,Transportation Systems,Aerospace,"€28,435,471",412.576.8126,27-Aug-2022
+CL-2883,Banking International,Construction,"""66,024,805.00""",+1-246-338-5330,28/12/2021
+CL-2884,Manufacturing Partners,Transportation,"$41,354,266",538.257.4943,1750322080
+CL-2885,Healthcare Systems,Insurance,"€34,469,627",494-786-5005,15-Jan-2020
+CL-2886,Automotive Systems,Retail,"$3,917,311.00",982-344-8197,2017-03-16
+CL-2887,Manufacturing Group LLC,Construction,"62,695,387",(585) 977-8779,29/11/21
+CL-2888,Energy Group LLC,Banking,"""41,808,173.00""",416-843-5229,19/03/18
+CL-2889,Pharmaceuticals Group LLC,Healthcare,30843354,895-631-2454,06/09/21
+CL-2890,Technology Holdings Corp,Technology,"$62,948,301",891-623-3226,2021-01-14
+CL-2891,Transportation International,Transportation,66549917,471.707.7133,18/09/2016
+CL-2892,Manufacturing Group LLC,Aerospace,"""62,699,325.00""",228-971-4932,04-Jan-2017
+CL-2893,Finance Solutions Inc,Construction,"""57,539,275.00""",282.515.8293,07-Aug-2020
+CL-2894,Insurance Group LLC,Pharmaceuticals,"$84,482,121.00",233.858.1762,1553934880
+CL-2895,Retail Systems,Finance,"""97,952,375.00""",450-737-6464,20/11/22
+CL-2896,Automotive Systems,Energy,5941784,(229) 784-2289,03/12/2022
+CL-2897,Healthcare International,Healthcare,"68,359,074",(953) 608-6150,22/06/2019
+CL-2898,Transportation Holdings Corp,Insurance,"""58,228,456.00""",947-513-8706,24/12/2024
+CL-2899,Banking Partners,Technology,"€56,245,190",+1-866-592-9971,10/05/21
+CL-2900,Aerospace International,Manufacturing,"€3,251,618",+1-833-269-5525,07/12/19
+CL-2901,Energy Holdings Corp,Real Estate,43351832,896-447-9765,2022-09-20
+CL-2902,Transportation Solutions Inc,Retail,"$53,150,268.00",515-696-6038,1629016480
+CL-2903,Technology Partners,Finance,"$41,593,556",202.392.6362,23/07/16
+CL-2904,Retail Holdings Corp,Pharmaceuticals,"€73,111,233",916-972-7656,2017-06-15
+CL-2905,Transportation Holdings Corp,Retail,"$68,844,716",208.344.6821,12/04/2018
+CL-2906,Aerospace International,Retail,"$49,946,508",910.321.9011,2018-09-08
+CL-2907,Manufacturing Holdings Corp,Energy,15844760,+1-553-976-3913,12-Aug-2021
+CL-2908,Telecommunications Systems,Healthcare,"$99,292,956",745-266-5230,20-Mar-2025
+CL-2909,Aerospace Holdings Corp,Banking,"$63,184,453",+1-981-253-2664,1498638880
+CL-2910,Healthcare Holdings Corp,Healthcare,"$12,827,410",285.540.6838,20/08/23
+CL-2911,Insurance Holdings Corp,Automotive,2377441,(745) 290-2635,17/10/2020
+CL-2912,Insurance Holdings Corp,Pharmaceuticals,"€62,286,298",924.642.4889,11/04/2021
+CL-2913,Energy International,Finance,"$36,822,802",(256) 626-6026,1641371680
+CL-2914,Energy Systems,Pharmaceuticals,"$13,520,292.00",+1-971-919-9625,2025-08-24
+CL-2915,Energy International,Finance,"$21,393,707.00",848-711-6830,18/02/18
+CL-2916,Pharmaceuticals Holdings Corp,Retail,"€77,898,062",(288) 963-1063,14-Nov-2016
+CL-2917,Finance International,Insurance,"$7,597,648",(361) 349-1499,13/12/2017
+CL-2918,Banking Group LLC,Real Estate,26685863,(325) 348-6728,07-Aug-2019
+CL-2919,Transportation Group LLC,Banking,54611078,+1-244-494-1469,29-Aug-2025
+CL-2920,Real Estate Partners,Technology,"€46,777,021",(793) 223-5213,1747384480
+CL-2921,Automotive Solutions Inc,Retail,"""45,188,355.00""",641-337-4613,1540197280
+CL-2922,Transportation International,Banking,"$32,897,513",598-874-1859,2025-01-03
+CL-2923,Energy Solutions Inc,Telecommunications,"65,692,193",(483) 881-8327,10/07/2016
+CL-2924,Healthcare Systems,Manufacturing,"""70,934,871.00""",947.451.3760,1554453280
+CL-2925,Retail Holdings Corp,Manufacturing,"$18,199,439",802-567-2523,20/07/19
+CL-2926,Automotive International,Real Estate,"69,522,565",613-841-9662,29-Apr-2017
+CL-2927,Transportation Group LLC,Construction,"23,112,320",+1-201-978-2815,2017-10-19
+CL-2928,Manufacturing Partners,Telecommunications,"€98,642,468",632-696-7709,01-Jul-2022
+CL-2929,Technology Systems,Real Estate,"78,112,395",(686) 542-3401,1646901280
+CL-2930,Insurance Systems,Pharmaceuticals,"$81,490,408",715.916.9004,2018-10-16
+CL-2931,Energy Systems,Telecommunications,"""58,517,981.00""",978-323-2930,11-Nov-2020
+CL-2932,Insurance Holdings Corp,Manufacturing,"€49,075,507",646-518-2828,2017-02-08
+CL-2933,Manufacturing Systems,Retail,"$25,653,846.00",(605) 396-1616,26/02/25
+CL-2934,Finance International,Finance,"€73,672,212",420-512-3742,1481877280
+CL-2935,Pharmaceuticals International,Insurance,"$37,855,423",(401) 507-1082,30-Sep-2025
+CL-2936,Banking Partners,Energy,"""47,428,671.00""",479.626.1258,2022-03-07
+CL-2937,Construction Holdings Corp,Real Estate,"$85,958,755",707.339.1787,25/12/2017
+CL-2938,Aerospace Systems,Healthcare,"""96,374,761.00""",618.655.3515,21-Nov-2019
+CL-2939,Retail Solutions Inc,Telecommunications,"""61,933,337.00""",+1-762-342-2463,09/01/22
+CL-2940,Real Estate Systems,Energy,"€36,835,453",(604) 202-8304,09/08/2022
+CL-2941,Real Estate Holdings Corp,Real Estate,"10,196,824",893.904.5543,14/02/24
+CL-2942,Technology International,Transportation,"€24,869,685",978.450.9476,1578126880
+CL-2943,Energy Holdings Corp,Manufacturing,"$5,925,845.00",570.533.5964,10/06/20
+CL-2944,Pharmaceuticals Partners,Real Estate,46135491,(777) 378-3307,1457858080
+CL-2945,Healthcare Holdings Corp,Construction,49310598,(677) 327-1834,1552034080
+CL-2946,Technology International,Insurance,"$33,264,859.00",875-468-9790,1527410080
+CL-2947,Technology Solutions Inc,Energy,"€46,984,174",948.849.8992,22-Oct-2022
+CL-2948,Pharmaceuticals Holdings Corp,Aerospace,"$32,915,266",749.575.7109,09/03/2016
+CL-2949,Transportation International,Manufacturing,88727540,245.359.9698,1617438880
+CL-2950,Banking Systems,Retail,"""60,597,985.00""",218.676.2667,26-Oct-2025
+CL-2951,Banking Systems,Real Estate,"40,036,715",557.930.6232,11-Jun-2024
+CL-2952,Healthcare Partners,Automotive,26630687,303-219-2275,2019-01-06
+CL-2953,Real Estate International,Energy,78124734,756.642.3917,19/06/25
+CL-2954,Insurance Group LLC,Aerospace,79567993,611.893.5095,30-Jan-2021
+CL-2955,Energy Solutions Inc,Aerospace,"$8,756,834",+1-336-746-9820,28/09/20
+CL-2956,Retail International,Insurance,"$10,987,229",248.818.8669,1665822880
+CL-2957,Real Estate Systems,Manufacturing,"$56,572,363.00",(911) 474-9522,1605861280
+CL-2958,Pharmaceuticals Partners,Insurance,"$76,258,542",+1-599-225-9415,1474101280
+CL-2959,Insurance Solutions Inc,Banking,"68,992,001",(599) 639-2698,25/02/16
+CL-2960,Pharmaceuticals Group LLC,Pharmaceuticals,22349570,+1-284-310-9015,23-Oct-2016
+CL-2961,Pharmaceuticals Holdings Corp,Pharmaceuticals,"$50,969,465",385.583.6194,27/12/2017
+CL-2962,Energy Partners,Retail,"€69,613,363",+1-546-347-1949,20/08/2025
+CL-2963,Banking Partners,Construction,"$41,387,219.00",749-997-5578,01/02/17
+CL-2964,Pharmaceuticals International,Technology,"""27,618,901.00""",(473) 261-2596,1676104480
+CL-2965,Telecommunications Partners,Automotive,40068079,247-949-1173,2020-08-01
+CL-2966,Real Estate Partners,Insurance,"$82,027,259.00",(694) 631-8909,1630053280
+CL-2967,Telecommunications International,Technology,"$53,982,698.00",872-506-2687,20/07/19
+CL-2968,Manufacturing Partners,Pharmaceuticals,83511459,505-311-2365,1610181280
+CL-2969,Aerospace Systems,Automotive,"$87,593,644",(505) 333-6509,2025-08-31
+CL-2970,Construction Holdings Corp,Banking,"$78,023,282",606-757-3329,20/09/24
+CL-2971,Retail Solutions Inc,Transportation,34415948,+1-946-341-6585,2018-09-09
+CL-2972,Transportation Solutions Inc,Banking,96004542,(575) 482-9427,13-Feb-2020
+CL-2973,Telecommunications Holdings Corp,Insurance,"92,595,943",854-284-1069,2016-06-05
+CL-2974,Transportation Holdings Corp,Manufacturing,"€78,028,916",(922) 553-3000,2023-05-26
+CL-2975,Telecommunications Group LLC,Transportation,"""12,647,488.00""",(576) 725-8900,1559896480
+CL-2976,Real Estate Systems,Construction,"""26,802,765.00""",(620) 712-8403,22-Jun-2025
+CL-2977,Healthcare Partners,Manufacturing,"$73,594,426",+1-979-849-6255,2016-10-06
+CL-2978,Construction Partners,Insurance,"€63,382,819",646-262-1153,18/02/2016
+CL-2979,Healthcare Systems,Construction,"$32,720,243",431-381-5328,1746347680
+CL-2980,Insurance Solutions Inc,Healthcare,"73,859,442",244-800-5972,09-Sep-2022
+CL-2981,Manufacturing Holdings Corp,Construction,65914236,808.998.6896,2025-04-06
+CL-2982,Real Estate Partners,Aerospace,"""61,340,934.00""",889-961-6752,12/10/21
+CL-2983,Aerospace Group LLC,Pharmaceuticals,"""69,036,298.00""",(896) 225-4329,19/01/2022
+CL-2984,Construction Partners,Automotive,"€98,115,237",(811) 386-7680,22/03/2019
+CL-2985,Insurance Partners,Aerospace,"62,232,169",+1-583-679-1669,1606725280
+CL-2986,Aerospace Group LLC,Real Estate,"$10,362,905.00",256.648.4905,29/04/18
+CL-2987,Transportation Systems,Telecommunications,"$39,576,809",(437) 397-4962,30-Jul-2023
+CL-2988,Energy Systems,Insurance,"""51,713,614.00""",924-432-1037,29-Jun-2019
+CL-2989,Energy Holdings Corp,Transportation,"$81,367,654.00",+1-339-717-6630,1653986080
+CL-2990,Transportation International,Telecommunications,39556513,(998) 548-5020,17-Nov-2019
+CL-2991,Technology Group LLC,Manufacturing,"$1,867,233",+1-654-620-5959,16/03/2022
+CL-2992,Pharmaceuticals Partners,Telecommunications,"€54,269,327",+1-384-243-4746,1752395680
+CL-2993,Banking Holdings Corp,Aerospace,"$54,859,392",806-994-3158,10/03/2021
+CL-2994,Insurance Systems,Construction,"$34,768,952",517-781-6935,07/11/2016
+CL-2995,Healthcare Partners,Technology,"$32,467,988",(754) 770-9299,2023-08-28
+CL-2996,Real Estate Holdings Corp,Telecommunications,"$92,908,910",(221) 350-3608,13-Dec-2024
+CL-2997,Energy Holdings Corp,Healthcare,"$67,879,246",(874) 912-2116,1542875680
+CL-2998,Healthcare Holdings Corp,Insurance,"€55,459,350",784.658.5142,2018-03-15
+CL-2999,Insurance Holdings Corp,Transportation,"$99,642,583",406-213-7102,02/10/2019
+CL-3000,Insurance Solutions Inc,Automotive,"46,039,843",357-434-3204,04/11/2020

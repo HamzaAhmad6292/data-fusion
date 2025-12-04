@@ -1,0 +1,14 @@
+Document ID: D-2006
+Title: Employment Offer Letter
+Client: CL-1002
+MatterRef: MAT-1023
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.

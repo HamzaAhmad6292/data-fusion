@@ -1,0 +1,60 @@
+Billing Summary for Matter MAT-1033
+Simulated_Format: DOCX
+
+MTR-ID: MTR-1034
+client_id: CL-1005
+
+[Client Information]
+name_short: Harbor Financial Consortium
+Canonical client_id: CL-1003
+Canonical Client Name: Harbor Financial Group
+industry: Finance
+annual_turnover: $45,000,000
+Client Created At: 25-Oct-2021
+
+[Matter Information]
+Case Title (narrative): Harbor Financial Group - oversight investigation
+Formal Matter Title: Harbor Financial Group - Regulatory Inquiry
+Practice Area: Regulatory
+Lead Counsel: Mark Thompson
+opened: 23/03/20
+Estimated Value: $12,000
+
+[Additional Context (Noisy / Partially Redundant)]
+Phase 2 negotiations mentioned in board briefing memo.
+
+[Billing Entries]
+- Entry ID: BL-353953
+  Attorney ID: AT-004
+  Hours Billed: 5.5
+  Hourly Rate: 375
+  Amount: $2,062.50
+  Work Description: examined deal paperwork
+  Original Description: Reviewed contract
+  Entry Date (raw): 26/10/21
+
+- Entry ID: BL-379617
+  Attorney ID: AT-003
+  Hours Billed: 5.9
+  Hourly Rate: 375
+  Amount: 2212
+  Work Description: developed motion papers
+  Original Description: Drafted motion
+  Entry Date (raw): 06-Mar-2021
+
+- Entry ID: BL-371002
+  Attorney ID: AT-002
+  Hours Billed: 3.2
+  Hourly Rate: 375.00
+  Amount: (not provided in source)
+  Work Description: developed motion papers
+  Original Description: Drafted motion
+  Entry Date (raw): 20-Feb-2019
+
+[Totals]
+Total Hours (reported): 15.33
+Total Amount (reported): 3847.05
+Note: reported totals may not align exactly with line items due to rounding, internal write‑offs, or legacy system sync issues.
+
+[Narrative Summary]
+This dossier summarizes time entries for what is sometimes described as 'Harbor Financial Group - oversight investigation' involving Harbor Financial Consortium, a corporate entity in the Finance space. Terminology and identifiers may vary across systems (e.g., MTR-1034 vs MAT-1033; CL-1005 vs CL-1003), and internal notes may reference phases or initiatives not present in the primary matter management schema.

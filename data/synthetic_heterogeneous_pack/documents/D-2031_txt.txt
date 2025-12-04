@@ -1,0 +1,16 @@
+Document ID: D-2031
+Title: Non-Disclosure Agreement
+Client: CL-1004
+MatterRef: MAT-1013
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Spanish variant: La parte proveedora indemnizará al cliente por daños resultantes de negligencia.

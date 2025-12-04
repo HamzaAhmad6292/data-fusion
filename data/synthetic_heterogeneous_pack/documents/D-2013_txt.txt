@@ -1,0 +1,14 @@
+Document ID: D-2013
+Title: Master Services Agreement
+Client: CL-1002
+MatterRef: MAT-1022
+
+This Agreement may be ended immediately for cause if a material breach is not cured within 10 days after notice.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Vendor assumes responsibility for all costs resulting from operational failures, including damages and third-party claims.

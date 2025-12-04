@@ -1,0 +1,14 @@
+Document ID: D-2014
+Title: Non-Disclosure Agreement
+Client: CL-1002
+MatterRef: MAT-1023
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.

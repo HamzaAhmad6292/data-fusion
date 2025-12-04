@@ -1,0 +1,51 @@
+Billing Summary for Matter MAT-1031
+Simulated_Format: DOCX
+
+matter_id: MTR-1032
+client_ref: CL-1004
+
+[Client Information]
+Corporate Counterparty: Harbor Financial Consortium
+Canonical client_id: CL-1003
+Canonical Client Name: Harbor Financial Group
+industry: Finance
+annual_revenue: $45,000,000
+Client Created At: 25-Oct-2021
+
+[Matter Information]
+Case Title (narrative): Harbor Financial Group - regulatory oversight review
+Formal Matter Title: Harbor Financial Group - Regulatory Inquiry
+Practice Area: Contracts
+Lead Counsel: Daniel Park
+opened: 2020-01-22
+Estimated Value: 12000
+
+[Additional Context (Noisy / Partially Redundant)]
+Internal Reference: SB-ENG-47 (not present in core systems).
+
+[Billing Entries]
+- Entry ID: BL-194236
+  Attorney ID: AT-001
+  Hours Billed: 4.1
+  Hourly Rate: 300
+  Amount: 1230.0
+  Work Description: examined deal paperwork
+  Original Description: Reviewed contract
+  Entry Date (raw): 2020-03-18
+
+- Entry ID: BL-939158
+  Attorney ID: AT-002
+  Hours Billed: 4.8
+  Hourly Rate: 250
+  Amount: 1200.0
+  Work Description: examined deal paperwork
+  Original Description: Reviewed contract
+  Entry Date (raw): 2020-05-10
+
+[Totals]
+Total Hours (reported): 9.79
+Total Amount (reported): 2430.0
+Note: reported totals may not align exactly with line items due to rounding, internal write‑offs, or legacy system sync issues.
+
+[Narrative Summary]
+This dossier summarizes time entries for what is sometimes described as 'Harbor Financial Group - regulatory oversight review' involving Harbor Financial Consortium, a corporate entity in the Finance space. Terminology and identifiers may vary across systems (e.g., MTR-1032 vs MAT-1031; CL-1004 vs CL-1003), and internal notes may reference phases or initiatives not present in the primary matter management schema.

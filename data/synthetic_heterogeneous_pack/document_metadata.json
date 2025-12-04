@@ -1,0 +1,402 @@
+[
+  {
+    "doc_id": "D-2000",
+    "matter_id": "MAT-1042",
+    "client": "CL-1005",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "15/08/24",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2001",
+    "matter_id": "MAT-1042",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "1650844800",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2002",
+    "matter_id": "MAT-1012",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "25/11/18",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2003",
+    "matter_id": "MAT-1033",
+    "client": "CL-1005",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "1529798400",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2004",
+    "matter_id": "MAT-1032",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "29/09/23",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2005",
+    "matter_id": "MAT-1032",
+    "client": "CL-1001",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "2020-08-30",
+    "uploaded_by": "Hannah Lee",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2006",
+    "matter_id": "MAT-1023",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "08/02/21",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2007",
+    "matter_id": "MAT-1023",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "1606608000",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2008",
+    "matter_id": "MAT-1022",
+    "client": "CL-1001",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "02-Apr-2016",
+    "uploaded_by": "Hannah Lee",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2009",
+    "matter_id": "MAT-1053",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Non-Disclosure Agreement",
+    "created": "14/10/21",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2010",
+    "matter_id": "MAT-1023",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "07/03/21",
+    "uploaded_by": "Daniel Park",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2011",
+    "matter_id": "MAT-1013",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "2020-06-08",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2012",
+    "matter_id": "MAT-1032",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "2020-05-11",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2013",
+    "matter_id": "MAT-1022",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "2022-06-22",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2014",
+    "matter_id": "MAT-1023",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Non-Disclosure Agreement",
+    "created": "2021-02-17",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2015",
+    "matter_id": "MAT-1033",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "1662854400",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2016",
+    "matter_id": "MAT-1041",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "1576108800",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2017",
+    "matter_id": "MAT-1052",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "2022-11-21",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2018",
+    "matter_id": "MAT-1012",
+    "client": "CL-1003",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "24/04/17",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2019",
+    "matter_id": "MAT-1033",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "08/09/22",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2020",
+    "matter_id": "MAT-1031",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "16/02/23",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2021",
+    "matter_id": "MAT-1032",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Non-Disclosure Agreement",
+    "created": "05-Feb-2018",
+    "uploaded_by": "Daniel Park",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2022",
+    "matter_id": "MAT-1011",
+    "client": "CL-1005",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "07/06/21",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2023",
+    "matter_id": "MAT-1033",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "1596326400",
+    "uploaded_by": "Daniel Park",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2024",
+    "matter_id": "MAT-1032",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "2022-05-04",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2025",
+    "matter_id": "MAT-1011",
+    "client": "CL-1003",
+    "doc_type": "Contract",
+    "title": "Non-Disclosure Agreement",
+    "created": "11-Jan-2022",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2026",
+    "matter_id": "MAT-1041",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Vendor Agreement",
+    "created": "2022-03-01",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2027",
+    "matter_id": "MAT-1022",
+    "client": "CL-1001",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "2022-01-29",
+    "uploaded_by": "Daniel Park",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2028",
+    "matter_id": "MAT-1021",
+    "client": "CL-1005",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "02/04/24",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2029",
+    "matter_id": "MAT-1032",
+    "client": "CL-1001",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "1482364800",
+    "uploaded_by": "Hannah Lee",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2030",
+    "matter_id": "MAT-1021",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "23-Sep-2023",
+    "uploaded_by": "Lina Gomez",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2031",
+    "matter_id": "MAT-1013",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Non-Disclosure Agreement",
+    "created": "19/10/24",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2032",
+    "matter_id": "MAT-1041",
+    "client": "CL-1001",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "25/02/19",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2033",
+    "matter_id": "MAT-1022",
+    "client": "CL-1003",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "2021-10-08",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2034",
+    "matter_id": "MAT-1053",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "10/05/23",
+    "uploaded_by": "Mark Thompson",
+    "file_type": "pdf"
+  },
+  {
+    "doc_id": "D-2035",
+    "matter_id": "MAT-1013",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "1539129600",
+    "uploaded_by": "Daniel Park",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2036",
+    "matter_id": "MAT-1041",
+    "client": "CL-1002",
+    "doc_type": "Contract",
+    "title": "Employment Offer Letter",
+    "created": "1673740800",
+    "uploaded_by": "Daniel Park",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2037",
+    "matter_id": "MAT-1012",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Master Services Agreement",
+    "created": "08-Jul-2020",
+    "uploaded_by": "Ayesha Khan",
+    "file_type": "txt"
+  },
+  {
+    "doc_id": "D-2038",
+    "matter_id": "MAT-1032",
+    "client": "CL-1004",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "2016-01-11",
+    "uploaded_by": "Daniel Park",
+    "file_type": "docx"
+  },
+  {
+    "doc_id": "D-2039",
+    "matter_id": "MAT-1052",
+    "client": "CL-1003",
+    "doc_type": "Contract",
+    "title": "Statement of Work",
+    "created": "17/06/20",
+    "uploaded_by": "Daniel Park",
+    "file_type": "pdf"
+  }
+]

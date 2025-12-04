@@ -1,0 +1,16 @@
+Document ID: D-2015
+Title: Employment Offer Letter
+Client: CL-1004
+MatterRef: MAT-1033
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Spanish variant: La parte proveedora indemnizará al cliente por daños resultantes de negligencia.

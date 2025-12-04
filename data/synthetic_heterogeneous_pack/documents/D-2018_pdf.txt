@@ -1,0 +1,14 @@
+Document ID: D-2018
+Title: Employment Offer Letter
+Client: CL-1003
+MatterRef: MAT-1012
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+Termination can occur upon insolvency or bankruptcy of either party, effective as of the petition date.
+
+Provider will defend and indemnify the Client for liabilities stemming from contractor negligence, subject to limitations herein.

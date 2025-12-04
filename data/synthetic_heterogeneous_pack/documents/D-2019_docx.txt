@@ -1,0 +1,14 @@
+Document ID: D-2019
+Title: Vendor Agreement
+Client: CL-1002
+MatterRef: MAT-1033
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party.
+
+Party A shall indemnify and hold harmless Party B from and against any losses arising out of negligence or willful misconduct.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.

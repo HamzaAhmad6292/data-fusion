@@ -1,0 +1,14 @@
+Document ID: D-2027
+Title: Employment Offer Letter
+Client: CL-1001
+MatterRef: MAT-1022
+
+P*arty A shall indemnify and hold harmless P*arty B from and against any losses arising out of negligence or willful misconduct.
+
+Notices: All notices shall be in writing and delivered to the contact details set forth herein.
+
+Any proprietary data shared must remain confidential; recipients must use at least the same degree of care as their own sensitive info.
+
+Either party may terminate this Agreement upon thirty (30) days' written notice to the other party for convenience.
+
+Governing Law: This Agreement shall be governed by the laws of the State of California.

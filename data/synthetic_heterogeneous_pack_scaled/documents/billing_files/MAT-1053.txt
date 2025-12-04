@@ -1,0 +1,35 @@
+Billing Summary for Matter MAT-1053
+Simulated_Format: TXT
+
+Matter ID: MAT-1053
+Client ID: CL-1005
+
+[Client Information]
+Client Name: Nimbus Software Solutions
+Industry: Technology
+Annual Revenue: $8,700,000
+Client Created At: 21/01/22
+
+[Matter Information]
+Matter Title: Nimbus Software Solutions - Master Services Agreement Negotiation
+Practice Area: Contracts
+Lead Attorney: Hannah Lee
+Opened On: 30/04/22
+Estimated Value: 12K
+
+[Billing Entries]
+- Entry ID: BL-454746
+  Attorney ID: AT-002
+  Hours Billed: 7.1
+  Hourly Rate: 250
+  Amount: (not provided in source)
+  Work Description: Prepared discovery
+  Entry Date (raw): 21-Dec-2021
+
+[Totals]
+Total Hours (reported): 7.1
+Total Amount (reported): 0.0
+Note: reported totals are expected to match the sum of entries.
+
+[Narrative Summary]
+This file consolidates billing activity for matter MAT-1053 ('Nimbus Software Solutions - Master Services Agreement Negotiation') on behalf of client Nimbus Software Solutions. It is intended to be a consistent, canonical view aligned with the structured matters and client records.

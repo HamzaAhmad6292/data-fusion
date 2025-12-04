@@ -1,0 +1,60 @@
+Billing Summary for Matter MAT-1051
+Simulated_Format: TXT
+
+MTR-ID: MTR-1050
+ClientId: CL-1004
+
+[Client Information]
+nm: Nimbus Software Systems
+Canonical client_id: CL-1005
+Canonical Client Name: Nimbus Software Solutions
+industry: Technology
+rev_k: $8,700,000
+Client Created At: 21/01/22
+
+[Matter Information]
+Case Title (narrative): Nimbus Software Solutions - strategic services framework Negotiation
+Formal Matter Title: Nimbus Software Solutions - Master Services Agreement Negotiation
+Practice Area: M&A
+Lead Counsel: Daniel Park
+start_date: 29/08/19
+Estimated Value: 12K
+
+[Additional Context (Noisy / Partially Redundant)]
+Phase 2 negotiations mentioned in board briefing memo.
+
+[Billing Entries]
+- Entry ID: BL-836298
+  Attorney ID: AT-005
+  Hours Billed: 5.5
+  Hourly Rate: 250
+  Amount: 1375.0
+  Work Description: organized evidentiary materials
+  Original Description: Prepared discovery
+  Entry Date (raw): 27-Dec-2019
+
+- Entry ID: BL-945965
+  Attorney ID: AT-004
+  Hours Billed: 2.9
+  Hourly Rate: 250
+  Amount: (not provided in source)
+  Work Description: status alignment call with client team
+  Original Description: Client call
+  Entry Date (raw): 24-Oct-2024
+
+- Entry ID: BL-725946
+  Attorney ID: AT-001
+  Hours Billed: 5.2
+  Hourly Rate: 250
+  Amount: $1,300.00
+  Work Description: advisory conference with corporate representative
+  Original Description: Client call
+  Entry Date (raw): 10-Oct-2020
+
+[Totals]
+Total Hours (reported): 14.28
+Total Amount (reported): 2407.5
+Note: reported totals may not align exactly with line items due to rounding, internal write‑offs, or legacy system sync issues.
+
+[Narrative Summary]
+This dossier summarizes time entries for what is sometimes described as 'Nimbus Software Solutions - strategic services framework Negotiation' involving Nimbus Software Systems, a corporate entity in the Technology space. Terminology and identifiers may vary across systems (e.g., MTR-1050 vs MAT-1051; CL-1004 vs CL-1005), and internal notes may reference phases or initiatives not present in the primary matter management schema.

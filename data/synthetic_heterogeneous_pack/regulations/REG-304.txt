@@ -1,0 +1,7 @@
+Regulation ID: REG-304
+Title: Data Processing & Protection Amendment 2022
+
+Section 1: Data subjects must be informed of processing activities.
+Section 2: Controllers shall maintain records of processing activities.
+
+Note: This is a synthetic regulation created for demo purposes only.
