@@ -1,0 +1,72 @@
+{
+  "filename": "matters_B.json",
+  "file_path": "../data/synthetic_heterogeneous_pack_scaled/matters_B.json",
+  "columns": [
+    {
+      "name": "file_no",
+      "description": "Unique identifier for the legal matter",
+      "example": "MAT-1001",
+      "similar_keywords": [
+        "matter code",
+        "case_id",
+        "file_number"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "client_id",
+      "description": "Identifier for the client associated with the matter",
+      "example": "CL-1001",
+      "similar_keywords": [
+        "client code",
+        "customer_ref",
+        "account_id"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "matterSummary",
+      "description": "Brief summary of the legal matter, including parties and dispute type",
+      "example": "Healthcare Solutions Inc v. ACME Corp - Employment Dispute",
+      "similar_keywords": [
+        "case_summary",
+        "matter_description",
+        "dispute_overview"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "area",
+      "description": "Area of law or practice related to the matter",
+      "example": "Tax",
+      "similar_keywords": [
+        "practice_area",
+        "law_category",
+        "specialty"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "startDate",
+      "description": "Date when the matter started, in varying formats (e.g., YYYY-MM-DD, MM/DD/YYYY, DD/MM/YY)",
+      "example": "2025-05-20",
+      "similar_keywords": [
+        "start_date",
+        "initiation_date",
+        "filing_date"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "owner",
+      "description": "Name of the person responsible for or assigned to the matter",
+      "example": "Daniel Park",
+      "similar_keywords": [
+        "assignee",
+        "handler",
+        "responsible_attorney"
+      ],
+      "data_type": "str"
+    }
+  ]
+}

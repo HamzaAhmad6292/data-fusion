@@ -1,0 +1,83 @@
+{
+  "filename": "structured_clients_B_descriptions_descriptions.json",
+  "file_path": "../data/synthetic_heterogeneous_pack_scaled/descriptions/structured_clients_B_descriptions_descriptions.json",
+  "columns": [
+    {
+      "name": "id",
+      "description": "Unique identifier for the client, a string value",
+      "example": "CL-1001",
+      "similar_keywords": [
+        "client_code",
+        "customer_id",
+        "account_number"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "custFullNm",
+      "description": "Full name of the client, including company name",
+      "example": "HEALTHCARE SOLUTIONS COMPANY",
+      "similar_keywords": [
+        "client_name",
+        "customer_name",
+        "company_name"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "sector",
+      "description": "Industry sector of the client, represented as a string",
+      "example": "pharmaceuticals",
+      "similar_keywords": [
+        "industry",
+        "market_sector",
+        "business_category"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "financials.turnover",
+      "description": "Annual turnover of the client in numeric format, representing financial performance",
+      "example": "33868828",
+      "similar_keywords": [
+        "annual_revenue",
+        "sales_turnover",
+        "financial_performance"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "financials.currency",
+      "description": "Currency in which the client's financials are reported, as a standard currency code",
+      "example": "USD",
+      "similar_keywords": [
+        "reporting_currency",
+        "financial_currency",
+        "money_unit"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "phone",
+      "description": "Phone number of the client, including area code and format",
+      "example": "(804) 632-1520",
+      "similar_keywords": [
+        "contact_number",
+        "telephone",
+        "phone_contact"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "meta.registered_on",
+      "description": "Date when the client was registered, in various date formats",
+      "example": "03/05/23",
+      "similar_keywords": [
+        "registration_date",
+        "onboarding_date",
+        "client_since"
+      ],
+      "data_type": "unknown"
+    }
+  ]
+}

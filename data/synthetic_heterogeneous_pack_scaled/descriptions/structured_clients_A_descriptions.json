@@ -1,0 +1,72 @@
+{
+  "filename": "structured_clients_A.csv",
+  "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_A.csv",
+  "columns": [
+    {
+      "name": "client_id",
+      "description": "Unique identifier for the client",
+      "example": "CL-1001",
+      "similar_keywords": [
+        "client code",
+        "customer_id",
+        "account_number"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "company_name",
+      "description": "Name of the client's company",
+      "example": "Healthcare Solutions Inc",
+      "similar_keywords": [
+        "company_title",
+        "business_name",
+        "organization_name"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "industry",
+      "description": "Industry or sector in which the client's company operates",
+      "example": "Pharmaceuticals",
+      "similar_keywords": [
+        "sector",
+        "business_type",
+        "market_category"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "annual_revenue",
+      "description": "The client's company annual revenue, including currency symbol where applicable",
+      "example": "$33,868,828",
+      "similar_keywords": [
+        "annual_turnover",
+        "yearly_revenue",
+        "company_income"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "contact_phone",
+      "description": "Phone number for contacting the client, potentially including international dialing codes",
+      "example": "(954) 304-9935",
+      "similar_keywords": [
+        "phone_number",
+        "contact_telephone",
+        "client_phone"
+      ],
+      "data_type": "str"
+    },
+    {
+      "name": "created_at",
+      "description": "Date or timestamp when the client record was created, with varying formats",
+      "example": "2023-05-03",
+      "similar_keywords": [
+        "creation_date",
+        "record_timestamp",
+        "added_on"
+      ],
+      "data_type": "str"
+    }
+  ]
+}

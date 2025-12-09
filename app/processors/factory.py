@@ -9,7 +9,6 @@ from .base import BaseProcessor
 from .csv_processor import CSVProcessor
 from .json_processor import JSONProcessor
 from .jsonl_processor import JSONLProcessor
-from .xml_processor import XMLProcessor
 from .xlsx_processor import XLSXProcessor
 from .txt_processor import TXTProcessor
 
@@ -24,7 +23,6 @@ class ProcessorFactory:
         '.csv': CSVProcessor,
         '.json': JSONProcessor,
         '.jsonl': JSONLProcessor,
-        '.xml': XMLProcessor,
         '.xlsx': XLSXProcessor,
         '.xls': XLSXProcessor,  # Legacy Excel format
         '.txt': TXTProcessor,

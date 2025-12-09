@@ -1,0 +1,94 @@
+{
+  "filename": "document_metadata_descriptions.json",
+  "file_path": "../data/synthetic_heterogeneous_pack_scaled/descriptions/document_metadata_descriptions.json",
+  "columns": [
+    {
+      "name": "doc_id",
+      "description": "Unique identifier for the document",
+      "example": "D-2001",
+      "similar_keywords": [
+        "document code",
+        "file_id",
+        "doc_code"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "matter_id",
+      "description": "Unique identifier for the legal matter associated with the document",
+      "example": "MAT-1001",
+      "similar_keywords": [
+        "matter code",
+        "case_id",
+        "file_number"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "client",
+      "description": "Identifier for the client associated with the matter",
+      "example": "CL-1001",
+      "similar_keywords": [
+        "client code",
+        "customer_ref",
+        "account_id"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "doc_type",
+      "description": "Type of document (e.g., Correspondence, Motion, Agreement, Contract)",
+      "example": "Correspondence",
+      "similar_keywords": [
+        "document category",
+        "file_type_name",
+        "doc_class"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "title",
+      "description": "Title of the document",
+      "example": "Correspondence Document",
+      "similar_keywords": [
+        "document name",
+        "file_title",
+        "doc_label"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "created",
+      "description": "Date when the document was created (in DD/MM/YY format)",
+      "example": "29/12/23",
+      "similar_keywords": [
+        "date_created",
+        "doc_date",
+        "creation_date"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "uploaded_by",
+      "description": "Name of the user who uploaded the document",
+      "example": "Lina Gomez",
+      "similar_keywords": [
+        "uploader",
+        "user_name",
+        "uploaded_by_user"
+      ],
+      "data_type": "unknown"
+    },
+    {
+      "name": "file_type",
+      "description": "File format of the document (e.g., pdf, txt)",
+      "example": "pdf",
+      "similar_keywords": [
+        "document_format",
+        "file_extension",
+        "doc_format"
+      ],
+      "data_type": "unknown"
+    }
+  ]
+}
