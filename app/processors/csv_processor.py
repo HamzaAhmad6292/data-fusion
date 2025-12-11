@@ -39,6 +39,19 @@ class CSVProcessor(BaseProcessor):
         for chunk in pd.read_csv(self.file_path, chunksize=chunk_size, **kwargs):
             yield chunk
     
+    def get_top_n(self, n: int = 5, **kwargs) -> pd.DataFrame:
+        """
+        Get the top N rows from the CSV file.
+        
+        Args:
+            n: Number of rows to return (default: 5)
+            **kwargs: Additional arguments passed to pd.read_csv()
+            
+        Returns:
+            DataFrame containing the top N rows
+        """
+        return pd.read_csv(self.file_path, nrows=n, **kwargs)
+    
     def get_metadata(self) -> Dict[str, Any]:
         """
         Get metadata about the CSV file.

@@ -1,0 +1,640 @@
+{
+  "total_files": 7,
+  "successful": 7,
+  "errors": 0,
+  "files": [
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/billing_entries_A.csv",
+      "relative_path": "billing_entries_A.csv",
+      "status": "success",
+      "result": {
+        "filename": "billing_entries_A.csv",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/billing_entries_A.csv",
+        "file": {
+          "name": "Billing Entries",
+          "description": "A dataset containing information about billing entries for legal matters handled by a law firm. Each record represents a single billing entry with details about the matter, attorney, hours worked, rate, and description of the work done."
+        },
+        "columns": [
+          {
+            "name": "entry_id",
+            "description": "Unique identifier for the billing entry",
+            "example": "BL-692060",
+            "similar_keywords": [
+              "billing_code",
+              "entry_code",
+              "invoice_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "file_id",
+            "description": "Identifier for the legal matter or file associated with the billing entry",
+            "example": "MAT-1001",
+            "similar_keywords": [
+              "matter_id",
+              "case_id",
+              "file_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "att_id",
+            "description": "Identifier for the attorney associated with the billing entry",
+            "example": "AT-002",
+            "similar_keywords": [
+              "attorney_id",
+              "lawyer_code",
+              "associate_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "hours",
+            "description": "Number of hours worked on the task described in the billing entry",
+            "example": 10.0,
+            "similar_keywords": [
+              "time_spent",
+              "work_hours",
+              "hourly_input"
+            ],
+            "data_type": "float"
+          },
+          {
+            "name": "rate",
+            "description": "Hourly rate charged for the work done, in dollars",
+            "example": 375,
+            "similar_keywords": [
+              "hourly_rate",
+              "charge_rate",
+              "fee_per_hour"
+            ],
+            "data_type": "int"
+          },
+          {
+            "name": "amount",
+            "description": "Total amount billed for the work done, calculated as hours worked times rate, in dollars",
+            "example": "3750.0",
+            "similar_keywords": [
+              "bill_amount",
+              "total_cost",
+              "invoice_total"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "description",
+            "description": "Brief description of the work done or service provided, as recorded in the billing entry",
+            "example": "Drafted motion",
+            "similar_keywords": [
+              "work_description",
+              "service_details",
+              "task_summary"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "entry_date",
+            "description": "Date when the billing entry was recorded, in various formats including Unix timestamp and date strings",
+            "example": "1654504480",
+            "similar_keywords": [
+              "billing_date",
+              "entry_timestamp",
+              "record_date"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/document_metadata.json",
+      "relative_path": "document_metadata.json",
+      "status": "success",
+      "result": {
+        "filename": "document_metadata.json",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/document_metadata.json",
+        "file": {
+          "name": "Document Records",
+          "description": "A dataset containing information about documents related to legal matters or cases, including document identifiers, types, titles, creation dates, and upload details. Each record represents a single document with its associated metadata."
+        },
+        "columns": [
+          {
+            "name": "item.doc_id",
+            "description": "Unique identifier for the document",
+            "example": "D-2001",
+            "similar_keywords": [
+              "document code",
+              "doc_code",
+              "file_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.matter_id",
+            "description": "Identifier for the legal matter or case associated with the document",
+            "example": "MAT-1001",
+            "similar_keywords": [
+              "matter code",
+              "case_id",
+              "legal_matter_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.client",
+            "description": "Identifier for the client associated with the document or matter",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_ref",
+              "account_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.doc_type",
+            "description": "Type or category of the document (e.g., Correspondence, Motion, Agreement)",
+            "example": "Correspondence",
+            "similar_keywords": [
+              "document category",
+              "doc_class",
+              "file_type_category"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.title",
+            "description": "Title or brief description of the document",
+            "example": "Correspondence Document",
+            "similar_keywords": [
+              "document name",
+              "file_title",
+              "doc_description"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.created",
+            "description": "Date when the document was created, in the format DD/MM/YY or DD/MM/YYYY",
+            "example": "29/12/23",
+            "similar_keywords": [
+              "document date",
+              "creation_date",
+              "doc_created"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.uploaded_by",
+            "description": "Name of the user who uploaded the document",
+            "example": "Lina Gomez",
+            "similar_keywords": [
+              "uploader",
+              "upload_user",
+              "document_uploader"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.file_type",
+            "description": "File format or extension of the document (e.g., pdf, txt)",
+            "example": "pdf",
+            "similar_keywords": [
+              "document format",
+              "file_extension",
+              "doc_type"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/matters_A.csv",
+      "relative_path": "matters_A.csv",
+      "status": "success",
+      "result": {
+        "filename": "matters_A.csv",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/matters_A.csv",
+        "file": {
+          "name": "Legal Matters",
+          "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and case value. The dataset appears to cover various practice areas such as Tax, Environmental, and Litigation, indicating a diverse range of legal services provided by the firm."
+        },
+        "columns": [
+          {
+            "name": "matter_id",
+            "description": "Unique identifier for the legal matter, formatted as 'MAT-' followed by a numeric code",
+            "example": "MAT-1001",
+            "similar_keywords": [
+              "matter code",
+              "case_id",
+              "file_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "client_ref",
+            "description": "Identifier for the client associated with the matter, formatted as 'CL-' followed by a numeric code",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_ref",
+              "account_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "title",
+            "description": "Brief description or title of the legal matter, including the name of the client or parties involved and a brief summary of the case",
+            "example": "Healthcare Solutions Inc v. ACME Corp - Employment Dispute",
+            "similar_keywords": [
+              "case_title",
+              "matter_description",
+              "dispute_summary"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "practice_area",
+            "description": "The area of law or legal specialty that the matter falls under, such as Tax, Environmental, or Litigation",
+            "example": "Tax",
+            "similar_keywords": [
+              "legal_specialty",
+              "area_of_law",
+              "practice_type"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "opened_on",
+            "description": "Date when the legal matter was opened, primarily in the format 'dd/mm/yyyy' but with at least one instance in a Unix timestamp format",
+            "example": "20/05/2025",
+            "similar_keywords": [
+              "start_date",
+              "case_opened",
+              "initiation_date"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "lead_attorney",
+            "description": "The name of the attorney assigned to lead the legal matter",
+            "example": "Daniel Park",
+            "similar_keywords": [
+              "assigned_attorney",
+              "lead_counsel",
+              "case_handler"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "estimated_value",
+            "description": "The estimated monetary value of the legal matter, with variations in format including numeric values, values with a thousands separator ('K'), and currency symbols",
+            "example": "7902",
+            "similar_keywords": [
+              "case_value",
+              "matter_worth",
+              "estimated_cost"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/matters_B.json",
+      "relative_path": "matters_B.json",
+      "status": "success",
+      "result": {
+        "filename": "matters_B.json",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/matters_B.json",
+        "file": {
+          "name": "Legal Matters",
+          "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and start date."
+        },
+        "columns": [
+          {
+            "name": "item.file_no",
+            "description": "Unique identifier for the legal matter",
+            "example": "MAT-1001",
+            "similar_keywords": [
+              "matter code",
+              "case_id",
+              "file_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.client_id",
+            "description": "Identifier for the client associated with the matter",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_ref",
+              "account_id"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.matterSummary",
+            "description": "Brief summary or description of the legal matter",
+            "example": "Healthcare Solutions Inc v. ACME Corp - Employment Dispute",
+            "similar_keywords": [
+              "case_summary",
+              "matter_description",
+              "legal_issue"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.area",
+            "description": "Practice area or category of law related to the matter",
+            "example": "Tax",
+            "similar_keywords": [
+              "practice_area",
+              "law_category",
+              "legal_discipline"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.startDate",
+            "description": "Date when the legal matter started, in various formats (e.g., YYYY-MM-DD, MM/DD/YYYY, DD/MM/YY)",
+            "example": "2025-05-20",
+            "similar_keywords": [
+              "start_date",
+              "matter_opened",
+              "initiation_date"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.owner",
+            "description": "Name of the attorney or owner assigned to the legal matter",
+            "example": "Daniel Park",
+            "similar_keywords": [
+              "assigned_attorney",
+              "matter_owner",
+              "case_handler"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_A.csv",
+      "relative_path": "structured_clients_A.csv",
+      "status": "success",
+      "result": {
+        "filename": "structured_clients_A.csv",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_A.csv",
+        "file": {
+          "name": "Client Records",
+          "description": "A dataset containing information about clients, including their company details, industry, financial data, and contact information. Each record represents a single client with various attributes."
+        },
+        "columns": [
+          {
+            "name": "client_id",
+            "description": "Unique identifier for the client",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_id",
+              "account_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "company_name",
+            "description": "Name of the client's company",
+            "example": "Healthcare Solutions Inc",
+            "similar_keywords": [
+              "company_title",
+              "client_name",
+              "organization"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "industry",
+            "description": "Industry or sector in which the client's company operates",
+            "example": "Pharmaceuticals",
+            "similar_keywords": [
+              "sector",
+              "market",
+              "business_type"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "annual_revenue",
+            "description": "The client's company annual revenue, including currency symbol where applicable",
+            "example": "$33,868,828",
+            "similar_keywords": [
+              "annual_turnover",
+              "revenue",
+              "sales"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "contact_phone",
+            "description": "Phone number for contacting the client",
+            "example": "(954) 304-9935",
+            "similar_keywords": [
+              "phone_number",
+              "contact_number",
+              "telephone"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "created_at",
+            "description": "Date and/or timestamp when the client record was created, with varying formats",
+            "example": "2023-05-03",
+            "similar_keywords": [
+              "created_date",
+              "recorded_at",
+              "timestamp"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_B.json",
+      "relative_path": "structured_clients_B.json",
+      "status": "success",
+      "result": {
+        "filename": "structured_clients_B.json",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_B.json",
+        "file": {
+          "name": "Client Records",
+          "description": "A dataset containing information about client companies, including their identifiers, names, sectors, financial details, contact information, and registration dates. Each record represents a single client entity with various attributes."
+        },
+        "columns": [
+          {
+            "name": "item.id",
+            "description": "Unique identifier for the client",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_id",
+              "account_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.custFullNm",
+            "description": "Full name of the client company",
+            "example": "HEALTHCARE SOLUTIONS COMPANY",
+            "similar_keywords": [
+              "company_name",
+              "client_name",
+              "customer_full_name"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.sector",
+            "description": "Industry sector in which the client operates",
+            "example": "pharmaceuticals",
+            "similar_keywords": [
+              "industry",
+              "sector_code",
+              "business_area"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.financials.turnover",
+            "description": "Annual turnover of the client company, represented as a numeric value",
+            "example": 33868828,
+            "similar_keywords": [
+              "annual_revenue",
+              "sales_turnover",
+              "financial_performance"
+            ],
+            "data_type": "int"
+          },
+          {
+            "name": "item.financials.currency",
+            "description": "Currency in which the client's financials are denominated",
+            "example": "USD",
+            "similar_keywords": [
+              "currency_code",
+              "financial_currency",
+              "money_unit"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.phone",
+            "description": "Phone number of the client company",
+            "example": "(804) 632-1520",
+            "similar_keywords": [
+              "contact_number",
+              "phone_number",
+              "telephone"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "item.meta.registered_on",
+            "description": "Date when the client was registered, in various date formats (e.g., MM/DD/YY, DD-MMM-YYYY)",
+            "example": "03/05/23",
+            "similar_keywords": [
+              "registration_date",
+              "created_on",
+              "onboarded_date"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    },
+    {
+      "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_D.xlsx",
+      "relative_path": "structured_clients_D.xlsx",
+      "status": "success",
+      "result": {
+        "filename": "structured_clients_D.xlsx",
+        "file_path": "../data/synthetic_heterogeneous_pack_scaled/structured_clients_D.xlsx",
+        "file": {
+          "name": "Client Records",
+          "description": "A dataset containing information about clients, including their industry, revenue, contact details, and creation date. Each record represents a single client with various attributes that describe the client's profile and business metrics."
+        },
+        "columns": [
+          {
+            "name": "cust_code",
+            "description": "Unique identifier for the client",
+            "example": "CL-1001",
+            "similar_keywords": [
+              "client code",
+              "customer_id",
+              "account_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "clientName",
+            "description": "Name of the client",
+            "example": "Healthcare Solutions Inc",
+            "similar_keywords": [
+              "company_name",
+              "client_name",
+              "organization"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "industry",
+            "description": "Industry or sector the client operates in",
+            "example": "Pharmaceuticals",
+            "similar_keywords": [
+              "sector",
+              "market",
+              "business_type"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "revenue",
+            "description": "Numeric value representing the client's revenue",
+            "example": 33868828,
+            "similar_keywords": [
+              "sales",
+              "turnover",
+              "annual_revenue"
+            ],
+            "data_type": "int"
+          },
+          {
+            "name": "phone",
+            "description": "Phone number of the client",
+            "example": "(804) 632-1520",
+            "similar_keywords": [
+              "contact_number",
+              "telephone",
+              "phone_number"
+            ],
+            "data_type": "str"
+          },
+          {
+            "name": "created",
+            "description": "Date when the client record was created, with varying formats (e.g., YYYY-MM-DD, DD/MM/YY, Unix timestamp)",
+            "example": "2023-05-03",
+            "similar_keywords": [
+              "creation_date",
+              "registration_date",
+              "added_on"
+            ],
+            "data_type": "str"
+          }
+        ]
+      }
+    }
+  ]
+}

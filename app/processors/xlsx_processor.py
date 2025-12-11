@@ -53,6 +53,26 @@ class XLSXProcessor(BaseProcessor):
         for i in range(0, len(df), chunk_size):
             yield df.iloc[i:i + chunk_size]
     
+    def get_top_n(self, n: int = 5, sheet_name: Optional[str | int] = None, **kwargs) -> pd.DataFrame:
+        """
+        Get the top N rows from the XLSX file.
+        
+        Args:
+            n: Number of rows to return (default: 5)
+            sheet_name: Name or index of sheet to read. If None, reads first sheet.
+            **kwargs: Additional arguments passed to pd.read_excel()
+            
+        Returns:
+            DataFrame containing the top N rows
+        """
+        if sheet_name is None:
+            # Get first sheet name if not specified
+            excel_file = pd.ExcelFile(self.file_path)
+            sheet_name = excel_file.sheet_names[0] if excel_file.sheet_names else 0
+        
+        df = pd.read_excel(self.file_path, sheet_name=sheet_name, nrows=n, **kwargs)
+        return df
+    
     def get_sheet_names(self) -> List[str]:
         """
         Get list of sheet names in the Excel file.

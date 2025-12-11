@@ -68,6 +68,28 @@ class JSONLProcessor(BaseProcessor):
                 if line:
                     yield json.loads(line)
     
+    def get_top_n(self, n: int = 5, **kwargs) -> List[Dict[str, Any]]:
+        """
+        Get the top N records from the JSONL file.
+        
+        Args:
+            n: Number of records to return (default: 5)
+            **kwargs: Additional arguments (e.g., encoding)
+            
+        Returns:
+            List containing the top N dictionaries
+        """
+        encoding = kwargs.pop('encoding', 'utf-8')
+        result = []
+        with open(self.file_path, 'r', encoding=encoding) as f:
+            for i, line in enumerate(f):
+                if i >= n:
+                    break
+                line = line.strip()
+                if line:
+                    result.append(json.loads(line))
+        return result
+    
     def get_metadata(self) -> Dict[str, Any]:
         """
         Get metadata about the JSONL file.

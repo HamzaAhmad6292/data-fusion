@@ -2,7 +2,9 @@
 JSON dataset processor.
 """
 
+import ijson
 import json
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterator, List, Optional
 
@@ -45,6 +47,38 @@ class JSONProcessor(BaseProcessor):
         else:
             # For non-array JSON, yield the whole thing
             yield data
+    
+    def get_top_n(self, n: int = 5, **kwargs) -> Dict[str, List[Any]]:
+        """
+        Stream a JSON file and collect the first N values for every unique field path.
+        This is memory-efficient for large JSON files as it doesn't load the entire file.
+        
+        Args:
+            n: Number of sample values to collect per field path (default: 5)
+            **kwargs: Additional arguments (unused, kept for compatibility)
+            
+        Returns:
+            Dictionary mapping field paths to lists of sample values:
+            {'path.to.key': [val1, val2, val3, ...]}
+        """
+        samples = defaultdict(list)
+        
+        with open(self.file_path, 'rb') as f:
+            # ijson.parse yields (prefix, event, value)
+            # prefix = the path (e.g., "item.address.city")
+            # event = type of token (start_map, string, number, etc.)
+            # value = the actual data
+            parser = ijson.parse(f)
+            
+            for prefix, event, value in parser:
+                # We only care about scalar values (strings, numbers, booleans)
+                # We skip structural events like 'start_map', 'end_array'
+                if event in ('string', 'number', 'boolean'):
+                    # If we haven't collected N samples for this specific key yet...
+                    if len(samples[prefix]) < n:
+                        samples[prefix].append(value)
+        
+        return dict(samples)
     
     def get_metadata(self) -> Dict[str, Any]:
         """

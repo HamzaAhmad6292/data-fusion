@@ -81,4 +81,26 @@ class BaseProcessor(ABC):
     def get_file_extension(self) -> str:
         """Get the file extension."""
         return self.file_path.suffix.lower()
+    
+    def get_top_n(self, n: int = 5, **kwargs) -> Any:
+        """
+        Get the top N rows/records from the dataset.
+        
+        Args:
+            n: Number of rows/records to return (default: 5)
+            **kwargs: Additional arguments passed to read()
+            
+        Returns:
+            Top N rows/records in the processor's native format
+        """
+        data = self.read(**kwargs)
+        if hasattr(data, 'head'):  # DataFrame
+            return data.head(n)
+        elif isinstance(data, list):
+            return data[:n] if len(data) > n else data
+        elif isinstance(data, dict):
+            # For dict, return as-is (can't really get "top N" of a dict)
+            return data
+        else:
+            return data
 

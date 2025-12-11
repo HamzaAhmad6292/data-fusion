@@ -31,57 +31,70 @@ class DescriptionGenerator:
         
         self.system_prompt = """You are an experienced data engineer specializing in dataset analysis and documentation.
 
-Your task is to analyze a given dataset and create comprehensive column descriptions that accurately represent what each column contains.
+Your task is to analyze a given dataset and create comprehensive documentation that includes:
+1. A file-level description of what the entire dataset represents
+2. Column-level descriptions for each field in the dataset
 
 **Your Responsibilities:**
-1. Analyze each column in the provided dataset
-2. Understand the data type, format, and semantic meaning of each column
-3. Create clear, concise, and accurate descriptions
-4. Identify realistic examples from the data
-5. Suggest similar keywords that might be used to refer to the same concept
+1. Analyze the overall dataset to understand its purpose and domain
+2. Analyze each column/field in the provided dataset
+3. Understand the data type, format, and semantic meaning of each column
+4. Create clear, concise, and accurate descriptions
+5. Identify realistic examples from the data
+6. Suggest similar keywords that might be used to refer to the same concept
 
 **Output Requirements:**
 - Your response MUST be valid JSON format only
 - Do NOT include any explanatory text, markdown formatting, or code blocks
-- Return a JSON array where each object represents one column
-- Each column object must contain exactly these fields:
-  - `name`: The exact column name as it appears in the dataset
-  - `description`: A clear, concise description of what the column represents
-  - `example`: A realistic example value from the data (use actual values when possible)
-  - `similar_keywords`: An array of 3-5 alternative terms that could refer to the same concept
+- Return a JSON object with two fields:
+  - `file`: An object describing the entire file/dataset with:
+    - `name`: A short, descriptive name for the dataset (e.g., "Legal Matters", "Client Records", "Billing Entries")
+    - `description`: A comprehensive description of what the dataset represents, its purpose, and the domain it belongs to
+  - `columns`: An array where each object represents one column/field
+    - `name`: The exact column/field name as it appears in the dataset
+    - `description`: A clear, concise description of what the column represents
+    - `example`: A realistic example value from the data (use actual values when possible)
+    - `similar_keywords`: An array of 3-5 alternative terms that could refer to the same concept
 
 **Guidelines for Descriptions:**
-- Be specific and accurate based on the actual data
+- File description: Explain the overall purpose, domain, and what kind of entities/records the dataset contains
+- Column descriptions: Be specific and accurate based on the actual data
 - Use professional, clear language
 - Indicate data types when relevant (e.g., "Date when...", "Numeric identifier for...")
 - For date fields, note the format if apparent
 - For identifiers, specify what they identify
 
 **Example Output Format:**
-[
-  {
-    "name": "matter_id",
-    "description": "Unique identifier for the legal matter",
-    "example": "MAT-1001",
-    "similar_keywords": ["matter code", "case_id", "file_number"]
+{
+  "file": {
+    "name": "Legal Matters",
+    "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and case value."
   },
-  {
-    "name": "client_ref",
-    "description": "Identifier for the client associated with the matter",
-    "example": "CL-1001",
-    "similar_keywords": ["client code", "customer_ref", "account_id"]
-  }
-]
+  "columns": [
+    {
+      "name": "matter_id",
+      "description": "Unique identifier for the legal matter",
+      "example": "MAT-1001",
+      "similar_keywords": ["matter code", "case_id", "file_number"]
+    },
+    {
+      "name": "client_ref",
+      "description": "Identifier for the client associated with the matter",
+      "example": "CL-1001",
+      "similar_keywords": ["client code", "customer_ref", "account_id"]
+    }
+  ]
+}
 
-Remember: Output ONLY the JSON array, nothing else."""
+Remember: Output ONLY the JSON object, nothing else."""
 
-        self.user_prompt_template = """Analyze the following dataset sample and provide column descriptions in the specified JSON format.
+        self.user_prompt_template = """Analyze the following dataset sample and provide both file-level and column-level descriptions in the specified JSON format.
 
 <data>
 {data_sample}
 </data>
 
-Provide the column descriptions as a JSON array."""
+Provide the file description and column descriptions as a JSON object with "file" and "columns" fields."""
 
     def _infer_data_type(self, value: Any) -> str:
         """
@@ -186,7 +199,7 @@ Provide the column descriptions as a JSON array."""
     def _prepare_data_sample(self, file_path: Path, processor) -> Tuple[str, Dict[str, str]]:
         """
         Prepare data sample for LLM and get data types.
-        Uses processors to read files and extracts top 5 entries.
+        Uses processors to get top 5 entries and infer data types.
         
         Args:
             file_path: Path to the file
@@ -198,137 +211,159 @@ Provide the column descriptions as a JSON array."""
         file_ext = file_path.suffix.lower()
         data_types = {}
         
+        # Use processor's get_top_n method to get sample data
         if file_ext in ['.csv', '.xlsx', '.xls']:
-            # Structured tabular data - use processor to read
-            # For XLSX/XLS, explicitly read first sheet to avoid dict return
+            # Structured tabular data - use processor's get_top_n
+            # For XLSX/XLS, need to specify sheet_name
             if file_ext in ['.xlsx', '.xls']:
                 # Get sheet names first
                 if hasattr(processor, 'get_sheet_names'):
                     sheet_names = processor.get_sheet_names()
                     if sheet_names:
-                        # Read first sheet explicitly to get DataFrame, not dict
-                        data = processor.read(sheet_name=sheet_names[0])
+                        sample_df = processor.get_top_n(n=5, sheet_name=sheet_names[0])
                     else:
                         raise ValueError(f"XLSX file {file_path} has no sheets")
                 else:
-                    # Fallback: read without sheet_name, handle dict if returned
-                    data = processor.read()
+                    sample_df = processor.get_top_n(n=5)
             else:
                 # CSV files
-                data = processor.read()
+                sample_df = processor.get_top_n(n=5)
             
-            # Handle XLSX/XLS which may return dict of DataFrames (multiple sheets)
-            # This can happen if sheet_name wasn't specified in the read() call
-            if isinstance(data, dict):
-                # Multiple sheets - use the first sheet
-                if not data:
-                    raise ValueError(f"XLSX file {file_path} has no sheets")
-                sheet_name = list(data.keys())[0]
-                df = data[sheet_name]
-                if not isinstance(df, pd.DataFrame):
-                    raise ValueError(f"Expected DataFrame from sheet '{sheet_name}', got {type(df)}")
-            elif isinstance(data, pd.DataFrame):
-                # Single DataFrame (CSV or single sheet XLSX)
-                df = data
-            else:
-                raise ValueError(f"Unexpected data type from {file_ext} file: {type(data)}. Expected DataFrame or dict of DataFrames.")
-            
-            # Verify df is a DataFrame before calling head()
-            if not isinstance(df, pd.DataFrame):
-                raise ValueError(f"Expected DataFrame, got {type(df)}")
-            
-            # Get top 5 rows as sample
-            sample_df = df.head(5)
+            # Convert sample to JSON
             data_sample = sample_df.to_json(orient="records", indent=2)
-            # Get data types from full dataframe
-            data_types = self._get_data_types_from_dataframe(df)
+            
+            # Get data types from full dataframe (need full read for accurate types)
+            if file_ext in ['.xlsx', '.xls']:
+                if hasattr(processor, 'get_sheet_names'):
+                    sheet_names = processor.get_sheet_names()
+                    if sheet_names:
+                        full_df = processor.read(sheet_name=sheet_names[0])
+                    else:
+                        full_df = processor.read()
+                else:
+                    full_df = processor.read()
+            else:
+                full_df = processor.read()
+            
+            # Handle dict return from XLSX (multiple sheets)
+            if isinstance(full_df, dict):
+                full_df = list(full_df.values())[0]
+            
+            data_types = self._get_data_types_from_dataframe(full_df)
             
         elif file_ext == '.jsonl':
-            # JSONL data - use processor to read (returns list of dicts)
-            data = processor.read()
-            # Get top 5 entries
-            sample_records = data[:5] if len(data) > 5 else data
+            # JSONL data - use processor's get_top_n
+            sample_records = processor.get_top_n(n=5)
             data_sample = json.dumps(sample_records, indent=2)
-            # Get data types from all records
-            data_types = self._get_data_types_from_records(data)
+            
+            # Get data types from all records (need full read for accurate types)
+            full_data = processor.read()
+            data_types = self._get_data_types_from_records(full_data)
             
         elif file_ext == '.json':
-            # JSON data - use processor to read
-            data = processor.read()
-            if isinstance(data, list):
-                # List of records - get top 5 entries
-                sample_records = data[:5] if len(data) > 5 else data
-                data_sample = json.dumps(sample_records, indent=2)
-                # Get data types from all records
-                data_types = self._get_data_types_from_records(data)
-            elif isinstance(data, dict):
-                # Single object or nested structure
-                data_sample = json.dumps(data, indent=2)
-                # For dict, try to infer types from values
-                if data:
-                    data_types = {k: self._infer_data_type(v) for k, v in data.items()}
-            else:
-                data_sample = json.dumps(data, indent=2)
+            # JSON data - use processor's get_top_n (returns dict of field paths to sample values)
+            sample_data = processor.get_top_n(n=5)
+            
+            # sample_data is now a dict: {'field.path': [val1, val2, ...]}
+            data_sample = json.dumps(sample_data, indent=2)
+            
+            # Infer data types from sample values
+            # Each value in sample_data is a list of sample values for that field path
+            if sample_data:
+                data_types = {}
+                for field_path, sample_values in sample_data.items():
+                    if sample_values:
+                        # Infer type from the first non-null sample value
+                        for val in sample_values:
+                            if val is not None:
+                                data_types[field_path] = self._infer_data_type(val)
+                                break
+                        else:
+                            # All values were None
+                            data_types[field_path] = "null"
                 
         elif file_ext in ['.txt', '.text']:
-            # Text file - use processor to read lines
-            lines = list(processor.read_lines())[:5]  # Get top 5 lines
+            # Text file - use processor's get_top_n
+            lines = processor.get_top_n(n=5)
             data_sample = '\n'.join(lines)
             # Text files don't have structured columns, so no data types
             
         else:
-            # Unknown type - try to use processor if it has read method
+            # Unknown type - try to use processor's get_top_n if available
             try:
-                data = processor.read()
-                if isinstance(data, (list, dict)):
-                    if isinstance(data, list):
-                        sample_data = data[:5] if len(data) > 5 else data
-                    else:
-                        sample_data = data
+                sample_data = processor.get_top_n(n=5)
+                if isinstance(sample_data, (list, dict)):
                     data_sample = json.dumps(sample_data, indent=2)
+                elif isinstance(sample_data, pd.DataFrame):
+                    data_sample = sample_data.to_json(orient="records", indent=2)
                 else:
-                    data_sample = str(data)
+                    data_sample = str(sample_data)
             except:
-                # Fallback: read as text using processor
-                if hasattr(processor, 'read_lines'):
-                    lines = list(processor.read_lines())[:5]
-                    data_sample = '\n'.join(lines)
-                else:
-                    # Last resort: read file directly
-                    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                        lines = f.readlines()[:5]
-                        data_sample = ''.join(lines)
+                # Fallback: try read method
+                try:
+                    data = processor.read()
+                    if isinstance(data, (list, dict)):
+                        if isinstance(data, list):
+                            sample_data = data[:5] if len(data) > 5 else data
+                        else:
+                            sample_data = data
+                        data_sample = json.dumps(sample_data, indent=2)
+                    else:
+                        data_sample = str(data)
+                except:
+                    # Last resort: read as text using processor
+                    if hasattr(processor, 'read_lines'):
+                        lines = list(processor.read_lines())[:5]
+                        data_sample = '\n'.join(lines)
+                    else:
+                        # Last resort: read file directly
+                        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                            lines = f.readlines()[:5]
+                            data_sample = ''.join(lines)
         
         return data_sample, data_types
 
-    def _extract_json_from_response(self, response: str) -> List[Dict]:
+    def _extract_json_from_response(self, response: str) -> Dict[str, Any]:
         """
-        Extract JSON array from LLM response, handling markdown code blocks.
+        Extract JSON object from LLM response, handling markdown code blocks.
         
         Args:
             response: Raw LLM response
             
         Returns:
-            Parsed JSON as list of dictionaries
+            Parsed JSON as dictionary with 'file' and 'columns' keys
         """
         # Try to parse directly
         try:
-            return json.loads(response)
+            parsed = json.loads(response)
+            # If it's already a dict with file/columns, return it
+            if isinstance(parsed, dict) and ('file' in parsed or 'columns' in parsed):
+                return parsed
+            # If it's an array (old format), convert to new format
+            elif isinstance(parsed, list):
+                return {'file': {'name': 'Dataset', 'description': 'A dataset containing structured records.'}, 'columns': parsed}
         except json.JSONDecodeError:
             pass
         
         # Try to extract JSON from markdown code blocks
         json_patterns = [
-            r'```(?:json)?\s*(\[[\s\S]*?\])',  # JSON in code block
-            r'```\s*(\[[\s\S]*?\])',  # JSON in generic code block
-            r'(\[[\s\S]*?\])',  # Any JSON array
+            r'```(?:json)?\s*(\{[\s\S]*?\})',  # JSON object in code block
+            r'```\s*(\{[\s\S]*?\})',  # JSON object in generic code block
+            r'(\{[\s\S]*?"(?:file|columns)"[\s\S]*?\})',  # JSON object with file/columns
+            r'(\[[\s\S]*?\])',  # JSON array (fallback for old format)
         ]
         
         for pattern in json_patterns:
             match = re.search(pattern, response, re.MULTILINE | re.DOTALL)
             if match:
                 try:
-                    return json.loads(match.group(1))
+                    parsed = json.loads(match.group(1))
+                    # If it's a dict with file/columns, return it
+                    if isinstance(parsed, dict) and ('file' in parsed or 'columns' in parsed):
+                        return parsed
+                    # If it's an array (old format), convert to new format
+                    elif isinstance(parsed, list):
+                        return {'file': {'name': 'Dataset', 'description': 'A dataset containing structured records.'}, 'columns': parsed}
                 except json.JSONDecodeError:
                     continue
         
@@ -402,7 +437,16 @@ Provide the column descriptions as a JSON array."""
                     raise
         
         # Parse LLM response
-        llm_descriptions = self._extract_json_from_response(response)
+        llm_response = self._extract_json_from_response(response)
+        
+        # Extract file description and columns
+        file_info = llm_response.get('file', {})
+        llm_descriptions = llm_response.get('columns', [])
+        
+        # If columns is empty but we got a list directly (backward compatibility)
+        if not llm_descriptions and isinstance(llm_response, list):
+            llm_descriptions = llm_response
+            file_info = {'name': 'Dataset', 'description': 'A dataset containing structured records.'}
         
         # Combine LLM descriptions with programmatically determined data types
         columns = []
@@ -416,6 +460,10 @@ Provide the column descriptions as a JSON array."""
         result = {
             'filename': file_path.name,
             'file_path': str(file_path),
+            'file': {
+                'name': file_info.get('name', 'Dataset'),
+                'description': file_info.get('description', 'A dataset containing structured records.')
+            },
             'columns': columns
         }
         

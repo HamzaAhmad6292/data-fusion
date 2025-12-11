@@ -78,6 +78,25 @@ class TXTProcessor(BaseProcessor):
                     break
                 yield chunk
     
+    def get_top_n(self, n: int = 5, encoding: str = 'utf-8', **kwargs) -> List[str]:
+        """
+        Get the top N lines from the text file.
+        
+        Args:
+            n: Number of lines to return (default: 5)
+            encoding: File encoding (default: utf-8)
+            **kwargs: Additional arguments (unused)
+            
+        Returns:
+            List containing the top N lines
+        """
+        result = []
+        for i, line in enumerate(self.read_lines(encoding=encoding)):
+            if i >= n:
+                break
+            result.append(line)
+        return result
+    
     def get_metadata(self, encoding: str = 'utf-8') -> Dict[str, Any]:
         """
         Get metadata about the text file.
