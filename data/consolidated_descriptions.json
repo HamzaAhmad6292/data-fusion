@@ -1,0 +1,3635 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-23 17:44:11",
+    "total_files": 218,
+    "success_count": 218,
+    "failure_count": 0,
+    "duration_seconds": 67.86
+  },
+  "datasets": [
+    {
+      "filename": "billing_entries_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/billing_entries_A.csv",
+      "file": {
+        "name": "Billing Entries",
+        "description": "A dataset containing information about billing entries for legal matters handled by a law firm. Each record represents a single billing entry with details about the associated matter, attorney, hours worked, billing rate, and description of the work done."
+      },
+      "columns": [
+        {
+          "name": "entry_id",
+          "description": "Unique identifier for the billing entry",
+          "example": "BL-831876",
+          "similar_keywords": [
+            "billing_code",
+            "entry_code",
+            "invoice_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "file_id",
+          "description": "Identifier for the legal matter or file associated with the billing entry",
+          "example": "MAT-1011",
+          "similar_keywords": [
+            "matter_id",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "att_id",
+          "description": "Identifier for the attorney associated with the billing entry",
+          "example": "AT-005",
+          "similar_keywords": [
+            "attorney_id",
+            "attorney_code",
+            "lawyer_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "hours",
+          "description": "Number of hours worked by the attorney for the billing entry",
+          "example": 7.1,
+          "similar_keywords": [
+            "work_hours",
+            "time_spent",
+            "hourly_work"
+          ],
+          "data_type": "float"
+        },
+        {
+          "name": "rate",
+          "description": "Billing rate per hour for the attorney",
+          "example": 250.0,
+          "similar_keywords": [
+            "hourly_rate",
+            "billing_rate",
+            "charge_per_hour"
+          ],
+          "data_type": "float"
+        },
+        {
+          "name": "amount",
+          "description": "Total amount billed for the entry, calculated as hours worked times the billing rate",
+          "example": "1775.0",
+          "similar_keywords": [
+            "bill_amount",
+            "total_charge",
+            "invoice_amount"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "description",
+          "description": "Brief description of the work done for the billing entry",
+          "example": "Reviewed contract",
+          "similar_keywords": [
+            "work_description",
+            "task_description",
+            "activity_description"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "entry_date",
+          "description": "Date when the billing entry was made, in various formats (DD/MM/YY, YYYY-MM-DD, Unix timestamp)",
+          "example": "29/02/20",
+          "similar_keywords": [
+            "billing_date",
+            "entry_timestamp",
+            "date_worked"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/billing_entries_A.csv",
+      "processed_at": "2025-12-23 17:43:04"
+    },
+    {
+      "filename": "data_map.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/data_map.json",
+      "file": {
+        "name": "Legal Dataset",
+        "description": "A comprehensive dataset containing various legal-related files including client information, matters, billing entries, emails, documents, filings, and regulations. The dataset is heterogeneous, incorporating different file formats such as CSV, JSON, JSONL, TXT, and XML, and is designed to require entity resolution and mapping due to intentionally inconsistent IDs across files."
+      },
+      "columns": [
+        {
+          "name": "files.billing_entries_A.csv.path",
+          "description": "Path to the billing entries file in CSV format, containing financial transaction records related to legal matters.",
+          "example": "billing_entries_A.csv",
+          "similar_keywords": [
+            "billing_entries",
+            "financial_transactions",
+            "invoice_path"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.document_metadata.json.path",
+          "description": "Path to the document metadata file in JSON format, providing information about the documents such as their type, creation date, and author.",
+          "example": "document_metadata.json",
+          "similar_keywords": [
+            "document_info",
+            "metadata_path",
+            "file_description"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.documents/D-2000_pdf.txt.path",
+          "description": "Path to a specific document file in TXT format, representing a document related to a legal matter or client.",
+          "example": "documents/D-2000_pdf.txt",
+          "similar_keywords": [
+            "document_file",
+            "legal_document",
+            "client_file"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.emails_A.jsonl.path",
+          "description": "Path to the emails file in JSONL format, containing email communications related to legal matters or clients.",
+          "example": "emails_A.jsonl",
+          "similar_keywords": [
+            "email_records",
+            "communication_log",
+            "email_path"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.matters_A.csv.path",
+          "description": "Path to the matters file in CSV format, containing information about legal matters such as their status, type, and associated clients.",
+          "example": "matters_A.csv",
+          "similar_keywords": [
+            "matter_info",
+            "case_records",
+            "legal_matters"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.regulations/REG-300.txt.path",
+          "description": "Path to a specific regulation file in TXT format, providing details about a particular legal regulation or law.",
+          "example": "regulations/REG-300.txt",
+          "similar_keywords": [
+            "regulation_file",
+            "legal_regulation",
+            "compliance_info"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "files.structured_clients_A.csv.path",
+          "description": "Path to the structured clients file in CSV format, containing organized client information such as their name, address, and contact details.",
+          "example": "structured_clients_A.csv",
+          "similar_keywords": [
+            "client_info",
+            "customer_data",
+            "client_records"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/data_map.json",
+      "processed_at": "2025-12-23 17:43:08"
+    },
+    {
+      "filename": "document_metadata.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/document_metadata.json",
+      "file": {
+        "name": "Document Records",
+        "description": "A dataset containing information about documents related to legal matters or cases, including details about the document, associated matter, client, and upload information. Each record represents a single document with its characteristics and metadata."
+      },
+      "columns": [
+        {
+          "name": "item.doc_id",
+          "description": "Unique identifier for the document",
+          "example": "D-2000",
+          "similar_keywords": [
+            "document code",
+            "doc_code",
+            "file_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.matter_id",
+          "description": "Identifier for the legal matter associated with the document",
+          "example": "MAT-1042",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "legal_matter_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.client",
+          "description": "Identifier for the client associated with the document",
+          "example": "CL-1005",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.doc_type",
+          "description": "Type of document (e.g., Contract, Statement of Work)",
+          "example": "Contract",
+          "similar_keywords": [
+            "document type",
+            "doc_category",
+            "file_type_category"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.title",
+          "description": "Title of the document",
+          "example": "Master Services Agreement",
+          "similar_keywords": [
+            "document title",
+            "file_name",
+            "doc_title"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.created",
+          "description": "Date when the document was created, in mixed formats (DD/MM/YY or Unix timestamp)",
+          "example": "15/08/24",
+          "similar_keywords": [
+            "creation date",
+            "doc_date",
+            "date_created"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.uploaded_by",
+          "description": "Name of the user who uploaded the document",
+          "example": "Ayesha Khan",
+          "similar_keywords": [
+            "uploader",
+            "uploaded_by_user",
+            "user_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.file_type",
+          "description": "File format of the document (e.g., pdf, txt)",
+          "example": "pdf",
+          "similar_keywords": [
+            "file format",
+            "doc_format",
+            "file_extension"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/document_metadata.json",
+      "processed_at": "2025-12-23 17:43:12"
+    },
+    {
+      "filename": "D-2000_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2000_pdf.txt",
+      "file": {
+        "name": "D-2000_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2000_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2001_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2001_txt.txt",
+      "file": {
+        "name": "D-2001_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2001_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2002_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2002_pdf.txt",
+      "file": {
+        "name": "D-2002_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2002_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2003_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2003_txt.txt",
+      "file": {
+        "name": "D-2003_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2003_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2004_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2004_txt.txt",
+      "file": {
+        "name": "D-2004_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2004_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2005_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2005_pdf.txt",
+      "file": {
+        "name": "D-2005_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2005_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2006_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2006_docx.txt",
+      "file": {
+        "name": "D-2006_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2006_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2007_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2007_docx.txt",
+      "file": {
+        "name": "D-2007_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2007_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2008_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2008_pdf.txt",
+      "file": {
+        "name": "D-2008_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2008_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2009_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2009_txt.txt",
+      "file": {
+        "name": "D-2009_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2009_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2010_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2010_txt.txt",
+      "file": {
+        "name": "D-2010_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2010_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2011_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2011_txt.txt",
+      "file": {
+        "name": "D-2011_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2011_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2012_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2012_txt.txt",
+      "file": {
+        "name": "D-2012_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2012_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2013_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2013_txt.txt",
+      "file": {
+        "name": "D-2013_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2013_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2014_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2014_docx.txt",
+      "file": {
+        "name": "D-2014_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2014_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2015_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2015_txt.txt",
+      "file": {
+        "name": "D-2015_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2015_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2016_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2016_pdf.txt",
+      "file": {
+        "name": "D-2016_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2016_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2017_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2017_txt.txt",
+      "file": {
+        "name": "D-2017_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2017_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2018_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2018_pdf.txt",
+      "file": {
+        "name": "D-2018_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2018_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2019_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2019_docx.txt",
+      "file": {
+        "name": "D-2019_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2019_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2020_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2020_pdf.txt",
+      "file": {
+        "name": "D-2020_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2020_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2021_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2021_docx.txt",
+      "file": {
+        "name": "D-2021_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2021_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2022_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2022_docx.txt",
+      "file": {
+        "name": "D-2022_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2022_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2023_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2023_txt.txt",
+      "file": {
+        "name": "D-2023_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2023_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2024_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2024_pdf.txt",
+      "file": {
+        "name": "D-2024_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2024_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2025_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2025_docx.txt",
+      "file": {
+        "name": "D-2025_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2025_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2026_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2026_txt.txt",
+      "file": {
+        "name": "D-2026_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2026_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2027_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2027_txt.txt",
+      "file": {
+        "name": "D-2027_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2027_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2028_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2028_docx.txt",
+      "file": {
+        "name": "D-2028_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2028_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2029_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2029_docx.txt",
+      "file": {
+        "name": "D-2029_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2029_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2030_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2030_txt.txt",
+      "file": {
+        "name": "D-2030_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2030_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2031_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2031_txt.txt",
+      "file": {
+        "name": "D-2031_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2031_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2032_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2032_docx.txt",
+      "file": {
+        "name": "D-2032_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2032_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2033_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2033_txt.txt",
+      "file": {
+        "name": "D-2033_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2033_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2034_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2034_pdf.txt",
+      "file": {
+        "name": "D-2034_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2034_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2035_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2035_txt.txt",
+      "file": {
+        "name": "D-2035_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2035_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2036_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2036_txt.txt",
+      "file": {
+        "name": "D-2036_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2036_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2037_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2037_txt.txt",
+      "file": {
+        "name": "D-2037_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2037_txt.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2038_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2038_docx.txt",
+      "file": {
+        "name": "D-2038_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2038_docx.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "D-2039_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/D-2039_pdf.txt",
+      "file": {
+        "name": "D-2039_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/D-2039_pdf.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "AFF-0006.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/AFF-0006.txt",
+      "file": {
+        "name": "AFF-0006",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/AFF-0006.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "AFF-0009.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/AFF-0009.txt",
+      "file": {
+        "name": "AFF-0009",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/AFF-0009.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "AFF-0012.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/AFF-0012.txt",
+      "file": {
+        "name": "AFF-0012",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/AFF-0012.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "AFF-0014.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/AFF-0014.txt",
+      "file": {
+        "name": "AFF-0014",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/AFF-0014.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "AFF-0017.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/AFF-0017.txt",
+      "file": {
+        "name": "AFF-0017",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/AFF-0017.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "COM-0001.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/COM-0001.txt",
+      "file": {
+        "name": "COM-0001",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/COM-0001.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "COM-0003.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/COM-0003.txt",
+      "file": {
+        "name": "COM-0003",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/COM-0003.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "COM-0018.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/COM-0018.txt",
+      "file": {
+        "name": "COM-0018",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/COM-0018.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0002.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0002.txt",
+      "file": {
+        "name": "MTD-0002",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0002.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0004.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0004.txt",
+      "file": {
+        "name": "MTD-0004",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0004.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0005.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0005.txt",
+      "file": {
+        "name": "MTD-0005",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0005.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0007.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0007.txt",
+      "file": {
+        "name": "MTD-0007",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0007.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0008.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0008.txt",
+      "file": {
+        "name": "MTD-0008",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0008.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0010.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0010.txt",
+      "file": {
+        "name": "MTD-0010",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0010.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0011.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0011.txt",
+      "file": {
+        "name": "MTD-0011",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0011.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0013.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0013.txt",
+      "file": {
+        "name": "MTD-0013",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0013.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0015.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0015.txt",
+      "file": {
+        "name": "MTD-0015",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0015.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0016.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0016.txt",
+      "file": {
+        "name": "MTD-0016",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0016.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0019.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0019.txt",
+      "file": {
+        "name": "MTD-0019",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0019.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "MTD-0020.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/documents/filings/MTD-0020.txt",
+      "file": {
+        "name": "MTD-0020",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/documents/filings/MTD-0020.txt",
+      "processed_at": "2025-12-23 17:43:14"
+    },
+    {
+      "filename": "emails_A.jsonl",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/emails_A.jsonl",
+      "file": {
+        "name": "Email Records",
+        "description": "A dataset containing information about email communications, likely from a professional services firm. Each record represents a single email with details about the sender, recipients, subject, content, and any associated case or matter references."
+      },
+      "columns": [
+        {
+          "name": "email_id",
+          "description": "Unique identifier for the email",
+          "example": "E-10000",
+          "similar_keywords": [
+            "email_code",
+            "message_id",
+            "email_reference"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "from",
+          "description": "Email address of the sender",
+          "example": "hlee@firm.com",
+          "similar_keywords": [
+            "sender",
+            "from_address",
+            "email_sender"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "to",
+          "description": "Email address of the primary recipient",
+          "example": "billing@harbor.com",
+          "similar_keywords": [
+            "recipient",
+            "to_address",
+            "email_to"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "cc",
+          "description": "Email address(es) of secondary recipients (carbon copy)",
+          "example": "finance@firm.com",
+          "similar_keywords": [
+            "cc_address",
+            "carbon_copy",
+            "email_cc"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "subject",
+          "description": "Subject line of the email",
+          "example": "Meeting follow-up",
+          "similar_keywords": [
+            "email_subject",
+            "subject_line",
+            "email_title"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "timestamp",
+          "description": "Date and/or time the email was sent, in varying formats (DD-MMM-YYYY, YYYY-MM-DD, Unix timestamp, DD/MM/YY)",
+          "example": "06-Apr-2022",
+          "similar_keywords": [
+            "email_date",
+            "sent_time",
+            "email_timestamp"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "body",
+          "description": "Content or body of the email",
+          "example": "Heads up: regulator issued a guidance yesterday.",
+          "similar_keywords": [
+            "email_content",
+            "email_body_text",
+            "message_body"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "case_id_ref",
+          "description": "Reference to an associated case or matter identifier, if applicable",
+          "example": "MTR-1051",
+          "similar_keywords": [
+            "case_reference",
+            "matter_id",
+            "case_number"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/emails_A.jsonl",
+      "processed_at": "2025-12-23 17:43:15"
+    },
+    {
+      "filename": "matters_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/matters_A.csv",
+      "file": {
+        "name": "Legal Matters",
+        "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and case value. The dataset covers various practice areas, including Intellectual Property (IP), Regulatory, and Employment, indicating a diverse range of legal services provided to clients."
+      },
+      "columns": [
+        {
+          "name": "matter_id",
+          "description": "Unique identifier for the legal matter",
+          "example": "MAT-1011",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "client_ref",
+          "description": "Identifier for the client associated with the matter",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "title",
+          "description": "Brief description or title of the legal matter",
+          "example": "Stonebridge Motors Inc - Master Services Agreement Negotiation",
+          "similar_keywords": [
+            "case_title",
+            "matter_description",
+            "case_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "practice_area",
+          "description": "Area of law or legal practice associated with the matter (e.g., IP, Regulatory, Employment)",
+          "example": "IP",
+          "similar_keywords": [
+            "legal_specialty",
+            "practice_type",
+            "law_area"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "opened_on",
+          "description": "Date when the legal matter was opened, with varying formats (DD/MM/YY, DD MMM YYYY, YYYY-MM-DD)",
+          "example": "03-Apr-2021",
+          "similar_keywords": [
+            "start_date",
+            "case_opened",
+            "initiation_date"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "lead_attorney",
+          "description": "Name of the lead attorney assigned to the legal matter",
+          "example": "Daniel Park",
+          "similar_keywords": [
+            "attorney_in_charge",
+            "lead_lawyer",
+            "case_handler"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "estimated_value",
+          "description": "Estimated monetary value of the legal matter, with varying formats and currencies",
+          "example": "12000",
+          "similar_keywords": [
+            "case_value",
+            "matter_worth",
+            "estimated_cost"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/matters_A.csv",
+      "processed_at": "2025-12-23 17:43:18"
+    },
+    {
+      "filename": "matters_B.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/matters_B.json",
+      "file": {
+        "name": "Legal Matters",
+        "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and start date."
+      },
+      "columns": [
+        {
+          "name": "item.file_no",
+          "description": "Unique identifier for the legal matter",
+          "example": "MAT-1011",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.client_id",
+          "description": "Identifier for the client associated with the matter",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.matterSummary",
+          "description": "Brief summary or description of the legal matter",
+          "example": "Stonebridge Motors Inc - Master Services Agreement Negotiation",
+          "similar_keywords": [
+            "case description",
+            "matter summary",
+            "legal issue"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.area",
+          "description": "Practice area or category of the legal matter (e.g., IP, Regulatory, Employment)",
+          "example": "IP",
+          "similar_keywords": [
+            "practice area",
+            "category",
+            "legal discipline"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.startDate",
+          "description": "Date when the legal matter started, with varying formats (YYYY-MM-DD, DD/MM/YY, or Unix timestamp)",
+          "example": "2017-08-23",
+          "similar_keywords": [
+            "start date",
+            "initiation date",
+            "filing date"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.owner",
+          "description": "Name of the attorney or owner assigned to the legal matter",
+          "example": "Daniel Park",
+          "similar_keywords": [
+            "assigned attorney",
+            "case owner",
+            "handler"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/matters_B.json",
+      "processed_at": "2025-12-23 17:43:22"
+    },
+    {
+      "filename": "REG-300.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-300.txt",
+      "file": {
+        "name": "REG-300",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-300.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "REG-301.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-301.txt",
+      "file": {
+        "name": "REG-301",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-301.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "REG-302.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-302.txt",
+      "file": {
+        "name": "REG-302",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-302.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "REG-303.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-303.txt",
+      "file": {
+        "name": "REG-303",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-303.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "REG-304.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-304.txt",
+      "file": {
+        "name": "REG-304",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-304.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "REG-305.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/regulations/REG-305.txt",
+      "file": {
+        "name": "REG-305",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack/regulations/REG-305.txt",
+      "processed_at": "2025-12-23 17:43:24"
+    },
+    {
+      "filename": "structured_clients_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/structured_clients_A.csv",
+      "file": {
+        "name": "Client Records",
+        "description": "A dataset containing information about clients, including their company details, industry, financial data, and contact information. Each record represents a single client with various attributes."
+      },
+      "columns": [
+        {
+          "name": "client_id",
+          "description": "Unique identifier for the client",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_id",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "company_name",
+          "description": "The name of the client's company",
+          "example": "Stonebridge Motors Inc",
+          "similar_keywords": [
+            "company_title",
+            "client_name",
+            "organization"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "industry",
+          "description": "The industry or sector in which the client's company operates",
+          "example": "Automotive",
+          "similar_keywords": [
+            "sector",
+            "market",
+            "business_type"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "annual_revenue",
+          "description": "The client's company annual revenue in dollars",
+          "example": "$12,000,000",
+          "similar_keywords": [
+            "annual_turnover",
+            "yearly_revenue",
+            "company_revenue"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "contact_phone",
+          "description": "The phone number to contact the client",
+          "example": "(555) 125-5506",
+          "similar_keywords": [
+            "phone_number",
+            "contact_number",
+            "client_phone"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "created_at",
+          "description": "The date when the client record was created, in various formats (e.g., YYYY-MM-DD, DD/MM/YY, DD-MMM-YYYY)",
+          "example": "2022-09-25",
+          "similar_keywords": [
+            "creation_date",
+            "record_date",
+            "added_on"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/structured_clients_A.csv",
+      "processed_at": "2025-12-23 17:43:25"
+    },
+    {
+      "filename": "structured_clients_B.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/structured_clients_B.json",
+      "file": {
+        "name": "Client Records",
+        "description": "A dataset containing information about client entities, including their identifiers, names, sectors, financial details, and contact information. Each record represents a single client with various attributes describing their business and registration details."
+      },
+      "columns": [
+        {
+          "name": "item.id",
+          "description": "Unique identifier for the client",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_id",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.custFullNm",
+          "description": "Full name of the client",
+          "example": "STONEBRIDGE MOTORS INC",
+          "similar_keywords": [
+            "client_name",
+            "customer_name",
+            "company_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.sector",
+          "description": "Industry sector the client belongs to",
+          "example": "automotive",
+          "similar_keywords": [
+            "industry",
+            "market_sector",
+            "business_type"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.financials.turnover",
+          "description": "Annual turnover of the client in numeric value",
+          "example": 12000000,
+          "similar_keywords": [
+            "annual_revenue",
+            "sales_turnover",
+            "financial_performance"
+          ],
+          "data_type": "int"
+        },
+        {
+          "name": "item.financials.currency",
+          "description": "Currency in which the client's financials are reported",
+          "example": "USD",
+          "similar_keywords": [
+            "reporting_currency",
+            "financial_currency",
+            "money_unit"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.meta.registered_on",
+          "description": "Date when the client was registered, in various formats (DD-MMM-YYYY, Unix timestamp, DD/MM/YY)",
+          "example": "22-Jul-2017",
+          "similar_keywords": [
+            "registration_date",
+            "onboarding_date",
+            "created_at"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.phone",
+          "description": "Phone number of the client, including international dialing code",
+          "example": "+1-555-489-5554",
+          "similar_keywords": [
+            "contact_number",
+            "telephone",
+            "phone_number"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/structured_clients_B.json",
+      "processed_at": "2025-12-23 17:43:28"
+    },
+    {
+      "filename": "structured_clients_D.xlsx",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack/structured_clients_D.xlsx",
+      "file": {
+        "name": "Customer Records",
+        "description": "A dataset containing information about customers, including their identifiers, names, sectors of operation, revenue, and contact details. Each record represents a single customer entity."
+      },
+      "columns": [
+        {
+          "name": "cust_code",
+          "description": "Unique identifier for the customer",
+          "example": "CUST-1001",
+          "similar_keywords": [
+            "customer_id",
+            "client_code",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "name_short",
+          "description": "Short name of the customer",
+          "example": "Stonebridge",
+          "similar_keywords": [
+            "company_name",
+            "customer_name",
+            "client_short_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "sector",
+          "description": "Industry or sector in which the customer operates",
+          "example": "Automotive",
+          "similar_keywords": [
+            "industry",
+            "market_sector",
+            "business_domain"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "rev_k",
+          "description": "Revenue of the customer in thousands",
+          "example": 12000,
+          "similar_keywords": [
+            "revenue",
+            "sales",
+            "turnover"
+          ],
+          "data_type": "int"
+        },
+        {
+          "name": "contact",
+          "description": "Contact phone number for the customer, or null if not available",
+          "example": "+1-555-961-9317",
+          "similar_keywords": [
+            "phone_number",
+            "contact_details",
+            "customer_phone"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack/structured_clients_D.xlsx",
+      "processed_at": "2025-12-23 17:43:31"
+    },
+    {
+      "filename": "billing_entries_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/billing_entries_A.csv",
+      "file": {
+        "name": "Billing Entries",
+        "description": "A dataset containing information about billing entries for legal matters handled by a law firm. Each record represents a single billing entry with details about the matter, attorney, hours worked, rate, and description of the work done."
+      },
+      "columns": [
+        {
+          "name": "entry_id",
+          "description": "Unique identifier for the billing entry",
+          "example": "BL-692060",
+          "similar_keywords": [
+            "billing_code",
+            "entry_code",
+            "invoice_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "file_id",
+          "description": "Identifier for the legal matter or file associated with the billing entry",
+          "example": "MAT-1001",
+          "similar_keywords": [
+            "matter_code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "att_id",
+          "description": "Identifier for the attorney associated with the billing entry",
+          "example": "AT-002",
+          "similar_keywords": [
+            "attorney_code",
+            "lawyer_id",
+            "associate_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "hours",
+          "description": "Number of hours worked by the attorney for the billing entry",
+          "example": 10.0,
+          "similar_keywords": [
+            "time_spent",
+            "hours_worked",
+            "duration"
+          ],
+          "data_type": "float"
+        },
+        {
+          "name": "rate",
+          "description": "Hourly rate charged by the attorney for the billing entry",
+          "example": 375,
+          "similar_keywords": [
+            "hourly_rate",
+            "charge_rate",
+            "fee_per_hour"
+          ],
+          "data_type": "int"
+        },
+        {
+          "name": "amount",
+          "description": "Total amount billed for the billing entry, calculated as hours worked multiplied by the rate",
+          "example": "3750.0",
+          "similar_keywords": [
+            "total_bill",
+            "billed_amount",
+            "invoice_total"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "description",
+          "description": "Brief description of the work done by the attorney for the billing entry",
+          "example": "Drafted motion",
+          "similar_keywords": [
+            "work_description",
+            "task_summary",
+            "activity_description"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "entry_date",
+          "description": "Date when the billing entry was made, in various formats including Unix timestamp and date strings",
+          "example": "1654504480",
+          "similar_keywords": [
+            "billing_date",
+            "entry_timestamp",
+            "date_created"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/billing_entries_A.csv",
+      "processed_at": "2025-12-23 17:43:34"
+    },
+    {
+      "filename": "document_metadata.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/document_metadata.json",
+      "file": {
+        "name": "Document Records",
+        "description": "A dataset containing information about documents related to legal matters or cases handled by a law firm. Each record represents a single document with details about its type, title, creation date, and the user who uploaded it."
+      },
+      "columns": [
+        {
+          "name": "item.doc_id",
+          "description": "Unique identifier for the document",
+          "example": "D-2001",
+          "similar_keywords": [
+            "document code",
+            "doc_code",
+            "file_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.matter_id",
+          "description": "Identifier for the legal matter associated with the document",
+          "example": "MAT-1001",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.client",
+          "description": "Identifier for the client associated with the document",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.doc_type",
+          "description": "Type of the document (e.g., Correspondence, Motion, Agreement, Contract)",
+          "example": "Correspondence",
+          "similar_keywords": [
+            "document category",
+            "doc_class",
+            "file_type_category"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.title",
+          "description": "Title or brief description of the document",
+          "example": "Correspondence Document",
+          "similar_keywords": [
+            "document name",
+            "doc_title",
+            "file_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.created",
+          "description": "Date when the document was created, in the format DD/MM/YY",
+          "example": "29/12/23",
+          "similar_keywords": [
+            "creation date",
+            "doc_date",
+            "date_created"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.uploaded_by",
+          "description": "Name of the user who uploaded the document",
+          "example": "Lina Gomez",
+          "similar_keywords": [
+            "uploader",
+            "uploaded_by_user",
+            "user_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.file_type",
+          "description": "File format of the document (e.g., pdf, txt)",
+          "example": "pdf",
+          "similar_keywords": [
+            "document format",
+            "file_extension",
+            "doc_format"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/document_metadata.json",
+      "processed_at": "2025-12-23 17:43:38"
+    },
+    {
+      "filename": "D-2001_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2001_pdf.txt",
+      "file": {
+        "name": "D-2001_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2001_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2002_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2002_pdf.txt",
+      "file": {
+        "name": "D-2002_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2002_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2003_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2003_txt.txt",
+      "file": {
+        "name": "D-2003_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2003_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2004_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2004_txt.txt",
+      "file": {
+        "name": "D-2004_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2004_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2005_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2005_txt.txt",
+      "file": {
+        "name": "D-2005_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2005_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2006_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2006_txt.txt",
+      "file": {
+        "name": "D-2006_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2006_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2007_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2007_pdf.txt",
+      "file": {
+        "name": "D-2007_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2007_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2008_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2008_pdf.txt",
+      "file": {
+        "name": "D-2008_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2008_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2009_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2009_pdf.txt",
+      "file": {
+        "name": "D-2009_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2009_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2010_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2010_txt.txt",
+      "file": {
+        "name": "D-2010_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2010_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2011_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2011_txt.txt",
+      "file": {
+        "name": "D-2011_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2011_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2012_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2012_pdf.txt",
+      "file": {
+        "name": "D-2012_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2012_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2013_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2013_docx.txt",
+      "file": {
+        "name": "D-2013_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2013_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2014_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2014_txt.txt",
+      "file": {
+        "name": "D-2014_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2014_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2015_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2015_txt.txt",
+      "file": {
+        "name": "D-2015_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2015_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2016_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2016_docx.txt",
+      "file": {
+        "name": "D-2016_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2016_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2017_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2017_docx.txt",
+      "file": {
+        "name": "D-2017_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2017_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2018_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2018_pdf.txt",
+      "file": {
+        "name": "D-2018_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2018_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2019_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2019_docx.txt",
+      "file": {
+        "name": "D-2019_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2019_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2020_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2020_docx.txt",
+      "file": {
+        "name": "D-2020_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2020_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2021_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2021_docx.txt",
+      "file": {
+        "name": "D-2021_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2021_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2022_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2022_txt.txt",
+      "file": {
+        "name": "D-2022_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2022_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2023_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2023_docx.txt",
+      "file": {
+        "name": "D-2023_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2023_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2024_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2024_txt.txt",
+      "file": {
+        "name": "D-2024_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2024_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2025_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2025_txt.txt",
+      "file": {
+        "name": "D-2025_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2025_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2026_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2026_docx.txt",
+      "file": {
+        "name": "D-2026_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2026_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2027_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2027_docx.txt",
+      "file": {
+        "name": "D-2027_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2027_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2028_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2028_pdf.txt",
+      "file": {
+        "name": "D-2028_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2028_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2029_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2029_txt.txt",
+      "file": {
+        "name": "D-2029_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2029_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2030_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2030_docx.txt",
+      "file": {
+        "name": "D-2030_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2030_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2031_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2031_pdf.txt",
+      "file": {
+        "name": "D-2031_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2031_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2032_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2032_txt.txt",
+      "file": {
+        "name": "D-2032_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2032_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2033_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2033_pdf.txt",
+      "file": {
+        "name": "D-2033_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2033_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2034_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2034_docx.txt",
+      "file": {
+        "name": "D-2034_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2034_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2035_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2035_txt.txt",
+      "file": {
+        "name": "D-2035_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2035_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2036_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2036_docx.txt",
+      "file": {
+        "name": "D-2036_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2036_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2037_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2037_docx.txt",
+      "file": {
+        "name": "D-2037_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2037_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2038_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2038_pdf.txt",
+      "file": {
+        "name": "D-2038_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2038_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2039_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2039_pdf.txt",
+      "file": {
+        "name": "D-2039_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2039_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2040_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2040_pdf.txt",
+      "file": {
+        "name": "D-2040_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2040_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2041_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2041_txt.txt",
+      "file": {
+        "name": "D-2041_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2041_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2042_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2042_docx.txt",
+      "file": {
+        "name": "D-2042_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2042_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2043_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2043_pdf.txt",
+      "file": {
+        "name": "D-2043_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2043_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2044_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2044_txt.txt",
+      "file": {
+        "name": "D-2044_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2044_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2045_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2045_docx.txt",
+      "file": {
+        "name": "D-2045_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2045_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2046_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2046_txt.txt",
+      "file": {
+        "name": "D-2046_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2046_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2047_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2047_docx.txt",
+      "file": {
+        "name": "D-2047_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2047_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2048_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2048_pdf.txt",
+      "file": {
+        "name": "D-2048_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2048_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2049_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2049_txt.txt",
+      "file": {
+        "name": "D-2049_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2049_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2050_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2050_pdf.txt",
+      "file": {
+        "name": "D-2050_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2050_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2051_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2051_pdf.txt",
+      "file": {
+        "name": "D-2051_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2051_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2052_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2052_docx.txt",
+      "file": {
+        "name": "D-2052_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2052_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2053_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2053_pdf.txt",
+      "file": {
+        "name": "D-2053_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2053_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2054_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2054_pdf.txt",
+      "file": {
+        "name": "D-2054_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2054_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2055_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2055_pdf.txt",
+      "file": {
+        "name": "D-2055_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2055_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2056_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2056_pdf.txt",
+      "file": {
+        "name": "D-2056_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2056_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2057_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2057_txt.txt",
+      "file": {
+        "name": "D-2057_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2057_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2058_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2058_pdf.txt",
+      "file": {
+        "name": "D-2058_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2058_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2059_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2059_docx.txt",
+      "file": {
+        "name": "D-2059_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2059_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2060_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2060_pdf.txt",
+      "file": {
+        "name": "D-2060_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2060_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2061_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2061_docx.txt",
+      "file": {
+        "name": "D-2061_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2061_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2062_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2062_txt.txt",
+      "file": {
+        "name": "D-2062_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2062_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2063_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2063_pdf.txt",
+      "file": {
+        "name": "D-2063_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2063_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2064_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2064_txt.txt",
+      "file": {
+        "name": "D-2064_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2064_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2065_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2065_txt.txt",
+      "file": {
+        "name": "D-2065_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2065_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2066_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2066_txt.txt",
+      "file": {
+        "name": "D-2066_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2066_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2067_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2067_docx.txt",
+      "file": {
+        "name": "D-2067_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2067_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2068_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2068_docx.txt",
+      "file": {
+        "name": "D-2068_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2068_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2069_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2069_pdf.txt",
+      "file": {
+        "name": "D-2069_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2069_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2070_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2070_txt.txt",
+      "file": {
+        "name": "D-2070_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2070_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2071_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2071_docx.txt",
+      "file": {
+        "name": "D-2071_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2071_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2072_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2072_txt.txt",
+      "file": {
+        "name": "D-2072_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2072_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2073_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2073_pdf.txt",
+      "file": {
+        "name": "D-2073_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2073_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2074_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2074_txt.txt",
+      "file": {
+        "name": "D-2074_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2074_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2075_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2075_docx.txt",
+      "file": {
+        "name": "D-2075_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2075_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2076_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2076_pdf.txt",
+      "file": {
+        "name": "D-2076_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2076_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2077_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2077_docx.txt",
+      "file": {
+        "name": "D-2077_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2077_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2078_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2078_docx.txt",
+      "file": {
+        "name": "D-2078_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2078_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2079_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2079_txt.txt",
+      "file": {
+        "name": "D-2079_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2079_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2080_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2080_docx.txt",
+      "file": {
+        "name": "D-2080_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2080_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2081_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2081_pdf.txt",
+      "file": {
+        "name": "D-2081_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2081_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2082_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2082_docx.txt",
+      "file": {
+        "name": "D-2082_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2082_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2083_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2083_docx.txt",
+      "file": {
+        "name": "D-2083_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2083_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2084_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2084_docx.txt",
+      "file": {
+        "name": "D-2084_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2084_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2085_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2085_pdf.txt",
+      "file": {
+        "name": "D-2085_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2085_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2086_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2086_docx.txt",
+      "file": {
+        "name": "D-2086_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2086_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2087_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2087_txt.txt",
+      "file": {
+        "name": "D-2087_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2087_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2088_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2088_txt.txt",
+      "file": {
+        "name": "D-2088_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2088_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2089_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2089_docx.txt",
+      "file": {
+        "name": "D-2089_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2089_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2090_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2090_docx.txt",
+      "file": {
+        "name": "D-2090_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2090_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2091_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2091_docx.txt",
+      "file": {
+        "name": "D-2091_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2091_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2092_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2092_txt.txt",
+      "file": {
+        "name": "D-2092_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2092_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2093_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2093_pdf.txt",
+      "file": {
+        "name": "D-2093_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2093_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2094_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2094_docx.txt",
+      "file": {
+        "name": "D-2094_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2094_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2095_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2095_pdf.txt",
+      "file": {
+        "name": "D-2095_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2095_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2096_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2096_pdf.txt",
+      "file": {
+        "name": "D-2096_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2096_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2097_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2097_txt.txt",
+      "file": {
+        "name": "D-2097_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2097_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2098_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2098_txt.txt",
+      "file": {
+        "name": "D-2098_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2098_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2099_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2099_docx.txt",
+      "file": {
+        "name": "D-2099_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2099_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2100_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2100_pdf.txt",
+      "file": {
+        "name": "D-2100_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2100_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2101_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2101_pdf.txt",
+      "file": {
+        "name": "D-2101_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2101_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2102_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2102_docx.txt",
+      "file": {
+        "name": "D-2102_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2102_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2103_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2103_docx.txt",
+      "file": {
+        "name": "D-2103_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2103_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2104_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2104_txt.txt",
+      "file": {
+        "name": "D-2104_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2104_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2105_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2105_docx.txt",
+      "file": {
+        "name": "D-2105_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2105_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2106_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2106_docx.txt",
+      "file": {
+        "name": "D-2106_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2106_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2107_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2107_pdf.txt",
+      "file": {
+        "name": "D-2107_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2107_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2108_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2108_txt.txt",
+      "file": {
+        "name": "D-2108_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2108_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2109_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2109_txt.txt",
+      "file": {
+        "name": "D-2109_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2109_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2110_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2110_docx.txt",
+      "file": {
+        "name": "D-2110_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2110_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2111_pdf.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2111_pdf.txt",
+      "file": {
+        "name": "D-2111_pdf",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2111_pdf.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2112_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2112_docx.txt",
+      "file": {
+        "name": "D-2112_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2112_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2113_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2113_txt.txt",
+      "file": {
+        "name": "D-2113_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2113_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2114_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2114_txt.txt",
+      "file": {
+        "name": "D-2114_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2114_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2115_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2115_txt.txt",
+      "file": {
+        "name": "D-2115_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2115_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2116_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2116_docx.txt",
+      "file": {
+        "name": "D-2116_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2116_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2117_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2117_txt.txt",
+      "file": {
+        "name": "D-2117_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2117_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2118_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2118_docx.txt",
+      "file": {
+        "name": "D-2118_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2118_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2119_docx.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2119_docx.txt",
+      "file": {
+        "name": "D-2119_docx",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2119_docx.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2120_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2120_txt.txt",
+      "file": {
+        "name": "D-2120_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2120_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "D-2121_txt.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/D-2121_txt.txt",
+      "file": {
+        "name": "D-2121_txt",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/D-2121_txt.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1011.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1011.txt",
+      "file": {
+        "name": "MAT-1011",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1011.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1012.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1012.txt",
+      "file": {
+        "name": "MAT-1012",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1012.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1013.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1013.txt",
+      "file": {
+        "name": "MAT-1013",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1013.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1021.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1021.txt",
+      "file": {
+        "name": "MAT-1021",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1021.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1022.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1022.txt",
+      "file": {
+        "name": "MAT-1022",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1022.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1023.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1023.txt",
+      "file": {
+        "name": "MAT-1023",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1023.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1031.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1031.txt",
+      "file": {
+        "name": "MAT-1031",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1031.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1032.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1032.txt",
+      "file": {
+        "name": "MAT-1032",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1032.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1033.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1033.txt",
+      "file": {
+        "name": "MAT-1033",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1033.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1041.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1041.txt",
+      "file": {
+        "name": "MAT-1041",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1041.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1042.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1042.txt",
+      "file": {
+        "name": "MAT-1042",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1042.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1043.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1043.txt",
+      "file": {
+        "name": "MAT-1043",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1043.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1051.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1051.txt",
+      "file": {
+        "name": "MAT-1051",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1051.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1052.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1052.txt",
+      "file": {
+        "name": "MAT-1052",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1052.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "MAT-1053.txt",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1053.txt",
+      "file": {
+        "name": "MAT-1053",
+        "description": ""
+      },
+      "columns": [],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/documents/billing_files/MAT-1053.txt",
+      "processed_at": "2025-12-23 17:43:40"
+    },
+    {
+      "filename": "matters_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/matters_A.csv",
+      "file": {
+        "name": "Legal Matters",
+        "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and case value. The dataset covers various practice areas such as Tax, Environmental, and Litigation, and includes information about when each matter was opened and who is leading the case."
+      },
+      "columns": [
+        {
+          "name": "matter_id",
+          "description": "Unique identifier for the legal matter, formatted as 'MAT-' followed by a numeric code",
+          "example": "MAT-1001",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "client_ref",
+          "description": "Identifier for the client associated with the matter, formatted as 'CL-' followed by a numeric code",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "title",
+          "description": "Brief description or title of the legal matter, including the name of the client or parties involved and a brief summary of the case",
+          "example": "Healthcare Solutions Inc v. ACME Corp - Employment Dispute",
+          "similar_keywords": [
+            "case_title",
+            "matter_description",
+            "case_summary"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "practice_area",
+          "description": "The area of law that the legal matter falls under, such as Tax, Environmental, or Litigation",
+          "example": "Tax",
+          "similar_keywords": [
+            "law_area",
+            "practice_type",
+            "legal_discipline"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "opened_on",
+          "description": "Date when the legal matter was opened, mostly in the format 'dd/mm/yyyy' but occasionally in Unix timestamp format",
+          "example": "20/05/2025",
+          "similar_keywords": [
+            "start_date",
+            "case_opened",
+            "matter_initiated"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "lead_attorney",
+          "description": "The name of the attorney assigned to lead the legal matter",
+          "example": "Daniel Park",
+          "similar_keywords": [
+            "lead_lawyer",
+            "case_manager",
+            "attorney_in_charge"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "estimated_value",
+          "description": "The estimated monetary value of the legal matter, sometimes including a currency symbol and comma for thousands separation",
+          "example": "7902",
+          "similar_keywords": [
+            "case_value",
+            "matter_worth",
+            "estimated_cost"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/matters_A.csv",
+      "processed_at": "2025-12-23 17:43:42"
+    },
+    {
+      "filename": "matters_B.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/matters_B.json",
+      "file": {
+        "name": "Legal Matters",
+        "description": "A dataset containing information about legal matters or cases handled by a law firm. Each record represents a single legal matter with details about the case, client, practice area, assigned attorney, and start date."
+      },
+      "columns": [
+        {
+          "name": "item.file_no",
+          "description": "Unique identifier for the legal matter",
+          "example": "MAT-1001",
+          "similar_keywords": [
+            "matter code",
+            "case_id",
+            "file_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.client_id",
+          "description": "Identifier for the client associated with the matter",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_ref",
+            "account_id"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.matterSummary",
+          "description": "Brief summary of the legal matter, including parties involved and the nature of the dispute or inquiry",
+          "example": "Healthcare Solutions Inc v. ACME Corp - Employment Dispute",
+          "similar_keywords": [
+            "case summary",
+            "matter description",
+            "dispute overview"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.area",
+          "description": "Practice area or category of law that the matter belongs to",
+          "example": "Tax",
+          "similar_keywords": [
+            "practice area",
+            "law category",
+            "specialty"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.startDate",
+          "description": "Date when the legal matter started, in various formats (e.g., YYYY-MM-DD, MM/DD/YYYY, DD/MM/YY)",
+          "example": "2025-05-20",
+          "similar_keywords": [
+            "start date",
+            "initiation date",
+            "filing date"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.owner",
+          "description": "Name of the attorney or owner assigned to the legal matter",
+          "example": "Daniel Park",
+          "similar_keywords": [
+            "assigned attorney",
+            "case owner",
+            "matter handler"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/matters_B.json",
+      "processed_at": "2025-12-23 17:43:49"
+    },
+    {
+      "filename": "structured_clients_A.csv",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/structured_clients_A.csv",
+      "file": {
+        "name": "Client Records",
+        "description": "A dataset containing information about client companies, including their identifiers, names, industries, financial data, and contact details. Each record represents a single client with various attributes."
+      },
+      "columns": [
+        {
+          "name": "client_id",
+          "description": "Unique identifier for the client",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client_code",
+            "customer_id",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "company_name",
+          "description": "Name of the client company",
+          "example": "Healthcare Solutions Inc",
+          "similar_keywords": [
+            "company_title",
+            "client_name",
+            "organization_name"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "industry",
+          "description": "Industry or sector in which the client company operates",
+          "example": "Pharmaceuticals",
+          "similar_keywords": [
+            "sector",
+            "market",
+            "business_type"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "annual_revenue",
+          "description": "Annual revenue of the client company, including currency symbol when applicable",
+          "example": "$33,868,828",
+          "similar_keywords": [
+            "annual_turnover",
+            "revenue",
+            "sales"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "contact_phone",
+          "description": "Phone number for contacting the client, possibly including international dialing codes",
+          "example": "(954) 304-9935",
+          "similar_keywords": [
+            "phone_number",
+            "contact_number",
+            "telephone"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "created_at",
+          "description": "Date or timestamp when the client record was created, with varying formats",
+          "example": "2023-05-03",
+          "similar_keywords": [
+            "creation_date",
+            "record_date",
+            "timestamp"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/structured_clients_A.csv",
+      "processed_at": "2025-12-23 17:43:56"
+    },
+    {
+      "filename": "structured_clients_B.json",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/structured_clients_B.json",
+      "file": {
+        "name": "Client Records",
+        "description": "A dataset containing information about client companies, including their identifiers, names, sectors, financial details, contact information, and registration dates. Each record represents a single client entity with various attributes."
+      },
+      "columns": [
+        {
+          "name": "item.id",
+          "description": "Unique identifier for the client",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_id",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.custFullNm",
+          "description": "Full name of the client company",
+          "example": "HEALTHCARE SOLUTIONS COMPANY",
+          "similar_keywords": [
+            "company_name",
+            "client_name",
+            "organization"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.sector",
+          "description": "Industry sector in which the client operates",
+          "example": "pharmaceuticals",
+          "similar_keywords": [
+            "industry",
+            "market_sector",
+            "business_area"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.financials.turnover",
+          "description": "Annual turnover of the client company in numeric format",
+          "example": 33868828,
+          "similar_keywords": [
+            "annual_revenue",
+            "sales_turnover",
+            "financial_performance"
+          ],
+          "data_type": "int"
+        },
+        {
+          "name": "item.financials.currency",
+          "description": "Currency in which the client's financials are denominated",
+          "example": "USD",
+          "similar_keywords": [
+            "currency_code",
+            "monetary_unit",
+            "exchange_rate"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.phone",
+          "description": "Phone number of the client company",
+          "example": "(804) 632-1520",
+          "similar_keywords": [
+            "contact_number",
+            "telephone",
+            "phone_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "item.meta.registered_on",
+          "description": "Date when the client was registered, in various date formats (e.g., MM/DD/YY, DD-MMM-YYYY)",
+          "example": "03/05/23",
+          "similar_keywords": [
+            "registration_date",
+            "created_on",
+            "onboarded_date"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/structured_clients_B.json",
+      "processed_at": "2025-12-23 17:44:02"
+    },
+    {
+      "filename": "structured_clients_D.xlsx",
+      "file_path": "/Users/mac/Desktop/work/legal-fusion/data/synthetic_heterogeneous_pack_scaled/structured_clients_D.xlsx",
+      "file": {
+        "name": "Client Records",
+        "description": "A dataset containing information about clients, including their identifiers, names, industries, revenue, contact details, and creation dates. Each record represents a single client with associated details."
+      },
+      "columns": [
+        {
+          "name": "cust_code",
+          "description": "Unique identifier for the client",
+          "example": "CL-1001",
+          "similar_keywords": [
+            "client code",
+            "customer_id",
+            "account_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "clientName",
+          "description": "The name of the client",
+          "example": "Healthcare Solutions Inc",
+          "similar_keywords": [
+            "company_name",
+            "client_name",
+            "organization"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "industry",
+          "description": "The industry or sector the client belongs to",
+          "example": "Pharmaceuticals",
+          "similar_keywords": [
+            "sector",
+            "market",
+            "category"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "revenue",
+          "description": "The revenue associated with the client, presumably in a specific currency and time frame",
+          "example": 33868828,
+          "similar_keywords": [
+            "sales",
+            "turnover",
+            "income"
+          ],
+          "data_type": "int"
+        },
+        {
+          "name": "phone",
+          "description": "The phone number of the client, possibly in a standardized international format",
+          "example": "(804) 632-1520",
+          "similar_keywords": [
+            "telephone",
+            "contact_number",
+            "phone_number"
+          ],
+          "data_type": "str"
+        },
+        {
+          "name": "created",
+          "description": "The date when the client record was created, with varying formats across records",
+          "example": "2023-05-03",
+          "similar_keywords": [
+            "creation_date",
+            "registered_on",
+            "added_at"
+          ],
+          "data_type": "str"
+        }
+      ],
+      "relative_path": "data/synthetic_heterogeneous_pack_scaled/structured_clients_D.xlsx",
+      "processed_at": "2025-12-23 17:44:08"
+    }
+  ]
+}

@@ -346,28 +346,50 @@ Provide the file description and column descriptions as a JSON object with "file
             pass
         
         # Try to extract JSON from markdown code blocks
-        json_patterns = [
-            r'```(?:json)?\s*(\{[\s\S]*?\})',  # JSON object in code block
-            r'```\s*(\{[\s\S]*?\})',  # JSON object in generic code block
-            r'(\{[\s\S]*?"(?:file|columns)"[\s\S]*?\})',  # JSON object with file/columns
-            r'(\[[\s\S]*?\])',  # JSON array (fallback for old format)
-        ]
-        
-        for pattern in json_patterns:
-            match = re.search(pattern, response, re.MULTILINE | re.DOTALL)
-            if match:
-                try:
-                    parsed = json.loads(match.group(1))
-                    # If it's a dict with file/columns, return it
+        # We look for everything between the first ``` and last ```
+        code_block_match = re.search(r'```(?:json)?\s*([\s\S]*?)```', response, re.MULTILINE | re.DOTALL)
+        if code_block_match:
+            code_content = code_block_match.group(1).strip()
+            # Try to parse the content of the code block
+            try:
+                parsed = json.loads(code_content)
+                if isinstance(parsed, (dict, list)):
                     if isinstance(parsed, dict) and ('file' in parsed or 'columns' in parsed):
                         return parsed
-                    # If it's an array (old format), convert to new format
                     elif isinstance(parsed, list):
                         return {'file': {'name': 'Dataset', 'description': 'A dataset containing structured records.'}, 'columns': parsed}
-                except json.JSONDecodeError:
-                    continue
-        
-        raise ValueError(f"Could not extract valid JSON from LLM response: {response[:200]}")
+            except json.JSONDecodeError:
+                # If content itself isn't pure JSON, try to find the structure within it
+                response = code_content
+
+        # Fallback: Find the first { or [ and the last } or ]
+        # This is more robust for nested objects than non-greedy regex
+        first_obj = response.find('{')
+        last_obj = response.rfind('}')
+        first_arr = response.find('[')
+        last_arr = response.rfind(']')
+
+        # Try object first
+        if first_obj != -1 and last_obj != -1 and (first_arr == -1 or first_obj < first_arr):
+            try:
+                potential_json = response[first_obj:last_obj+1]
+                parsed = json.loads(potential_json)
+                if isinstance(parsed, dict) and ('file' in parsed or 'columns' in parsed):
+                    return parsed
+            except json.JSONDecodeError:
+                pass
+
+        # Try array
+        if first_arr != -1 and last_arr != -1:
+            try:
+                potential_json = response[first_arr:last_arr+1]
+                parsed = json.loads(potential_json)
+                if isinstance(parsed, list):
+                    return {'file': {'name': 'Dataset', 'description': 'A dataset containing structured records.'}, 'columns': parsed}
+            except json.JSONDecodeError:
+                pass
+
+        raise ValueError(f"Could not extract valid JSON from LLM response: {response}")
 
     def generate(self, file_path: Union[str, Path]) -> Dict[str, Any]:
         """
@@ -386,6 +408,19 @@ Provide the file description and column descriptions as a JSON object with "file
         
         if not file_path.exists():
             raise FileNotFoundError(f"File not found: {file_path}")
+
+        # For .txt files, return minimal info as requested
+        file_ext = file_path.suffix.lower()
+        if file_ext in ['.txt', '.text']:
+            return {
+                'filename': file_path.name,
+                'file_path': str(file_path),
+                'file': {
+                    'name': file_path.stem,
+                    'description': ""
+                },
+                'columns': []
+            }
         
         # Get appropriate processor
         processor = get_processor(file_path)
